@@ -1,0 +1,4203 @@
+{
+ "generated": "dep_manifest.mjs",
+ "totals": {
+  "storeEntries": 483,
+  "distinctPackages": 451,
+  "files": 2725,
+  "bytes": 18659856,
+  "runtimeSpecifiers": 19,
+  "multiVersion": 27
+ },
+ "packages": [
+  {
+   "package": "@actions/core",
+   "version": "1.11.1",
+   "peerHash": "",
+   "store": "@actions+core@1.11.1",
+   "files": 8,
+   "bytes": 31410
+  },
+  {
+   "package": "@actions/exec",
+   "version": "1.1.1",
+   "peerHash": "",
+   "store": "@actions+exec@1.1.1",
+   "files": 2,
+   "bytes": 19809
+  },
+  {
+   "package": "@actions/github",
+   "version": "6.0.1",
+   "peerHash": "",
+   "store": "@actions+github@6.0.1",
+   "files": 4,
+   "bytes": 10010
+  },
+  {
+   "package": "@actions/http-client",
+   "version": "2.2.3",
+   "peerHash": "",
+   "store": "@actions+http-client@2.2.3",
+   "files": 3,
+   "bytes": 29384
+  },
+  {
+   "package": "@actions/io",
+   "version": "1.1.3",
+   "peerHash": "",
+   "store": "@actions+io@1.1.3",
+   "files": 2,
+   "bytes": 15628
+  },
+  {
+   "package": "@agentclientprotocol/sdk",
+   "version": "0.16.1",
+   "peerHash": "d6123d32214422cb",
+   "store": "@agentclientprotocol+sdk@0.16.1+d6123d32214422cb",
+   "files": 5,
+   "bytes": 56418
+  },
+  {
+   "package": "@ai-sdk/amazon-bedrock",
+   "version": "4.0.83",
+   "peerHash": "d6123d32214422cb",
+   "store": "@ai-sdk+amazon-bedrock@4.0.83+d6123d32214422cb",
+   "files": 1,
+   "bytes": 79864
+  },
+  {
+   "package": "@ai-sdk/anthropic",
+   "version": "3.0.64",
+   "peerHash": "d6123d32214422cb",
+   "store": "@ai-sdk+anthropic@3.0.64+d6123d32214422cb",
+   "files": 2,
+   "bytes": 360914
+  },
+  {
+   "package": "@ai-sdk/azure",
+   "version": "3.0.49",
+   "peerHash": "d6123d32214422cb",
+   "store": "@ai-sdk+azure@3.0.49+d6123d32214422cb",
+   "files": 1,
+   "bytes": 3652
+  },
+  {
+   "package": "@ai-sdk/cerebras",
+   "version": "2.0.41",
+   "peerHash": "d6123d32214422cb",
+   "store": "@ai-sdk+cerebras@2.0.41+d6123d32214422cb",
+   "files": 1,
+   "bytes": 1833
+  },
+  {
+   "package": "@ai-sdk/cohere",
+   "version": "3.0.27",
+   "peerHash": "d6123d32214422cb",
+   "store": "@ai-sdk+cohere@3.0.27+d6123d32214422cb",
+   "files": 1,
+   "bytes": 29859
+  },
+  {
+   "package": "@ai-sdk/deepinfra",
+   "version": "2.0.41",
+   "peerHash": "d6123d32214422cb",
+   "store": "@ai-sdk+deepinfra@2.0.41+d6123d32214422cb",
+   "files": 1,
+   "bytes": 10784
+  },
+  {
+   "package": "@ai-sdk/gateway",
+   "version": "3.0.80",
+   "peerHash": "d6123d32214422cb",
+   "store": "@ai-sdk+gateway@3.0.80+d6123d32214422cb",
+   "files": 1,
+   "bytes": 45601
+  },
+  {
+   "package": "@ai-sdk/google-vertex",
+   "version": "4.0.95",
+   "peerHash": "d6123d32214422cb",
+   "store": "@ai-sdk+google-vertex@4.0.95+d6123d32214422cb",
+   "files": 2,
+   "bytes": 31052
+  },
+  {
+   "package": "@ai-sdk/google",
+   "version": "3.0.53",
+   "peerHash": "d6123d32214422cb",
+   "store": "@ai-sdk+google@3.0.53+d6123d32214422cb",
+   "files": 2,
+   "bytes": 135817
+  },
+  {
+   "package": "@ai-sdk/groq",
+   "version": "3.0.31",
+   "peerHash": "d6123d32214422cb",
+   "store": "@ai-sdk+groq@3.0.31+d6123d32214422cb",
+   "files": 1,
+   "bytes": 31723
+  },
+  {
+   "package": "@ai-sdk/mistral",
+   "version": "3.0.27",
+   "peerHash": "d6123d32214422cb",
+   "store": "@ai-sdk+mistral@3.0.27+d6123d32214422cb",
+   "files": 1,
+   "bytes": 25389
+  },
+  {
+   "package": "@ai-sdk/openai-compatible",
+   "version": "2.0.37",
+   "peerHash": "d6123d32214422cb",
+   "store": "@ai-sdk+openai-compatible@2.0.37+d6123d32214422cb",
+   "files": 1,
+   "bytes": 54528
+  },
+  {
+   "package": "@ai-sdk/openai",
+   "version": "3.0.48",
+   "peerHash": "d6123d32214422cb",
+   "store": "@ai-sdk+openai@3.0.48+d6123d32214422cb",
+   "files": 2,
+   "bytes": 459147
+  },
+  {
+   "package": "@ai-sdk/perplexity",
+   "version": "3.0.26",
+   "peerHash": "d6123d32214422cb",
+   "store": "@ai-sdk+perplexity@3.0.26+d6123d32214422cb",
+   "files": 1,
+   "bytes": 16320
+  },
+  {
+   "package": "@ai-sdk/provider-utils",
+   "version": "4.0.21",
+   "peerHash": "d6123d32214422cb",
+   "store": "@ai-sdk+provider-utils@4.0.21+d6123d32214422cb",
+   "files": 1,
+   "bytes": 71435
+  },
+  {
+   "package": "@ai-sdk/provider",
+   "version": "3.0.8",
+   "peerHash": "",
+   "store": "@ai-sdk+provider@3.0.8",
+   "files": 1,
+   "bytes": 10813
+  },
+  {
+   "package": "@ai-sdk/togetherai",
+   "version": "2.0.41",
+   "peerHash": "d6123d32214422cb",
+   "store": "@ai-sdk+togetherai@2.0.41+d6123d32214422cb",
+   "files": 1,
+   "bytes": 8912
+  },
+  {
+   "package": "@ai-sdk/vercel",
+   "version": "2.0.39",
+   "peerHash": "d6123d32214422cb",
+   "store": "@ai-sdk+vercel@2.0.39+d6123d32214422cb",
+   "files": 1,
+   "bytes": 1379
+  },
+  {
+   "package": "@ai-sdk/xai",
+   "version": "3.0.75",
+   "peerHash": "d6123d32214422cb",
+   "store": "@ai-sdk+xai@3.0.75+d6123d32214422cb",
+   "files": 1,
+   "bytes": 102745
+  },
+  {
+   "package": "@ampproject/remapping",
+   "version": "2.3.0",
+   "peerHash": "",
+   "store": "@ampproject+remapping@2.3.0",
+   "files": 1,
+   "bytes": 5726
+  },
+  {
+   "package": "@anthropic-ai/sdk",
+   "version": "0.71.2",
+   "peerHash": "27912429049419a2",
+   "store": "@anthropic-ai+sdk@0.71.2+27912429049419a2",
+   "files": 49,
+   "bytes": 151141
+  },
+  {
+   "package": "@aws/lambda-invoke-store",
+   "version": "0.2.4",
+   "peerHash": "",
+   "store": "@aws+lambda-invoke-store@0.2.4",
+   "files": 1,
+   "bytes": 3628
+  },
+  {
+   "package": "@aws-crypto/crc32",
+   "version": "5.2.0",
+   "peerHash": "",
+   "store": "@aws-crypto+crc32@5.2.0",
+   "files": 2,
+   "bytes": 5779
+  },
+  {
+   "package": "@aws-crypto/util",
+   "version": "5.2.0",
+   "peerHash": "",
+   "store": "@aws-crypto+util@5.2.0",
+   "files": 5,
+   "bytes": 1254
+  },
+  {
+   "package": "@aws-sdk/core",
+   "version": "3.973.26",
+   "peerHash": "",
+   "store": "@aws-sdk+core@3.973.26",
+   "files": 3,
+   "bytes": 83469
+  },
+  {
+   "package": "@aws-sdk/credential-provider-env",
+   "version": "3.972.24",
+   "peerHash": "",
+   "store": "@aws-sdk+credential-provider-env@3.972.24",
+   "files": 2,
+   "bytes": 1754
+  },
+  {
+   "package": "@aws-sdk/credential-provider-http",
+   "version": "3.972.26",
+   "peerHash": "",
+   "store": "@aws-sdk+credential-provider-http@3.972.26",
+   "files": 5,
+   "bytes": 7158
+  },
+  {
+   "package": "@aws-sdk/credential-provider-ini",
+   "version": "3.972.28",
+   "peerHash": "",
+   "store": "@aws-sdk+credential-provider-ini@3.972.28",
+   "files": 10,
+   "bytes": 12955
+  },
+  {
+   "package": "@aws-sdk/credential-provider-login",
+   "version": "3.972.28",
+   "peerHash": "",
+   "store": "@aws-sdk+credential-provider-login@3.972.28",
+   "files": 4,
+   "bytes": 12156
+  },
+  {
+   "package": "@aws-sdk/credential-provider-node",
+   "version": "3.972.29",
+   "peerHash": "",
+   "store": "@aws-sdk+credential-provider-node@3.972.29",
+   "files": 4,
+   "bytes": 6596
+  },
+  {
+   "package": "@aws-sdk/credential-provider-process",
+   "version": "3.972.24",
+   "peerHash": "",
+   "store": "@aws-sdk+credential-provider-process@3.972.24",
+   "files": 4,
+   "bytes": 3679
+  },
+  {
+   "package": "@aws-sdk/credential-provider-sso",
+   "version": "3.972.28",
+   "peerHash": "",
+   "store": "@aws-sdk+credential-provider-sso@3.972.28",
+   "files": 7,
+   "bytes": 8712
+  },
+  {
+   "package": "@aws-sdk/credential-provider-web-identity",
+   "version": "3.972.28",
+   "peerHash": "",
+   "store": "@aws-sdk+credential-provider-web-identity@3.972.28",
+   "files": 3,
+   "bytes": 2830
+  },
+  {
+   "package": "@aws-sdk/credential-providers",
+   "version": "3.993.0",
+   "peerHash": "",
+   "store": "@aws-sdk+credential-providers@3.993.0",
+   "files": 15,
+   "bytes": 1074
+  },
+  {
+   "package": "@aws-sdk/middleware-host-header",
+   "version": "3.972.8",
+   "peerHash": "",
+   "store": "@aws-sdk+middleware-host-header@3.972.8",
+   "files": 1,
+   "bytes": 1463
+  },
+  {
+   "package": "@aws-sdk/middleware-logger",
+   "version": "3.972.8",
+   "peerHash": "",
+   "store": "@aws-sdk+middleware-logger@3.972.8",
+   "files": 1,
+   "bytes": 1894
+  },
+  {
+   "package": "@aws-sdk/middleware-recursion-detection",
+   "version": "3.972.9",
+   "peerHash": "",
+   "store": "@aws-sdk+middleware-recursion-detection@3.972.9",
+   "files": 2,
+   "bytes": 2676
+  },
+  {
+   "package": "@aws-sdk/middleware-user-agent",
+   "version": "3.972.28",
+   "peerHash": "",
+   "store": "@aws-sdk+middleware-user-agent@3.972.28",
+   "files": 1,
+   "bytes": 6971
+  },
+  {
+   "package": "@aws-sdk/nested-clients",
+   "version": "3.996.18",
+   "peerHash": "",
+   "store": "@aws-sdk+nested-clients@3.996.18",
+   "files": 41,
+   "bytes": 140322
+  },
+  {
+   "package": "@aws-sdk/region-config-resolver",
+   "version": "3.972.10",
+   "peerHash": "",
+   "store": "@aws-sdk+region-config-resolver@3.972.10",
+   "files": 2,
+   "bytes": 2450
+  },
+  {
+   "package": "@aws-sdk/token-providers",
+   "version": "3.1021.0",
+   "peerHash": "",
+   "store": "@aws-sdk+token-providers@3.1021.0",
+   "files": 11,
+   "bytes": 6547
+  },
+  {
+   "package": "@aws-sdk/util-endpoints",
+   "version": "3.996.5",
+   "peerHash": "",
+   "store": "@aws-sdk+util-endpoints@3.996.5",
+   "files": 1,
+   "bytes": 11620
+  },
+  {
+   "package": "@aws-sdk/util-user-agent-node",
+   "version": "3.973.14",
+   "peerHash": "",
+   "store": "@aws-sdk+util-user-agent-node@3.973.14",
+   "files": 1,
+   "bytes": 6897
+  },
+  {
+   "package": "@aws-sdk/xml-builder",
+   "version": "3.972.16",
+   "peerHash": "",
+   "store": "@aws-sdk+xml-builder@3.972.16",
+   "files": 2,
+   "bytes": 4082
+  },
+  {
+   "package": "@babel/code-frame",
+   "version": "7.29.0",
+   "peerHash": "",
+   "store": "@babel+code-frame@7.29.0",
+   "files": 1,
+   "bytes": 7707
+  },
+  {
+   "package": "@babel/compat-data",
+   "version": "7.29.0",
+   "peerHash": "",
+   "store": "@babel+compat-data@7.29.0",
+   "files": 2,
+   "bytes": 17701
+  },
+  {
+   "package": "@babel/core",
+   "version": "7.28.0",
+   "peerHash": "6c39b2892b0950f6",
+   "store": "@babel+core@7.28.0+6c39b2892b0950f6",
+   "files": 50,
+   "bytes": 238382
+  },
+  {
+   "package": "@babel/generator",
+   "version": "7.29.1",
+   "peerHash": "",
+   "store": "@babel+generator@7.29.1",
+   "files": 21,
+   "bytes": 161312
+  },
+  {
+   "package": "@babel/helper-annotate-as-pure",
+   "version": "7.27.3",
+   "peerHash": "",
+   "store": "@babel+helper-annotate-as-pure@7.27.3",
+   "files": 1,
+   "bytes": 599
+  },
+  {
+   "package": "@babel/helper-compilation-targets",
+   "version": "7.28.6",
+   "peerHash": "",
+   "store": "@babel+helper-compilation-targets@7.28.6",
+   "files": 7,
+   "bytes": 16362
+  },
+  {
+   "package": "@babel/helper-create-class-features-plugin",
+   "version": "7.28.6",
+   "peerHash": "6c39b2892b0950f6",
+   "store": "@babel+helper-create-class-features-plugin@7.28.6+6c39b2892b0950f6",
+   "files": 7,
+   "bytes": 131334
+  },
+  {
+   "package": "@babel/helper-globals",
+   "version": "7.28.0",
+   "peerHash": "",
+   "store": "@babel+helper-globals@7.28.0",
+   "files": 2,
+   "bytes": 1225
+  },
+  {
+   "package": "@babel/helper-member-expression-to-functions",
+   "version": "7.28.5",
+   "peerHash": "",
+   "store": "@babel+helper-member-expression-to-functions@7.28.5",
+   "files": 1,
+   "bytes": 13910
+  },
+  {
+   "package": "@babel/helper-module-imports",
+   "version": "7.18.6",
+   "peerHash": "",
+   "store": "@babel+helper-module-imports@7.18.6",
+   "files": 4,
+   "bytes": 14959
+  },
+  {
+   "package": "@babel/helper-module-imports",
+   "version": "7.28.6",
+   "peerHash": "",
+   "store": "@babel+helper-module-imports@7.28.6",
+   "files": 4,
+   "bytes": 17725
+  },
+  {
+   "package": "@babel/helper-module-transforms",
+   "version": "7.28.6",
+   "peerHash": "6c39b2892b0950f6",
+   "store": "@babel+helper-module-transforms@7.28.6+6c39b2892b0950f6",
+   "files": 7,
+   "bytes": 48688
+  },
+  {
+   "package": "@babel/helper-optimise-call-expression",
+   "version": "7.27.1",
+   "peerHash": "",
+   "store": "@babel+helper-optimise-call-expression@7.27.1",
+   "files": 1,
+   "bytes": 1152
+  },
+  {
+   "package": "@babel/helper-plugin-utils",
+   "version": "7.28.6",
+   "peerHash": "",
+   "store": "@babel+helper-plugin-utils@7.28.6",
+   "files": 1,
+   "bytes": 2737
+  },
+  {
+   "package": "@babel/helper-replace-supers",
+   "version": "7.28.6",
+   "peerHash": "6c39b2892b0950f6",
+   "store": "@babel+helper-replace-supers@7.28.6+6c39b2892b0950f6",
+   "files": 1,
+   "bytes": 11433
+  },
+  {
+   "package": "@babel/helper-skip-transparent-expression-wrappers",
+   "version": "7.27.1",
+   "peerHash": "",
+   "store": "@babel+helper-skip-transparent-expression-wrappers@7.27.1",
+   "files": 1,
+   "bytes": 1098
+  },
+  {
+   "package": "@babel/helper-string-parser",
+   "version": "7.27.1",
+   "peerHash": "",
+   "store": "@babel+helper-string-parser@7.27.1",
+   "files": 1,
+   "bytes": 8519
+  },
+  {
+   "package": "@babel/helper-validator-identifier",
+   "version": "7.28.5",
+   "peerHash": "",
+   "store": "@babel+helper-validator-identifier@7.28.5",
+   "files": 3,
+   "bytes": 15845
+  },
+  {
+   "package": "@babel/helper-validator-option",
+   "version": "7.27.1",
+   "peerHash": "",
+   "store": "@babel+helper-validator-option@7.27.1",
+   "files": 3,
+   "bytes": 2915
+  },
+  {
+   "package": "@babel/helpers",
+   "version": "7.29.2",
+   "peerHash": "",
+   "store": "@babel+helpers@7.29.2",
+   "files": 2,
+   "bytes": 120408
+  },
+  {
+   "package": "@babel/parser",
+   "version": "7.29.2",
+   "peerHash": "",
+   "store": "@babel+parser@7.29.2",
+   "files": 1,
+   "bytes": 544949
+  },
+  {
+   "package": "@babel/plugin-syntax-jsx",
+   "version": "7.28.6",
+   "peerHash": "6c39b2892b0950f6",
+   "store": "@babel+plugin-syntax-jsx@7.28.6+6c39b2892b0950f6",
+   "files": 1,
+   "bytes": 594
+  },
+  {
+   "package": "@babel/plugin-syntax-typescript",
+   "version": "7.28.6",
+   "peerHash": "6c39b2892b0950f6",
+   "store": "@babel+plugin-syntax-typescript@7.28.6+6c39b2892b0950f6",
+   "files": 1,
+   "bytes": 1237
+  },
+  {
+   "package": "@babel/plugin-transform-modules-commonjs",
+   "version": "7.28.6",
+   "peerHash": "6c39b2892b0950f6",
+   "store": "@babel+plugin-transform-modules-commonjs@7.28.6+6c39b2892b0950f6",
+   "files": 4,
+   "bytes": 12344
+  },
+  {
+   "package": "@babel/plugin-transform-typescript",
+   "version": "7.28.6",
+   "peerHash": "6c39b2892b0950f6",
+   "store": "@babel+plugin-transform-typescript@7.28.6+6c39b2892b0950f6",
+   "files": 5,
+   "bytes": 41361
+  },
+  {
+   "package": "@babel/preset-typescript",
+   "version": "7.27.1",
+   "peerHash": "6c39b2892b0950f6",
+   "store": "@babel+preset-typescript@7.27.1+6c39b2892b0950f6",
+   "files": 2,
+   "bytes": 7443
+  },
+  {
+   "package": "@babel/template",
+   "version": "7.28.6",
+   "peerHash": "",
+   "store": "@babel+template@7.28.6",
+   "files": 8,
+   "bytes": 20975
+  },
+  {
+   "package": "@babel/traverse",
+   "version": "7.29.0",
+   "peerHash": "",
+   "store": "@babel+traverse@7.29.0",
+   "files": 29,
+   "bytes": 198867
+  },
+  {
+   "package": "@babel/types",
+   "version": "7.29.0",
+   "peerHash": "",
+   "store": "@babel+types@7.29.0",
+   "files": 84,
+   "bytes": 479864
+  },
+  {
+   "package": "@clack/core",
+   "version": "1.0.0-alpha.1",
+   "peerHash": "",
+   "store": "@clack+core@1.0.0-alpha.1",
+   "files": 1,
+   "bytes": 46829
+  },
+  {
+   "package": "@clack/prompts",
+   "version": "1.0.0-alpha.1",
+   "peerHash": "",
+   "store": "@clack+prompts@1.0.0-alpha.1",
+   "files": 1,
+   "bytes": 17504
+  },
+  {
+   "package": "@effect/platform-node-shared",
+   "version": "4.0.0-beta.43",
+   "peerHash": "f0ee8dfa7cc0356b",
+   "store": "@effect+platform-node-shared@4.0.0-beta.43+f0ee8dfa7cc0356b",
+   "files": 5,
+   "bytes": 24625
+  },
+  {
+   "package": "@effect/platform-node",
+   "version": "4.0.0-beta.43",
+   "peerHash": "d41b399c3ba04814",
+   "store": "@effect+platform-node@4.0.0-beta.43+d41b399c3ba04814",
+   "files": 5,
+   "bytes": 1396
+  },
+  {
+   "package": "@fastify/ajv-compiler",
+   "version": "4.0.5",
+   "peerHash": "",
+   "store": "@fastify+ajv-compiler@4.0.5",
+   "files": 5,
+   "bytes": 5616
+  },
+  {
+   "package": "@fastify/error",
+   "version": "4.2.0",
+   "peerHash": "",
+   "store": "@fastify+error@4.2.0",
+   "files": 1,
+   "bytes": 2981
+  },
+  {
+   "package": "@fastify/fast-json-stringify-compiler",
+   "version": "5.0.3",
+   "peerHash": "",
+   "store": "@fastify+fast-json-stringify-compiler@5.0.3",
+   "files": 2,
+   "bytes": 2247
+  },
+  {
+   "package": "@fastify/forwarded",
+   "version": "3.0.1",
+   "peerHash": "",
+   "store": "@fastify+forwarded@3.0.1",
+   "files": 1,
+   "bytes": 1238
+  },
+  {
+   "package": "@fastify/merge-json-schemas",
+   "version": "0.2.1",
+   "peerHash": "",
+   "store": "@fastify+merge-json-schemas@0.2.1",
+   "files": 3,
+   "bytes": 15035
+  },
+  {
+   "package": "@fastify/proxy-addr",
+   "version": "5.1.0",
+   "peerHash": "",
+   "store": "@fastify+proxy-addr@5.1.0",
+   "files": 1,
+   "bytes": 4981
+  },
+  {
+   "package": "@fastify/rate-limit",
+   "version": "10.3.0",
+   "peerHash": "",
+   "store": "@fastify+rate-limit@10.3.0",
+   "files": 3,
+   "bytes": 15014
+  },
+  {
+   "package": "@gar/promise-retry",
+   "version": "1.0.3",
+   "peerHash": "",
+   "store": "@gar+promise-retry@1.0.3",
+   "files": 2,
+   "bytes": 4496
+  },
+  {
+   "package": "@hono/standard-validator",
+   "version": "0.1.5",
+   "peerHash": "da87f4cf314b65d6",
+   "store": "@hono+standard-validator@0.1.5+da87f4cf314b65d6",
+   "files": 1,
+   "bytes": 2407
+  },
+  {
+   "package": "@isaacs/balanced-match",
+   "version": "4.0.1",
+   "peerHash": "",
+   "store": "@isaacs+balanced-match@4.0.1",
+   "files": 1,
+   "bytes": 1360
+  },
+  {
+   "package": "@isaacs/brace-expansion",
+   "version": "5.0.1",
+   "peerHash": "",
+   "store": "@isaacs+brace-expansion@5.0.1",
+   "files": 1,
+   "bytes": 5066
+  },
+  {
+   "package": "@isaacs/string-locale-compare",
+   "version": "1.1.0",
+   "peerHash": "",
+   "store": "@isaacs+string-locale-compare@1.1.0",
+   "files": 1,
+   "bytes": 1168
+  },
+  {
+   "package": "@jridgewell/gen-mapping",
+   "version": "0.3.13",
+   "peerHash": "",
+   "store": "@jridgewell+gen-mapping@0.3.13",
+   "files": 1,
+   "bytes": 11771
+  },
+  {
+   "package": "@jridgewell/resolve-uri",
+   "version": "3.1.2",
+   "peerHash": "",
+   "store": "@jridgewell+resolve-uri@3.1.2",
+   "files": 1,
+   "bytes": 5432
+  },
+  {
+   "package": "@jridgewell/sourcemap-codec",
+   "version": "1.5.5",
+   "peerHash": "",
+   "store": "@jridgewell+sourcemap-codec@1.5.5",
+   "files": 1,
+   "bytes": 16598
+  },
+  {
+   "package": "@jridgewell/trace-mapping",
+   "version": "0.3.31",
+   "peerHash": "",
+   "store": "@jridgewell+trace-mapping@0.3.31",
+   "files": 1,
+   "bytes": 20790
+  },
+  {
+   "package": "@leichtgewicht/ip-codec",
+   "version": "2.0.5",
+   "peerHash": "",
+   "store": "@leichtgewicht+ip-codec@2.0.5",
+   "files": 1,
+   "bytes": 6148
+  },
+  {
+   "package": "@lukeed/ms",
+   "version": "2.0.2",
+   "peerHash": "",
+   "store": "@lukeed+ms@2.0.2",
+   "files": 1,
+   "bytes": 1544
+  },
+  {
+   "package": "@mixmark-io/domino",
+   "version": "2.2.0",
+   "peerHash": "",
+   "store": "@mixmark-io+domino@2.2.0",
+   "files": 53,
+   "bytes": 459279
+  },
+  {
+   "package": "@modelcontextprotocol/sdk",
+   "version": "1.27.1",
+   "peerHash": "",
+   "store": "@modelcontextprotocol+sdk@1.27.1",
+   "files": 18,
+   "bytes": 150971
+  },
+  {
+   "package": "@npmcli/agent",
+   "version": "4.0.0",
+   "peerHash": "",
+   "store": "@npmcli+agent@4.0.0",
+   "files": 6,
+   "bytes": 13423
+  },
+  {
+   "package": "@npmcli/arborist",
+   "version": "9.4.0",
+   "peerHash": "",
+   "store": "@npmcli+arborist@9.4.0",
+   "files": 45,
+   "bytes": 312032
+  },
+  {
+   "package": "@npmcli/fs",
+   "version": "5.0.0",
+   "peerHash": "",
+   "store": "@npmcli+fs@5.0.0",
+   "files": 9,
+   "bytes": 19116
+  },
+  {
+   "package": "@npmcli/git",
+   "version": "7.0.2",
+   "peerHash": "",
+   "store": "@npmcli+git@7.0.2",
+   "files": 13,
+   "bytes": 14021
+  },
+  {
+   "package": "@npmcli/installed-package-contents",
+   "version": "4.0.0",
+   "peerHash": "",
+   "store": "@npmcli+installed-package-contents@4.0.0",
+   "files": 1,
+   "bytes": 4237
+  },
+  {
+   "package": "@npmcli/map-workspaces",
+   "version": "5.0.3",
+   "peerHash": "",
+   "store": "@npmcli+map-workspaces@5.0.3",
+   "files": 1,
+   "bytes": 5810
+  },
+  {
+   "package": "@npmcli/metavuln-calculator",
+   "version": "9.0.3",
+   "peerHash": "",
+   "store": "@npmcli+metavuln-calculator@9.0.3",
+   "files": 4,
+   "bytes": 14115
+  },
+  {
+   "package": "@npmcli/name-from-folder",
+   "version": "4.0.0",
+   "peerHash": "",
+   "store": "@npmcli+name-from-folder@4.0.0",
+   "files": 1,
+   "bytes": 318
+  },
+  {
+   "package": "@npmcli/node-gyp",
+   "version": "5.0.0",
+   "peerHash": "",
+   "store": "@npmcli+node-gyp@5.0.0",
+   "files": 1,
+   "bytes": 437
+  },
+  {
+   "package": "@npmcli/package-json",
+   "version": "7.0.5",
+   "peerHash": "",
+   "store": "@npmcli+package-json@7.0.5",
+   "files": 9,
+   "bytes": 40595
+  },
+  {
+   "package": "@npmcli/promise-spawn",
+   "version": "9.0.1",
+   "peerHash": "",
+   "store": "@npmcli+promise-spawn@9.0.1",
+   "files": 2,
+   "bytes": 6254
+  },
+  {
+   "package": "@npmcli/query",
+   "version": "5.0.0",
+   "peerHash": "",
+   "store": "@npmcli+query@5.0.0",
+   "files": 1,
+   "bytes": 6372
+  },
+  {
+   "package": "@npmcli/redact",
+   "version": "4.0.0",
+   "peerHash": "",
+   "store": "@npmcli+redact@4.0.0",
+   "files": 3,
+   "bytes": 8093
+  },
+  {
+   "package": "@npmcli/run-script",
+   "version": "10.0.4",
+   "peerHash": "",
+   "store": "@npmcli+run-script@10.0.4",
+   "files": 8,
+   "bytes": 9380
+  },
+  {
+   "package": "@octokit/auth-token",
+   "version": "4.0.0",
+   "peerHash": "",
+   "store": "@octokit+auth-token@4.0.0",
+   "files": 1,
+   "bytes": 2499
+  },
+  {
+   "package": "@octokit/auth-token",
+   "version": "6.0.0",
+   "peerHash": "",
+   "store": "@octokit+auth-token@6.0.0",
+   "files": 1,
+   "bytes": 1329
+  },
+  {
+   "package": "@octokit/core",
+   "version": "5.2.2",
+   "peerHash": "",
+   "store": "@octokit+core@5.2.2",
+   "files": 1,
+   "bytes": 4907
+  },
+  {
+   "package": "@octokit/core",
+   "version": "7.0.6",
+   "peerHash": "",
+   "store": "@octokit+core@7.0.6",
+   "files": 2,
+   "bytes": 3252
+  },
+  {
+   "package": "@octokit/endpoint",
+   "version": "11.0.3",
+   "peerHash": "",
+   "store": "@octokit+endpoint@11.0.3",
+   "files": 1,
+   "bytes": 10425
+  },
+  {
+   "package": "@octokit/endpoint",
+   "version": "9.0.6",
+   "peerHash": "",
+   "store": "@octokit+endpoint@9.0.6",
+   "files": 1,
+   "bytes": 12184
+  },
+  {
+   "package": "@octokit/graphql",
+   "version": "7.1.1",
+   "peerHash": "",
+   "store": "@octokit+graphql@7.1.1",
+   "files": 1,
+   "bytes": 4555
+  },
+  {
+   "package": "@octokit/graphql",
+   "version": "9.0.2",
+   "peerHash": "",
+   "store": "@octokit+graphql@9.0.2",
+   "files": 1,
+   "bytes": 2881
+  },
+  {
+   "package": "@octokit/graphql",
+   "version": "9.0.3",
+   "peerHash": "",
+   "store": "@octokit+graphql@9.0.3",
+   "files": 1,
+   "bytes": 2999
+  },
+  {
+   "package": "@octokit/plugin-paginate-rest",
+   "version": "13.2.1",
+   "peerHash": "6889f19e2c00de2f",
+   "store": "@octokit+plugin-paginate-rest@13.2.1+6889f19e2c00de2f",
+   "files": 1,
+   "bytes": 3809
+  },
+  {
+   "package": "@octokit/plugin-paginate-rest",
+   "version": "9.2.2",
+   "peerHash": "13d432c3920f0290",
+   "store": "@octokit+plugin-paginate-rest@9.2.2+13d432c3920f0290",
+   "files": 1,
+   "bytes": 15658
+  },
+  {
+   "package": "@octokit/plugin-request-log",
+   "version": "6.0.0",
+   "peerHash": "6889f19e2c00de2f",
+   "store": "@octokit+plugin-request-log@6.0.0+6889f19e2c00de2f",
+   "files": 2,
+   "bytes": 917
+  },
+  {
+   "package": "@octokit/plugin-rest-endpoint-methods",
+   "version": "10.4.1",
+   "peerHash": "13d432c3920f0290",
+   "store": "@octokit+plugin-rest-endpoint-methods@10.4.1+13d432c3920f0290",
+   "files": 1,
+   "bytes": 93075
+  },
+  {
+   "package": "@octokit/plugin-rest-endpoint-methods",
+   "version": "16.1.1",
+   "peerHash": "6889f19e2c00de2f",
+   "store": "@octokit+plugin-rest-endpoint-methods@16.1.1+6889f19e2c00de2f",
+   "files": 4,
+   "bytes": 95662
+  },
+  {
+   "package": "@octokit/request-error",
+   "version": "5.1.1",
+   "peerHash": "",
+   "store": "@octokit+request-error@5.1.1",
+   "files": 1,
+   "bytes": 3250
+  },
+  {
+   "package": "@octokit/request-error",
+   "version": "7.1.0",
+   "peerHash": "",
+   "store": "@octokit+request-error@7.1.0",
+   "files": 1,
+   "bytes": 888
+  },
+  {
+   "package": "@octokit/request",
+   "version": "10.0.8",
+   "peerHash": "",
+   "store": "@octokit+request@10.0.8",
+   "files": 1,
+   "bytes": 6165
+  },
+  {
+   "package": "@octokit/request",
+   "version": "8.4.1",
+   "peerHash": "",
+   "store": "@octokit+request@8.4.1",
+   "files": 1,
+   "bytes": 7620
+  },
+  {
+   "package": "@octokit/rest",
+   "version": "22.0.0",
+   "peerHash": "",
+   "store": "@octokit+rest@22.0.0",
+   "files": 2,
+   "bytes": 168
+  },
+  {
+   "package": "@openrouter/ai-sdk-provider",
+   "version": "2.3.3",
+   "peerHash": "b21b12fde20069e6",
+   "store": "@openrouter+ai-sdk-provider@2.3.3+b21b12fde20069e6",
+   "files": 1,
+   "bytes": 157566
+  },
+  {
+   "package": "@opentelemetry/api",
+   "version": "1.9.0",
+   "peerHash": "",
+   "store": "@opentelemetry+api@1.9.0",
+   "files": 47,
+   "bytes": 49996
+  },
+  {
+   "package": "@opentui/core-darwin-x64",
+   "version": "0.1.96",
+   "peerHash": "",
+   "store": "@opentui+core-darwin-x64@0.1.96",
+   "files": 2,
+   "bytes": 484
+  },
+  {
+   "package": "@opentui/core",
+   "version": "0.1.96",
+   "peerHash": "8e67d58793ed4a15",
+   "store": "@opentui+core@0.1.96+8e67d58793ed4a15",
+   "files": 18,
+   "bytes": 1273007
+  },
+  {
+   "package": "@opentui/solid",
+   "version": "0.1.96",
+   "peerHash": "32dd883c17663c11",
+   "store": "@opentui+solid@0.1.96+32dd883c17663c11",
+   "files": 6,
+   "bytes": 39389
+  },
+  {
+   "package": "@parcel/watcher-darwin-x64",
+   "version": "2.5.1",
+   "peerHash": "",
+   "store": "@parcel+watcher-darwin-x64@2.5.1",
+   "files": 1,
+   "bytes": 130
+  },
+  {
+   "package": "@parcel/watcher",
+   "version": "2.5.1",
+   "peerHash": "",
+   "store": "@parcel+watcher@2.5.1",
+   "files": 1,
+   "bytes": 1598
+  },
+  {
+   "package": "@pinojs/redact",
+   "version": "0.4.0",
+   "peerHash": "",
+   "store": "@pinojs+redact@0.4.0",
+   "files": 1,
+   "bytes": 13897
+  },
+  {
+   "package": "@sigstore/bundle",
+   "version": "4.0.0",
+   "peerHash": "",
+   "store": "@sigstore+bundle@4.0.0",
+   "files": 6,
+   "bytes": 15097
+  },
+  {
+   "package": "@sigstore/core",
+   "version": "3.2.0",
+   "peerHash": "",
+   "store": "@sigstore+core@3.2.0",
+   "files": 22,
+   "bytes": 44699
+  },
+  {
+   "package": "@sigstore/protobuf-specs",
+   "version": "0.5.0",
+   "peerHash": "",
+   "store": "@sigstore+protobuf-specs@0.5.0",
+   "files": 13,
+   "bytes": 62701
+  },
+  {
+   "package": "@sigstore/sign",
+   "version": "4.1.1",
+   "peerHash": "",
+   "store": "@sigstore+sign@4.1.1",
+   "files": 30,
+   "bytes": 44802
+  },
+  {
+   "package": "@sigstore/tuf",
+   "version": "4.0.2",
+   "peerHash": "",
+   "store": "@sigstore+tuf@4.0.2",
+   "files": 7,
+   "bytes": 28545
+  },
+  {
+   "package": "@sigstore/verify",
+   "version": "3.1.0",
+   "peerHash": "",
+   "store": "@sigstore+verify@3.1.0",
+   "files": 21,
+   "bytes": 43735
+  },
+  {
+   "package": "@smithy/config-resolver",
+   "version": "4.4.13",
+   "peerHash": "",
+   "store": "@smithy+config-resolver@4.4.13",
+   "files": 1,
+   "bytes": 9357
+  },
+  {
+   "package": "@smithy/core",
+   "version": "3.23.13",
+   "peerHash": "",
+   "store": "@smithy+core@3.23.13",
+   "files": 7,
+   "bytes": 136356
+  },
+  {
+   "package": "@smithy/credential-provider-imds",
+   "version": "4.2.12",
+   "peerHash": "",
+   "store": "@smithy+credential-provider-imds@4.2.12",
+   "files": 16,
+   "bytes": 15843
+  },
+  {
+   "package": "@smithy/eventstream-codec",
+   "version": "4.2.7",
+   "peerHash": "",
+   "store": "@smithy+eventstream-codec@4.2.7",
+   "files": 10,
+   "bytes": 12412
+  },
+  {
+   "package": "@smithy/fetch-http-handler",
+   "version": "5.3.15",
+   "peerHash": "",
+   "store": "@smithy+fetch-http-handler@5.3.15",
+   "files": 1,
+   "bytes": 7976
+  },
+  {
+   "package": "@smithy/hash-node",
+   "version": "4.2.12",
+   "peerHash": "",
+   "store": "@smithy+hash-node@4.2.12",
+   "files": 1,
+   "bytes": 1237
+  },
+  {
+   "package": "@smithy/is-array-buffer",
+   "version": "4.2.2",
+   "peerHash": "",
+   "store": "@smithy+is-array-buffer@4.2.2",
+   "files": 1,
+   "bytes": 259
+  },
+  {
+   "package": "@smithy/middleware-content-length",
+   "version": "4.2.12",
+   "peerHash": "",
+   "store": "@smithy+middleware-content-length@4.2.12",
+   "files": 1,
+   "bytes": 1424
+  },
+  {
+   "package": "@smithy/middleware-endpoint",
+   "version": "4.4.28",
+   "peerHash": "",
+   "store": "@smithy+middleware-endpoint@4.4.28",
+   "files": 3,
+   "bytes": 12823
+  },
+  {
+   "package": "@smithy/middleware-retry",
+   "version": "4.4.46",
+   "peerHash": "",
+   "store": "@smithy+middleware-retry@4.4.46",
+   "files": 2,
+   "bytes": 14606
+  },
+  {
+   "package": "@smithy/middleware-serde",
+   "version": "4.2.16",
+   "peerHash": "",
+   "store": "@smithy+middleware-serde@4.2.16",
+   "files": 1,
+   "bytes": 3412
+  },
+  {
+   "package": "@smithy/middleware-stack",
+   "version": "4.2.12",
+   "peerHash": "",
+   "store": "@smithy+middleware-stack@4.2.12",
+   "files": 1,
+   "bytes": 10269
+  },
+  {
+   "package": "@smithy/node-config-provider",
+   "version": "4.3.12",
+   "peerHash": "",
+   "store": "@smithy+node-config-provider@4.3.12",
+   "files": 1,
+   "bytes": 2636
+  },
+  {
+   "package": "@smithy/node-http-handler",
+   "version": "4.5.1",
+   "peerHash": "",
+   "store": "@smithy+node-http-handler@4.5.1",
+   "files": 1,
+   "bytes": 26561
+  },
+  {
+   "package": "@smithy/property-provider",
+   "version": "4.2.12",
+   "peerHash": "",
+   "store": "@smithy+property-provider@4.2.12",
+   "files": 1,
+   "bytes": 3235
+  },
+  {
+   "package": "@smithy/protocol-http",
+   "version": "5.3.12",
+   "peerHash": "",
+   "store": "@smithy+protocol-http@5.3.12",
+   "files": 1,
+   "bytes": 4513
+  },
+  {
+   "package": "@smithy/querystring-builder",
+   "version": "4.2.12",
+   "peerHash": "",
+   "store": "@smithy+querystring-builder@4.2.12",
+   "files": 1,
+   "bytes": 756
+  },
+  {
+   "package": "@smithy/querystring-parser",
+   "version": "4.2.12",
+   "peerHash": "",
+   "store": "@smithy+querystring-parser@4.2.12",
+   "files": 1,
+   "bytes": 721
+  },
+  {
+   "package": "@smithy/service-error-classification",
+   "version": "4.2.12",
+   "peerHash": "",
+   "store": "@smithy+service-error-classification@4.2.12",
+   "files": 1,
+   "bytes": 3040
+  },
+  {
+   "package": "@smithy/shared-ini-file-loader",
+   "version": "4.4.7",
+   "peerHash": "",
+   "store": "@smithy+shared-ini-file-loader@4.4.7",
+   "files": 5,
+   "bytes": 10200
+  },
+  {
+   "package": "@smithy/signature-v4",
+   "version": "5.3.12",
+   "peerHash": "",
+   "store": "@smithy+signature-v4@5.3.12",
+   "files": 1,
+   "bytes": 22016
+  },
+  {
+   "package": "@smithy/smithy-client",
+   "version": "4.12.8",
+   "peerHash": "",
+   "store": "@smithy+smithy-client@4.12.8",
+   "files": 1,
+   "bytes": 20842
+  },
+  {
+   "package": "@smithy/types",
+   "version": "4.13.1",
+   "peerHash": "",
+   "store": "@smithy+types@4.13.1",
+   "files": 1,
+   "bytes": 3314
+  },
+  {
+   "package": "@smithy/url-parser",
+   "version": "4.2.12",
+   "peerHash": "",
+   "store": "@smithy+url-parser@4.2.12",
+   "files": 1,
+   "bytes": 594
+  },
+  {
+   "package": "@smithy/util-base64",
+   "version": "4.3.2",
+   "peerHash": "",
+   "store": "@smithy+util-base64@4.3.2",
+   "files": 3,
+   "bytes": 2429
+  },
+  {
+   "package": "@smithy/util-body-length-browser",
+   "version": "4.2.2",
+   "peerHash": "",
+   "store": "@smithy+util-body-length-browser@4.2.2",
+   "files": 1,
+   "bytes": 921
+  },
+  {
+   "package": "@smithy/util-body-length-node",
+   "version": "4.2.3",
+   "peerHash": "",
+   "store": "@smithy+util-body-length-node@4.2.3",
+   "files": 1,
+   "bytes": 905
+  },
+  {
+   "package": "@smithy/util-buffer-from",
+   "version": "2.2.0",
+   "peerHash": "",
+   "store": "@smithy+util-buffer-from@2.2.0",
+   "files": 1,
+   "bytes": 343
+  },
+  {
+   "package": "@smithy/util-buffer-from",
+   "version": "4.2.2",
+   "peerHash": "",
+   "store": "@smithy+util-buffer-from@4.2.2",
+   "files": 1,
+   "bytes": 828
+  },
+  {
+   "package": "@smithy/util-config-provider",
+   "version": "4.2.2",
+   "peerHash": "",
+   "store": "@smithy+util-config-provider@4.2.2",
+   "files": 1,
+   "bytes": 938
+  },
+  {
+   "package": "@smithy/util-defaults-mode-node",
+   "version": "4.2.48",
+   "peerHash": "",
+   "store": "@smithy+util-defaults-mode-node@4.2.48",
+   "files": 1,
+   "bytes": 2936
+  },
+  {
+   "package": "@smithy/util-endpoints",
+   "version": "3.3.3",
+   "peerHash": "",
+   "store": "@smithy+util-endpoints@3.3.3",
+   "files": 1,
+   "bytes": 15770
+  },
+  {
+   "package": "@smithy/util-hex-encoding",
+   "version": "4.2.2",
+   "peerHash": "",
+   "store": "@smithy+util-hex-encoding@4.2.2",
+   "files": 1,
+   "bytes": 1122
+  },
+  {
+   "package": "@smithy/util-middleware",
+   "version": "4.2.12",
+   "peerHash": "",
+   "store": "@smithy+util-middleware@4.2.12",
+   "files": 1,
+   "bytes": 488
+  },
+  {
+   "package": "@smithy/util-retry",
+   "version": "4.2.13",
+   "peerHash": "",
+   "store": "@smithy+util-retry@4.2.13",
+   "files": 1,
+   "bytes": 10607
+  },
+  {
+   "package": "@smithy/util-stream",
+   "version": "4.5.21",
+   "peerHash": "",
+   "store": "@smithy+util-stream@4.5.21",
+   "files": 17,
+   "bytes": 28770
+  },
+  {
+   "package": "@smithy/util-uri-escape",
+   "version": "4.2.2",
+   "peerHash": "",
+   "store": "@smithy+util-uri-escape@4.2.2",
+   "files": 1,
+   "bytes": 361
+  },
+  {
+   "package": "@smithy/util-utf8",
+   "version": "2.3.0",
+   "peerHash": "",
+   "store": "@smithy+util-utf8@2.3.0",
+   "files": 4,
+   "bytes": 441
+  },
+  {
+   "package": "@smithy/util-utf8",
+   "version": "4.2.0",
+   "peerHash": "",
+   "store": "@smithy+util-utf8@4.2.0",
+   "files": 1,
+   "bytes": 1128
+  },
+  {
+   "package": "@smithy/util-utf8",
+   "version": "4.2.2",
+   "peerHash": "",
+   "store": "@smithy+util-utf8@4.2.2",
+   "files": 1,
+   "bytes": 1129
+  },
+  {
+   "package": "@smithy/uuid",
+   "version": "1.1.2",
+   "peerHash": "",
+   "store": "@smithy+uuid@1.1.2",
+   "files": 2,
+   "bytes": 1202
+  },
+  {
+   "package": "@solid-primitives/event-bus",
+   "version": "1.1.2",
+   "peerHash": "95b571dd5236cc92",
+   "store": "@solid-primitives+event-bus@1.1.2+95b571dd5236cc92",
+   "files": 2,
+   "bytes": 1343
+  },
+  {
+   "package": "@solid-primitives/scheduled",
+   "version": "1.5.2",
+   "peerHash": "95b571dd5236cc92",
+   "store": "@solid-primitives+scheduled@1.5.2+95b571dd5236cc92",
+   "files": 1,
+   "bytes": 474
+  },
+  {
+   "package": "@solid-primitives/utils",
+   "version": "6.4.0",
+   "peerHash": "95b571dd5236cc92",
+   "store": "@solid-primitives+utils@6.4.0+95b571dd5236cc92",
+   "files": 1,
+   "bytes": 140
+  },
+  {
+   "package": "@standard-community/standard-json",
+   "version": "0.3.5",
+   "peerHash": "8a7f522aebc3223c",
+   "store": "@standard-community+standard-json@0.3.5+8a7f522aebc3223c",
+   "files": 8,
+   "bytes": 4862
+  },
+  {
+   "package": "@standard-community/standard-openapi",
+   "version": "0.2.9",
+   "peerHash": "e86756267e85daa8",
+   "store": "@standard-community+standard-openapi@0.2.9+e86756267e85daa8",
+   "files": 6,
+   "bytes": 6584
+  },
+  {
+   "package": "@tufjs/canonical-json",
+   "version": "2.0.0",
+   "peerHash": "",
+   "store": "@tufjs+canonical-json@2.0.0",
+   "files": 1,
+   "bytes": 1740
+  },
+  {
+   "package": "@tufjs/models",
+   "version": "4.1.0",
+   "peerHash": "",
+   "store": "@tufjs+models@4.1.0",
+   "files": 18,
+   "bytes": 51235
+  },
+  {
+   "package": "@vercel/oidc",
+   "version": "3.1.0",
+   "peerHash": "",
+   "store": "@vercel+oidc@3.1.0",
+   "files": 2,
+   "bytes": 2706
+  },
+  {
+   "package": "@zip.js/zip.js",
+   "version": "2.7.62",
+   "peerHash": "",
+   "store": "@zip.js+zip.js@2.7.62",
+   "files": 29,
+   "bytes": 274816
+  },
+  {
+   "package": "abstract-logging",
+   "version": "2.0.1",
+   "peerHash": "",
+   "store": "abstract-logging@2.0.1",
+   "files": 1,
+   "bytes": 323
+  },
+  {
+   "package": "agent-base",
+   "version": "7.1.4",
+   "peerHash": "",
+   "store": "agent-base@7.1.4",
+   "files": 2,
+   "bytes": 7288
+  },
+  {
+   "package": "ai-gateway-provider",
+   "version": "3.1.2",
+   "peerHash": "d09341405dd983ca",
+   "store": "ai-gateway-provider@3.1.2+d09341405dd983ca",
+   "files": 2,
+   "bytes": 10998
+  },
+  {
+   "package": "ai",
+   "version": "6.0.138",
+   "peerHash": "d6123d32214422cb",
+   "store": "ai@6.0.138+d6123d32214422cb",
+   "files": 1,
+   "bytes": 268812
+  },
+  {
+   "package": "ajv-formats",
+   "version": "3.0.1",
+   "peerHash": "",
+   "store": "ajv-formats@3.0.1",
+   "files": 3,
+   "bytes": 14702
+  },
+  {
+   "package": "ajv",
+   "version": "8.18.0",
+   "peerHash": "",
+   "store": "ajv@8.18.0",
+   "files": 85,
+   "bytes": 259788
+  },
+  {
+   "package": "ansi-regex",
+   "version": "6.2.2",
+   "peerHash": "",
+   "store": "ansi-regex@6.2.2",
+   "files": 1,
+   "bytes": 343
+  },
+  {
+   "package": "ansi-styles",
+   "version": "6.2.3",
+   "peerHash": "",
+   "store": "ansi-styles@6.2.3",
+   "files": 1,
+   "bytes": 5019
+  },
+  {
+   "package": "atomic-sleep",
+   "version": "1.0.0",
+   "peerHash": "",
+   "store": "atomic-sleep@1.0.0",
+   "files": 1,
+   "bytes": 1131
+  },
+  {
+   "package": "avvio",
+   "version": "9.2.0",
+   "peerHash": "",
+   "store": "avvio@9.2.0",
+   "files": 13,
+   "bytes": 28218
+  },
+  {
+   "package": "aws4fetch",
+   "version": "1.0.20",
+   "peerHash": "",
+   "store": "aws4fetch@1.0.20",
+   "files": 1,
+   "bytes": 9442
+  },
+  {
+   "package": "babel-plugin-jsx-dom-expressions",
+   "version": "0.40.6",
+   "peerHash": "6c39b2892b0950f6",
+   "store": "babel-plugin-jsx-dom-expressions@0.40.6+6c39b2892b0950f6",
+   "files": 1,
+   "bytes": 132808
+  },
+  {
+   "package": "babel-plugin-module-resolver",
+   "version": "5.0.2",
+   "peerHash": "",
+   "store": "babel-plugin-module-resolver@5.0.2",
+   "files": 9,
+   "bytes": 15024
+  },
+  {
+   "package": "babel-preset-solid",
+   "version": "1.9.10",
+   "peerHash": "8ef28aad7564279e",
+   "store": "babel-preset-solid@1.9.10+8ef28aad7564279e",
+   "files": 1,
+   "bytes": 746
+  },
+  {
+   "package": "balanced-match",
+   "version": "1.0.2",
+   "peerHash": "",
+   "store": "balanced-match@1.0.2",
+   "files": 1,
+   "bytes": 1470
+  },
+  {
+   "package": "balanced-match",
+   "version": "4.0.4",
+   "peerHash": "",
+   "store": "balanced-match@4.0.4",
+   "files": 1,
+   "bytes": 1740
+  },
+  {
+   "package": "base64-js",
+   "version": "1.5.1",
+   "peerHash": "",
+   "store": "base64-js@1.5.1",
+   "files": 1,
+   "bytes": 3416
+  },
+  {
+   "package": "baseline-browser-mapping",
+   "version": "2.10.13",
+   "peerHash": "",
+   "store": "baseline-browser-mapping@2.10.13",
+   "files": 1,
+   "bytes": 145172
+  },
+  {
+   "package": "before-after-hook",
+   "version": "2.2.3",
+   "peerHash": "",
+   "store": "before-after-hook@2.2.3",
+   "files": 4,
+   "bytes": 4079
+  },
+  {
+   "package": "before-after-hook",
+   "version": "4.0.0",
+   "peerHash": "",
+   "store": "before-after-hook@4.0.0",
+   "files": 4,
+   "bytes": 2815
+  },
+  {
+   "package": "bignumber.js",
+   "version": "9.3.1",
+   "peerHash": "",
+   "store": "bignumber.js@9.3.1",
+   "files": 1,
+   "bytes": 50501
+  },
+  {
+   "package": "bin-links",
+   "version": "6.0.0",
+   "peerHash": "",
+   "store": "bin-links@6.0.0",
+   "files": 15,
+   "bytes": 14310
+  },
+  {
+   "package": "bonjour-service",
+   "version": "1.3.0",
+   "peerHash": "",
+   "store": "bonjour-service@1.3.0",
+   "files": 11,
+   "bytes": 24667
+  },
+  {
+   "package": "brace-expansion",
+   "version": "2.0.3",
+   "peerHash": "",
+   "store": "brace-expansion@2.0.3",
+   "files": 1,
+   "bytes": 4689
+  },
+  {
+   "package": "brace-expansion",
+   "version": "5.0.5",
+   "peerHash": "",
+   "store": "brace-expansion@5.0.5",
+   "files": 1,
+   "bytes": 5620
+  },
+  {
+   "package": "braces",
+   "version": "3.0.3",
+   "peerHash": "",
+   "store": "braces@3.0.3",
+   "files": 7,
+   "bytes": 17785
+  },
+  {
+   "package": "browserslist",
+   "version": "4.28.2",
+   "peerHash": "d57303656020464d",
+   "store": "browserslist@4.28.2+d57303656020464d",
+   "files": 4,
+   "bytes": 56104
+  },
+  {
+   "package": "buffer-equal-constant-time",
+   "version": "1.0.1",
+   "peerHash": "",
+   "store": "buffer-equal-constant-time@1.0.1",
+   "files": 1,
+   "bytes": 896
+  },
+  {
+   "package": "bun-pty",
+   "version": "0.4.8",
+   "peerHash": "",
+   "store": "bun-pty@0.4.8",
+   "files": 4,
+   "bytes": 6545
+  },
+  {
+   "package": "bundle-name",
+   "version": "4.1.0",
+   "peerHash": "",
+   "store": "bundle-name@4.1.0",
+   "files": 1,
+   "bytes": 365
+  },
+  {
+   "package": "cacache",
+   "version": "20.0.4",
+   "peerHash": "",
+   "store": "cacache@20.0.4",
+   "files": 15,
+   "bytes": 39087
+  },
+  {
+   "package": "caniuse-lite",
+   "version": "1.0.30001784",
+   "peerHash": "",
+   "store": "caniuse-lite@1.0.30001784",
+   "files": 10,
+   "bytes": 38046
+  },
+  {
+   "package": "cli-spinners",
+   "version": "3.4.0",
+   "peerHash": "",
+   "store": "cli-spinners@3.4.0",
+   "files": 2,
+   "bytes": 43387
+  },
+  {
+   "package": "clipboardy",
+   "version": "4.0.0",
+   "peerHash": "",
+   "store": "clipboardy@4.0.0",
+   "files": 7,
+   "bytes": 5075
+  },
+  {
+   "package": "cliui",
+   "version": "9.0.1",
+   "peerHash": "",
+   "store": "cliui@9.0.1",
+   "files": 2,
+   "bytes": 7116
+  },
+  {
+   "package": "cmd-shim",
+   "version": "8.0.0",
+   "peerHash": "",
+   "store": "cmd-shim@8.0.0",
+   "files": 2,
+   "bytes": 6789
+  },
+  {
+   "package": "common-ancestor-path",
+   "version": "2.0.0",
+   "peerHash": "",
+   "store": "common-ancestor-path@2.0.0",
+   "files": 1,
+   "bytes": 823
+  },
+  {
+   "package": "convert-source-map",
+   "version": "2.0.0",
+   "peerHash": "",
+   "store": "convert-source-map@2.0.0",
+   "files": 1,
+   "bytes": 6523
+  },
+  {
+   "package": "cookie",
+   "version": "1.1.1",
+   "peerHash": "",
+   "store": "cookie@1.1.1",
+   "files": 1,
+   "bytes": 8034
+  },
+  {
+   "package": "cross-spawn",
+   "version": "7.0.6",
+   "peerHash": "",
+   "store": "cross-spawn@7.0.6",
+   "files": 6,
+   "bytes": 6334
+  },
+  {
+   "package": "cssesc",
+   "version": "3.0.0",
+   "peerHash": "",
+   "store": "cssesc@3.0.0",
+   "files": 1,
+   "bytes": 3057
+  },
+  {
+   "package": "debug",
+   "version": "4.4.3",
+   "peerHash": "",
+   "store": "debug@4.4.3",
+   "files": 4,
+   "bytes": 13919
+  },
+  {
+   "package": "decimal.js",
+   "version": "10.5.0",
+   "peerHash": "",
+   "store": "decimal.js@10.5.0",
+   "files": 1,
+   "bytes": 66805
+  },
+  {
+   "package": "default-browser-id",
+   "version": "5.0.1",
+   "peerHash": "",
+   "store": "default-browser-id@5.0.1",
+   "files": 1,
+   "bytes": 758
+  },
+  {
+   "package": "default-browser",
+   "version": "5.5.0",
+   "peerHash": "",
+   "store": "default-browser@5.5.0",
+   "files": 2,
+   "bytes": 3485
+  },
+  {
+   "package": "define-lazy-prop",
+   "version": "3.0.0",
+   "peerHash": "",
+   "store": "define-lazy-prop@3.0.0",
+   "files": 1,
+   "bytes": 465
+  },
+  {
+   "package": "deprecation",
+   "version": "2.3.1",
+   "peerHash": "",
+   "store": "deprecation@2.3.1",
+   "files": 1,
+   "bytes": 388
+  },
+  {
+   "package": "dequal",
+   "version": "2.0.3",
+   "peerHash": "",
+   "store": "dequal@2.0.3",
+   "files": 1,
+   "bytes": 2472
+  },
+  {
+   "package": "diff",
+   "version": "8.0.2",
+   "peerHash": "",
+   "store": "diff@8.0.2",
+   "files": 9,
+   "bytes": 25776
+  },
+  {
+   "package": "dns-packet",
+   "version": "5.6.1",
+   "peerHash": "",
+   "store": "dns-packet@5.6.1",
+   "files": 6,
+   "bytes": 57455
+  },
+  {
+   "package": "drizzle-orm",
+   "version": "1.0.0-beta.19-d95b7a4",
+   "peerHash": "b53cb6243bafc349",
+   "store": "drizzle-orm@1.0.0-beta.19-d95b7a4+b53cb6243bafc349",
+   "files": 103,
+   "bytes": 227249
+  },
+  {
+   "package": "ecdsa-sig-formatter",
+   "version": "1.0.11",
+   "peerHash": "",
+   "store": "ecdsa-sig-formatter@1.0.11",
+   "files": 2,
+   "bytes": 5668
+  },
+  {
+   "package": "effect",
+   "version": "4.0.0-beta.43",
+   "peerHash": "",
+   "store": "effect@4.0.0-beta.43",
+   "files": 185,
+   "bytes": 1412793
+  },
+  {
+   "package": "electron-to-chromium",
+   "version": "1.5.330",
+   "peerHash": "",
+   "store": "electron-to-chromium@1.5.330",
+   "files": 1,
+   "bytes": 4525
+  },
+  {
+   "package": "emoji-regex",
+   "version": "10.6.0",
+   "peerHash": "",
+   "store": "emoji-regex@10.6.0",
+   "files": 1,
+   "bytes": 14167
+  },
+  {
+   "package": "entities",
+   "version": "6.0.1",
+   "peerHash": "",
+   "store": "entities@6.0.1",
+   "files": 5,
+   "bytes": 65436
+  },
+  {
+   "package": "entities",
+   "version": "7.0.1",
+   "peerHash": "",
+   "store": "entities@7.0.1",
+   "files": 6,
+   "bytes": 46284
+  },
+  {
+   "package": "escalade",
+   "version": "3.2.0",
+   "peerHash": "",
+   "store": "escalade@3.2.0",
+   "files": 1,
+   "bytes": 428
+  },
+  {
+   "package": "eventsource-parser",
+   "version": "3.0.6",
+   "peerHash": "",
+   "store": "eventsource-parser@3.0.6",
+   "files": 2,
+   "bytes": 4319
+  },
+  {
+   "package": "eventsource",
+   "version": "3.0.7",
+   "peerHash": "",
+   "store": "eventsource@3.0.7",
+   "files": 1,
+   "bytes": 11218
+  },
+  {
+   "package": "execa",
+   "version": "8.0.1",
+   "peerHash": "",
+   "store": "execa@8.0.1",
+   "files": 14,
+   "bytes": 20689
+  },
+  {
+   "package": "extend-shallow",
+   "version": "2.0.1",
+   "peerHash": "",
+   "store": "extend-shallow@2.0.1",
+   "files": 1,
+   "bytes": 612
+  },
+  {
+   "package": "extend",
+   "version": "3.0.2",
+   "peerHash": "",
+   "store": "extend@3.0.2",
+   "files": 1,
+   "bytes": 2881
+  },
+  {
+   "package": "fast-check",
+   "version": "4.6.0",
+   "peerHash": "",
+   "store": "fast-check@4.6.0",
+   "files": 1,
+   "bytes": 313040
+  },
+  {
+   "package": "fast-content-type-parse",
+   "version": "3.0.0",
+   "peerHash": "",
+   "store": "fast-content-type-parse@3.0.0",
+   "files": 1,
+   "bytes": 1535
+  },
+  {
+   "package": "fast-decode-uri-component",
+   "version": "1.0.1",
+   "peerHash": "",
+   "store": "fast-decode-uri-component@1.0.1",
+   "files": 1,
+   "bytes": 4549
+  },
+  {
+   "package": "fast-deep-equal",
+   "version": "3.1.3",
+   "peerHash": "",
+   "store": "fast-deep-equal@3.1.3",
+   "files": 2,
+   "bytes": 3494
+  },
+  {
+   "package": "fast-json-stringify",
+   "version": "6.3.0",
+   "peerHash": "",
+   "store": "fast-json-stringify@6.3.0",
+   "files": 7,
+   "bytes": 141469
+  },
+  {
+   "package": "fast-querystring",
+   "version": "1.1.2",
+   "peerHash": "",
+   "store": "fast-querystring@1.1.2",
+   "files": 4,
+   "bytes": 7081
+  },
+  {
+   "package": "fast-uri",
+   "version": "3.1.0",
+   "peerHash": "",
+   "store": "fast-uri@3.1.0",
+   "files": 3,
+   "bytes": 21789
+  },
+  {
+   "package": "fast-xml-parser",
+   "version": "5.5.8",
+   "peerHash": "",
+   "store": "fast-xml-parser@5.5.8",
+   "files": 1,
+   "bytes": 74844
+  },
+  {
+   "package": "fastify-plugin",
+   "version": "5.1.0",
+   "peerHash": "",
+   "store": "fastify-plugin@5.1.0",
+   "files": 3,
+   "bytes": 2590
+  },
+  {
+   "package": "fastify",
+   "version": "5.8.4",
+   "peerHash": "",
+   "store": "fastify@5.8.4",
+   "files": 32,
+   "bytes": 285119
+  },
+  {
+   "package": "fastq",
+   "version": "1.20.1",
+   "peerHash": "",
+   "store": "fastq@1.20.1",
+   "files": 1,
+   "bytes": 7341
+  },
+  {
+   "package": "fill-range",
+   "version": "7.1.1",
+   "peerHash": "",
+   "store": "fill-range@7.1.1",
+   "files": 1,
+   "bytes": 7069
+  },
+  {
+   "package": "find-babel-config",
+   "version": "2.1.2",
+   "peerHash": "",
+   "store": "find-babel-config@2.1.2",
+   "files": 1,
+   "bytes": 4738
+  },
+  {
+   "package": "find-my-way",
+   "version": "9.5.0",
+   "peerHash": "",
+   "store": "find-my-way@9.5.0",
+   "files": 11,
+   "bytes": 54185
+  },
+  {
+   "package": "find-up",
+   "version": "3.0.0",
+   "peerHash": "",
+   "store": "find-up@3.0.0",
+   "files": 1,
+   "bytes": 1165
+  },
+  {
+   "package": "fs-minipass",
+   "version": "3.0.3",
+   "peerHash": "",
+   "store": "fs-minipass@3.0.3",
+   "files": 1,
+   "bytes": 10278
+  },
+  {
+   "package": "function-bind",
+   "version": "1.1.2",
+   "peerHash": "",
+   "store": "function-bind@1.1.2",
+   "files": 2,
+   "bytes": 2169
+  },
+  {
+   "package": "fuzzysort",
+   "version": "3.1.0",
+   "peerHash": "",
+   "store": "fuzzysort@3.1.0",
+   "files": 1,
+   "bytes": 26952
+  },
+  {
+   "package": "gaxios",
+   "version": "7.1.4",
+   "peerHash": "",
+   "store": "gaxios@7.1.4",
+   "files": 7,
+   "bytes": 29086
+  },
+  {
+   "package": "gcp-metadata",
+   "version": "8.1.2",
+   "peerHash": "",
+   "store": "gcp-metadata@8.1.2",
+   "files": 2,
+   "bytes": 11194
+  },
+  {
+   "package": "gensync",
+   "version": "1.0.0-beta.2",
+   "peerHash": "",
+   "store": "gensync@1.0.0-beta.2",
+   "files": 1,
+   "bytes": 8454
+  },
+  {
+   "package": "get-caller-file",
+   "version": "2.0.5",
+   "peerHash": "",
+   "store": "get-caller-file@2.0.5",
+   "files": 1,
+   "bytes": 805
+  },
+  {
+   "package": "get-east-asian-width",
+   "version": "1.5.0",
+   "peerHash": "",
+   "store": "get-east-asian-width@1.5.0",
+   "files": 4,
+   "bytes": 6729
+  },
+  {
+   "package": "get-stream",
+   "version": "8.0.1",
+   "peerHash": "",
+   "store": "get-stream@8.0.1",
+   "files": 5,
+   "bytes": 6958
+  },
+  {
+   "package": "gitlab-ai-provider",
+   "version": "6.0.0",
+   "peerHash": "e1cf4085ad1004ca",
+   "store": "gitlab-ai-provider@6.0.0+e1cf4085ad1004ca",
+   "files": 1,
+   "bytes": 142550
+  },
+  {
+   "package": "glob",
+   "version": "13.0.5",
+   "peerHash": "",
+   "store": "glob@13.0.5",
+   "files": 2,
+   "bytes": 258775
+  },
+  {
+   "package": "glob",
+   "version": "9.3.5",
+   "peerHash": "",
+   "store": "glob@9.3.5",
+   "files": 8,
+   "bytes": 32990
+  },
+  {
+   "package": "google-auth-library",
+   "version": "10.5.0",
+   "peerHash": "",
+   "store": "google-auth-library@10.5.0",
+   "files": 37,
+   "bytes": 169147
+  },
+  {
+   "package": "google-logging-utils",
+   "version": "1.1.3",
+   "peerHash": "",
+   "store": "google-logging-utils@1.1.3",
+   "files": 3,
+   "bytes": 12303
+  },
+  {
+   "package": "gray-matter",
+   "version": "4.0.3",
+   "peerHash": "",
+   "store": "gray-matter@4.0.3",
+   "files": 9,
+   "bytes": 10636
+  },
+  {
+   "package": "gtoken",
+   "version": "8.0.0",
+   "peerHash": "",
+   "store": "gtoken@8.0.0",
+   "files": 1,
+   "bytes": 26325
+  },
+  {
+   "package": "has-flag",
+   "version": "4.0.0",
+   "peerHash": "",
+   "store": "has-flag@4.0.0",
+   "files": 1,
+   "bytes": 394
+  },
+  {
+   "package": "hasown",
+   "version": "2.0.2",
+   "peerHash": "",
+   "store": "hasown@2.0.2",
+   "files": 1,
+   "bytes": 235
+  },
+  {
+   "package": "hono-openapi",
+   "version": "1.1.2",
+   "peerHash": "86e343fb06faeffc",
+   "store": "hono-openapi@1.1.2+86e343fb06faeffc",
+   "files": 1,
+   "bytes": 13562
+  },
+  {
+   "package": "hono",
+   "version": "4.10.7",
+   "peerHash": "",
+   "store": "hono@4.10.7",
+   "files": 61,
+   "bytes": 74699
+  },
+  {
+   "package": "hosted-git-info",
+   "version": "9.0.2",
+   "peerHash": "",
+   "store": "hosted-git-info@9.0.2",
+   "files": 4,
+   "bytes": 19824
+  },
+  {
+   "package": "html-entities",
+   "version": "2.3.3",
+   "peerHash": "",
+   "store": "html-entities@2.3.3",
+   "files": 4,
+   "bytes": 106197
+  },
+  {
+   "package": "http-cache-semantics",
+   "version": "4.2.0",
+   "peerHash": "",
+   "store": "http-cache-semantics@4.2.0",
+   "files": 1,
+   "bytes": 15708
+  },
+  {
+   "package": "http-proxy-agent",
+   "version": "7.0.2",
+   "peerHash": "",
+   "store": "http-proxy-agent@7.0.2",
+   "files": 1,
+   "bytes": 4925
+  },
+  {
+   "package": "https-proxy-agent",
+   "version": "7.0.6",
+   "peerHash": "",
+   "store": "https-proxy-agent@7.0.6",
+   "files": 2,
+   "bytes": 8576
+  },
+  {
+   "package": "human-signals",
+   "version": "5.0.0",
+   "peerHash": "",
+   "store": "human-signals@5.0.0",
+   "files": 6,
+   "bytes": 7763
+  },
+  {
+   "package": "iconv-lite",
+   "version": "0.7.2",
+   "peerHash": "",
+   "store": "iconv-lite@0.7.2",
+   "files": 22,
+   "bytes": 541732
+  },
+  {
+   "package": "ignore-walk",
+   "version": "8.0.0",
+   "peerHash": "",
+   "store": "ignore-walk@8.0.0",
+   "files": 1,
+   "bytes": 7953
+  },
+  {
+   "package": "ignore",
+   "version": "7.0.5",
+   "peerHash": "",
+   "store": "ignore@7.0.5",
+   "files": 1,
+   "bytes": 10337
+  },
+  {
+   "package": "ini",
+   "version": "6.0.0",
+   "peerHash": "",
+   "store": "ini@6.0.0",
+   "files": 1,
+   "bytes": 6585
+  },
+  {
+   "package": "ip-address",
+   "version": "10.1.0",
+   "peerHash": "",
+   "store": "ip-address@10.1.0",
+   "files": 9,
+   "bytes": 38179
+  },
+  {
+   "package": "ipaddr.js",
+   "version": "2.3.0",
+   "peerHash": "",
+   "store": "ipaddr.js@2.3.0",
+   "files": 1,
+   "bytes": 25852
+  },
+  {
+   "package": "is-core-module",
+   "version": "2.16.1",
+   "peerHash": "",
+   "store": "is-core-module@2.16.1",
+   "files": 2,
+   "bytes": 8353
+  },
+  {
+   "package": "is-docker",
+   "version": "3.0.0",
+   "peerHash": "",
+   "store": "is-docker@3.0.0",
+   "files": 1,
+   "bytes": 495
+  },
+  {
+   "package": "is-extendable",
+   "version": "0.1.1",
+   "peerHash": "",
+   "store": "is-extendable@0.1.1",
+   "files": 1,
+   "bytes": 397
+  },
+  {
+   "package": "is-extglob",
+   "version": "2.1.1",
+   "peerHash": "",
+   "store": "is-extglob@2.1.1",
+   "files": 1,
+   "bytes": 559
+  },
+  {
+   "package": "is-glob",
+   "version": "4.0.3",
+   "peerHash": "",
+   "store": "is-glob@4.0.3",
+   "files": 1,
+   "bytes": 4021
+  },
+  {
+   "package": "is-inside-container",
+   "version": "1.0.0",
+   "peerHash": "",
+   "store": "is-inside-container@1.0.0",
+   "files": 1,
+   "bytes": 387
+  },
+  {
+   "package": "is-number",
+   "version": "7.0.0",
+   "peerHash": "",
+   "store": "is-number@7.0.0",
+   "files": 1,
+   "bytes": 489
+  },
+  {
+   "package": "is-stream",
+   "version": "3.0.0",
+   "peerHash": "",
+   "store": "is-stream@3.0.0",
+   "files": 1,
+   "bytes": 312
+  },
+  {
+   "package": "is-wsl",
+   "version": "3.1.1",
+   "peerHash": "",
+   "store": "is-wsl@3.1.1",
+   "files": 1,
+   "bytes": 749
+  },
+  {
+   "package": "is64bit",
+   "version": "2.0.0",
+   "peerHash": "",
+   "store": "is64bit@2.0.0",
+   "files": 1,
+   "bytes": 166
+  },
+  {
+   "package": "isexe",
+   "version": "2.0.0",
+   "peerHash": "",
+   "store": "isexe@2.0.0",
+   "files": 3,
+   "bytes": 3307
+  },
+  {
+   "package": "isexe",
+   "version": "4.0.0",
+   "peerHash": "",
+   "store": "isexe@4.0.0",
+   "files": 1,
+   "bytes": 4460
+  },
+  {
+   "package": "js-tokens",
+   "version": "4.0.0",
+   "peerHash": "",
+   "store": "js-tokens@4.0.0",
+   "files": 1,
+   "bytes": 1415
+  },
+  {
+   "package": "js-yaml",
+   "version": "3.14.2",
+   "peerHash": "",
+   "store": "js-yaml@3.14.2",
+   "files": 30,
+   "bytes": 96262
+  },
+  {
+   "package": "jsesc",
+   "version": "3.1.0",
+   "peerHash": "",
+   "store": "jsesc@3.1.0",
+   "files": 1,
+   "bytes": 8800
+  },
+  {
+   "package": "json-bigint",
+   "version": "1.0.0",
+   "peerHash": "",
+   "store": "json-bigint@1.0.0",
+   "files": 3,
+   "bytes": 12478
+  },
+  {
+   "package": "json-parse-even-better-errors",
+   "version": "5.0.0",
+   "peerHash": "",
+   "store": "json-parse-even-better-errors@5.0.0",
+   "files": 1,
+   "bytes": 3344
+  },
+  {
+   "package": "json-schema-ref-resolver",
+   "version": "3.0.0",
+   "peerHash": "",
+   "store": "json-schema-ref-resolver@3.0.0",
+   "files": 1,
+   "bytes": 8843
+  },
+  {
+   "package": "json-schema-traverse",
+   "version": "1.0.0",
+   "peerHash": "",
+   "store": "json-schema-traverse@1.0.0",
+   "files": 1,
+   "bytes": 2625
+  },
+  {
+   "package": "json-stringify-nice",
+   "version": "1.1.4",
+   "peerHash": "",
+   "store": "json-stringify-nice@1.1.4",
+   "files": 1,
+   "bytes": 1090
+  },
+  {
+   "package": "json-with-bigint",
+   "version": "3.5.8",
+   "peerHash": "",
+   "store": "json-with-bigint@3.5.8",
+   "files": 1,
+   "bytes": 4076
+  },
+  {
+   "package": "json5",
+   "version": "2.2.3",
+   "peerHash": "",
+   "store": "json5@2.2.3",
+   "files": 5,
+   "bytes": 42805
+  },
+  {
+   "package": "jsonc-parser",
+   "version": "3.3.1",
+   "peerHash": "",
+   "store": "jsonc-parser@3.3.1",
+   "files": 6,
+   "bytes": 45814
+  },
+  {
+   "package": "jsonparse",
+   "version": "1.3.1",
+   "peerHash": "",
+   "store": "jsonparse@1.3.1",
+   "files": 1,
+   "bytes": 15456
+  },
+  {
+   "package": "just-diff-apply",
+   "version": "5.5.0",
+   "peerHash": "",
+   "store": "just-diff-apply@5.5.0",
+   "files": 1,
+   "bytes": 3423
+  },
+  {
+   "package": "just-diff",
+   "version": "6.0.2",
+   "peerHash": "",
+   "store": "just-diff@6.0.2",
+   "files": 1,
+   "bytes": 4475
+  },
+  {
+   "package": "jwa",
+   "version": "2.0.1",
+   "peerHash": "",
+   "store": "jwa@2.0.1",
+   "files": 1,
+   "bytes": 7214
+  },
+  {
+   "package": "jws",
+   "version": "4.0.1",
+   "peerHash": "",
+   "store": "jws@4.0.1",
+   "files": 5,
+   "bytes": 8630
+  },
+  {
+   "package": "kind-of",
+   "version": "6.0.3",
+   "peerHash": "",
+   "store": "kind-of@6.0.3",
+   "files": 1,
+   "bytes": 3740
+  },
+  {
+   "package": "light-my-request",
+   "version": "6.6.0",
+   "peerHash": "",
+   "store": "light-my-request@6.6.0",
+   "files": 6,
+   "bytes": 62937
+  },
+  {
+   "package": "locate-path",
+   "version": "3.0.0",
+   "peerHash": "",
+   "store": "locate-path@3.0.0",
+   "files": 1,
+   "bytes": 655
+  },
+  {
+   "package": "lru-cache",
+   "version": "10.4.3",
+   "peerHash": "",
+   "store": "lru-cache@10.4.3",
+   "files": 1,
+   "bytes": 36903
+  },
+  {
+   "package": "lru-cache",
+   "version": "11.2.7",
+   "peerHash": "",
+   "store": "lru-cache@11.2.7",
+   "files": 1,
+   "bytes": 26355
+  },
+  {
+   "package": "lru-cache",
+   "version": "5.1.1",
+   "peerHash": "",
+   "store": "lru-cache@5.1.1",
+   "files": 1,
+   "bytes": 7706
+  },
+  {
+   "package": "make-fetch-happen",
+   "version": "15.0.5",
+   "peerHash": "",
+   "store": "make-fetch-happen@15.0.5",
+   "files": 11,
+   "bytes": 28730
+  },
+  {
+   "package": "merge-stream",
+   "version": "2.0.0",
+   "peerHash": "",
+   "store": "merge-stream@2.0.0",
+   "files": 1,
+   "bytes": 1060
+  },
+  {
+   "package": "micromatch",
+   "version": "4.0.8",
+   "peerHash": "",
+   "store": "micromatch@4.0.8",
+   "files": 1,
+   "bytes": 5720
+  },
+  {
+   "package": "mime-db",
+   "version": "1.54.0",
+   "peerHash": "",
+   "store": "mime-db@1.54.0",
+   "files": 1,
+   "bytes": 214271
+  },
+  {
+   "package": "mime-types",
+   "version": "3.0.2",
+   "peerHash": "",
+   "store": "mime-types@3.0.2",
+   "files": 2,
+   "bytes": 3354
+  },
+  {
+   "package": "mimic-fn",
+   "version": "4.0.0",
+   "peerHash": "",
+   "store": "mimic-fn@4.0.0",
+   "files": 1,
+   "bytes": 2043
+  },
+  {
+   "package": "minimatch",
+   "version": "10.0.3",
+   "peerHash": "",
+   "store": "minimatch@10.0.3",
+   "files": 6,
+   "bytes": 38518
+  },
+  {
+   "package": "minimatch",
+   "version": "10.2.5",
+   "peerHash": "",
+   "store": "minimatch@10.2.5",
+   "files": 6,
+   "bytes": 52152
+  },
+  {
+   "package": "minimatch",
+   "version": "8.0.7",
+   "peerHash": "",
+   "store": "minimatch@8.0.7",
+   "files": 7,
+   "bytes": 50735
+  },
+  {
+   "package": "minipass-collect",
+   "version": "2.0.1",
+   "peerHash": "",
+   "store": "minipass-collect@2.0.1",
+   "files": 1,
+   "bytes": 2036
+  },
+  {
+   "package": "minipass-fetch",
+   "version": "5.0.2",
+   "peerHash": "",
+   "store": "minipass-fetch@5.0.2",
+   "files": 9,
+   "bytes": 39758
+  },
+  {
+   "package": "minipass-flush",
+   "version": "1.0.7",
+   "peerHash": "",
+   "store": "minipass-flush@1.0.7",
+   "files": 1,
+   "bytes": 1078
+  },
+  {
+   "package": "minipass-pipeline",
+   "version": "1.2.4",
+   "peerHash": "",
+   "store": "minipass-pipeline@1.2.4",
+   "files": 1,
+   "bytes": 3145
+  },
+  {
+   "package": "minipass-sized",
+   "version": "2.0.0",
+   "peerHash": "",
+   "store": "minipass-sized@2.0.0",
+   "files": 1,
+   "bytes": 2207
+  },
+  {
+   "package": "minipass",
+   "version": "3.3.6",
+   "peerHash": "",
+   "store": "minipass@3.3.6",
+   "files": 1,
+   "bytes": 15806
+  },
+  {
+   "package": "minipass",
+   "version": "4.2.8",
+   "peerHash": "",
+   "store": "minipass@4.2.8",
+   "files": 1,
+   "bytes": 18002
+  },
+  {
+   "package": "minipass",
+   "version": "7.1.3",
+   "peerHash": "",
+   "store": "minipass@7.1.3",
+   "files": 1,
+   "bytes": 20696
+  },
+  {
+   "package": "minizlib",
+   "version": "3.1.0",
+   "peerHash": "",
+   "store": "minizlib@3.1.0",
+   "files": 2,
+   "bytes": 15488
+  },
+  {
+   "package": "ms",
+   "version": "2.1.3",
+   "peerHash": "",
+   "store": "ms@2.1.3",
+   "files": 1,
+   "bytes": 2701
+  },
+  {
+   "package": "multicast-dns",
+   "version": "7.2.5",
+   "peerHash": "",
+   "store": "multicast-dns@7.2.5",
+   "files": 1,
+   "bytes": 5983
+  },
+  {
+   "package": "negotiator",
+   "version": "1.0.0",
+   "peerHash": "",
+   "store": "negotiator@1.0.0",
+   "files": 5,
+   "bytes": 15657
+  },
+  {
+   "package": "node-releases",
+   "version": "2.0.36",
+   "peerHash": "",
+   "store": "node-releases@2.0.36",
+   "files": 2,
+   "bytes": 40926
+  },
+  {
+   "package": "npm-bundled",
+   "version": "5.0.0",
+   "peerHash": "",
+   "store": "npm-bundled@5.0.0",
+   "files": 1,
+   "bytes": 6114
+  },
+  {
+   "package": "npm-install-checks",
+   "version": "8.0.0",
+   "peerHash": "",
+   "store": "npm-install-checks@8.0.0",
+   "files": 3,
+   "bytes": 8528
+  },
+  {
+   "package": "npm-normalize-package-bin",
+   "version": "5.0.0",
+   "peerHash": "",
+   "store": "npm-normalize-package-bin@5.0.0",
+   "files": 1,
+   "bytes": 1425
+  },
+  {
+   "package": "npm-package-arg",
+   "version": "13.0.2",
+   "peerHash": "",
+   "store": "npm-package-arg@13.0.2",
+   "files": 1,
+   "bytes": 12301
+  },
+  {
+   "package": "npm-packlist",
+   "version": "10.0.4",
+   "peerHash": "",
+   "store": "npm-packlist@10.0.4",
+   "files": 1,
+   "bytes": 10039
+  },
+  {
+   "package": "npm-pick-manifest",
+   "version": "11.0.3",
+   "peerHash": "",
+   "store": "npm-pick-manifest@11.0.3",
+   "files": 1,
+   "bytes": 6403
+  },
+  {
+   "package": "npm-registry-fetch",
+   "version": "19.1.1",
+   "peerHash": "",
+   "store": "npm-registry-fetch@19.1.1",
+   "files": 7,
+   "bytes": 22982
+  },
+  {
+   "package": "npm-run-path",
+   "version": "5.3.0",
+   "peerHash": "",
+   "store": "npm-run-path@5.3.0",
+   "files": 2,
+   "bytes": 1306
+  },
+  {
+   "package": "on-exit-leak-free",
+   "version": "2.1.2",
+   "peerHash": "",
+   "store": "on-exit-leak-free@2.1.2",
+   "files": 1,
+   "bytes": 2096
+  },
+  {
+   "package": "once",
+   "version": "1.4.0",
+   "peerHash": "",
+   "store": "once@1.4.0",
+   "files": 1,
+   "bytes": 1113
+  },
+  {
+   "package": "onetime",
+   "version": "6.0.0",
+   "peerHash": "",
+   "store": "onetime@6.0.0",
+   "files": 1,
+   "bytes": 1020
+  },
+  {
+   "package": "open",
+   "version": "10.1.2",
+   "peerHash": "",
+   "store": "open@10.1.2",
+   "files": 1,
+   "bytes": 9701
+  },
+  {
+   "package": "openai",
+   "version": "6.33.0",
+   "peerHash": "6038c87dc5c746a0",
+   "store": "openai@6.33.0+6038c87dc5c746a0",
+   "files": 115,
+   "bytes": 233962
+  },
+  {
+   "package": "opencode-gitlab-auth",
+   "version": "2.0.1",
+   "peerHash": "",
+   "store": "opencode-gitlab-auth@2.0.1",
+   "files": 4,
+   "bytes": 20484
+  },
+  {
+   "package": "opencode-poe-auth",
+   "version": "0.0.1",
+   "peerHash": "36d1c9c82659f947",
+   "store": "opencode-poe-auth@0.0.1+36d1c9c82659f947",
+   "files": 2,
+   "bytes": 1876
+  },
+  {
+   "package": "opentui-spinner",
+   "version": "0.0.6",
+   "peerHash": "e0ca689cee55a01d",
+   "store": "opentui-spinner@0.0.6+e0ca689cee55a01d",
+   "files": 2,
+   "bytes": 3394
+  },
+  {
+   "package": "p-limit",
+   "version": "2.3.0",
+   "peerHash": "",
+   "store": "p-limit@2.3.0",
+   "files": 1,
+   "bytes": 1350
+  },
+  {
+   "package": "p-locate",
+   "version": "3.0.0",
+   "peerHash": "",
+   "store": "p-locate@3.0.0",
+   "files": 1,
+   "bytes": 897
+  },
+  {
+   "package": "p-map",
+   "version": "7.0.4",
+   "peerHash": "",
+   "store": "p-map@7.0.4",
+   "files": 1,
+   "bytes": 6557
+  },
+  {
+   "package": "p-try",
+   "version": "2.2.0",
+   "peerHash": "",
+   "store": "p-try@2.2.0",
+   "files": 1,
+   "bytes": 228
+  },
+  {
+   "package": "pacote",
+   "version": "21.5.0",
+   "peerHash": "",
+   "store": "pacote@21.5.0",
+   "files": 15,
+   "bytes": 44164
+  },
+  {
+   "package": "parse-conflict-json",
+   "version": "5.0.1",
+   "peerHash": "",
+   "store": "parse-conflict-json@5.0.1",
+   "files": 1,
+   "bytes": 2759
+  },
+  {
+   "package": "parse5",
+   "version": "7.3.0",
+   "peerHash": "",
+   "store": "parse5@7.3.0",
+   "files": 14,
+   "bytes": 259788
+  },
+  {
+   "package": "path-exists",
+   "version": "3.0.0",
+   "peerHash": "",
+   "store": "path-exists@3.0.0",
+   "files": 1,
+   "bytes": 365
+  },
+  {
+   "package": "path-key",
+   "version": "3.1.1",
+   "peerHash": "",
+   "store": "path-key@3.1.1",
+   "files": 1,
+   "bytes": 435
+  },
+  {
+   "package": "path-key",
+   "version": "4.0.0",
+   "peerHash": "",
+   "store": "path-key@4.0.0",
+   "files": 1,
+   "bytes": 272
+  },
+  {
+   "package": "path-parse",
+   "version": "1.0.7",
+   "peerHash": "",
+   "store": "path-parse@1.0.7",
+   "files": 1,
+   "bytes": 1776
+  },
+  {
+   "package": "path-scurry",
+   "version": "1.11.1",
+   "peerHash": "",
+   "store": "path-scurry@1.11.1",
+   "files": 1,
+   "bytes": 40154
+  },
+  {
+   "package": "picocolors",
+   "version": "1.1.1",
+   "peerHash": "",
+   "store": "picocolors@1.1.1",
+   "files": 1,
+   "bytes": 3066
+  },
+  {
+   "package": "picomatch",
+   "version": "2.3.2",
+   "peerHash": "",
+   "store": "picomatch@2.3.2",
+   "files": 5,
+   "bytes": 54159
+  },
+  {
+   "package": "pino-std-serializers",
+   "version": "7.1.0",
+   "peerHash": "",
+   "store": "pino-std-serializers@7.1.0",
+   "files": 7,
+   "bytes": 9531
+  },
+  {
+   "package": "pino",
+   "version": "10.3.1",
+   "peerHash": "",
+   "store": "pino@10.3.1",
+   "files": 12,
+   "bytes": 49806
+  },
+  {
+   "package": "pkce-challenge",
+   "version": "5.0.1",
+   "peerHash": "",
+   "store": "pkce-challenge@5.0.1",
+   "files": 1,
+   "bytes": 1428
+  },
+  {
+   "package": "pkg-up",
+   "version": "3.1.0",
+   "peerHash": "",
+   "store": "pkg-up@3.1.0",
+   "files": 1,
+   "bytes": 252
+  },
+  {
+   "package": "poe-oauth",
+   "version": "0.0.5",
+   "peerHash": "",
+   "store": "poe-oauth@0.0.5",
+   "files": 2,
+   "bytes": 6358
+  },
+  {
+   "package": "postcss-selector-parser",
+   "version": "7.1.1",
+   "peerHash": "",
+   "store": "postcss-selector-parser@7.1.1",
+   "files": 30,
+   "bytes": 117538
+  },
+  {
+   "package": "proc-log",
+   "version": "6.1.0",
+   "peerHash": "",
+   "store": "proc-log@6.1.0",
+   "files": 1,
+   "bytes": 3938
+  },
+  {
+   "package": "process-warning",
+   "version": "4.0.1",
+   "peerHash": "",
+   "store": "process-warning@4.0.1",
+   "files": 1,
+   "bytes": 1920
+  },
+  {
+   "package": "process-warning",
+   "version": "5.0.0",
+   "peerHash": "",
+   "store": "process-warning@5.0.0",
+   "files": 1,
+   "bytes": 1919
+  },
+  {
+   "package": "proggy",
+   "version": "4.0.0",
+   "peerHash": "",
+   "store": "proggy@4.0.0",
+   "files": 3,
+   "bytes": 4800
+  },
+  {
+   "package": "promise-all-reject-late",
+   "version": "1.0.1",
+   "peerHash": "",
+   "store": "promise-all-reject-late@1.0.1",
+   "files": 1,
+   "bytes": 847
+  },
+  {
+   "package": "promise-call-limit",
+   "version": "3.0.2",
+   "peerHash": "",
+   "store": "promise-call-limit@3.0.2",
+   "files": 1,
+   "bytes": 2682
+  },
+  {
+   "package": "pure-rand",
+   "version": "8.4.0",
+   "peerHash": "",
+   "store": "pure-rand@8.4.0",
+   "files": 7,
+   "bytes": 13965
+  },
+  {
+   "package": "quansync",
+   "version": "0.2.11",
+   "peerHash": "",
+   "store": "quansync@0.2.11",
+   "files": 1,
+   "bytes": 2924
+  },
+  {
+   "package": "quick-format-unescaped",
+   "version": "4.0.4",
+   "peerHash": "",
+   "store": "quick-format-unescaped@4.0.4",
+   "files": 1,
+   "bytes": 3123
+  },
+  {
+   "package": "read-cmd-shim",
+   "version": "6.0.0",
+   "peerHash": "",
+   "store": "read-cmd-shim@6.0.0",
+   "files": 1,
+   "bytes": 2200
+  },
+  {
+   "package": "remeda",
+   "version": "2.26.0",
+   "peerHash": "",
+   "store": "remeda@2.26.0",
+   "files": 25,
+   "bytes": 9647
+  },
+  {
+   "package": "reselect",
+   "version": "4.1.8",
+   "peerHash": "",
+   "store": "reselect@4.1.8",
+   "files": 2,
+   "bytes": 8337
+  },
+  {
+   "package": "resolve",
+   "version": "1.22.11",
+   "peerHash": "",
+   "store": "resolve@1.22.11",
+   "files": 10,
+   "bytes": 27119
+  },
+  {
+   "package": "ret",
+   "version": "0.5.0",
+   "peerHash": "",
+   "store": "ret@0.5.0",
+   "files": 11,
+   "bytes": 25171
+  },
+  {
+   "package": "reusify",
+   "version": "1.1.0",
+   "peerHash": "",
+   "store": "reusify@1.1.0",
+   "files": 1,
+   "bytes": 564
+  },
+  {
+   "package": "rfdc",
+   "version": "1.4.1",
+   "peerHash": "",
+   "store": "rfdc@1.4.1",
+   "files": 1,
+   "bytes": 6625
+  },
+  {
+   "package": "run-applescript",
+   "version": "7.1.0",
+   "peerHash": "",
+   "store": "run-applescript@7.1.0",
+   "files": 1,
+   "bytes": 689
+  },
+  {
+   "package": "safe-buffer",
+   "version": "5.2.1",
+   "peerHash": "",
+   "store": "safe-buffer@5.2.1",
+   "files": 1,
+   "bytes": 1717
+  },
+  {
+   "package": "safe-regex2",
+   "version": "5.1.0",
+   "peerHash": "",
+   "store": "safe-regex2@5.1.0",
+   "files": 1,
+   "bytes": 1408
+  },
+  {
+   "package": "safe-stable-stringify",
+   "version": "2.5.0",
+   "peerHash": "",
+   "store": "safe-stable-stringify@2.5.0",
+   "files": 1,
+   "bytes": 20876
+  },
+  {
+   "package": "safer-buffer",
+   "version": "2.1.2",
+   "peerHash": "",
+   "store": "safer-buffer@2.1.2",
+   "files": 1,
+   "bytes": 2182
+  },
+  {
+   "package": "section-matter",
+   "version": "1.0.0",
+   "peerHash": "",
+   "store": "section-matter@1.0.0",
+   "files": 1,
+   "bytes": 2856
+  },
+  {
+   "package": "secure-json-parse",
+   "version": "4.1.0",
+   "peerHash": "",
+   "store": "secure-json-parse@4.1.0",
+   "files": 1,
+   "bytes": 3770
+  },
+  {
+   "package": "semver",
+   "version": "6.3.1",
+   "peerHash": "",
+   "store": "semver@6.3.1",
+   "files": 1,
+   "bytes": 37745
+  },
+  {
+   "package": "semver",
+   "version": "7.7.4",
+   "peerHash": "",
+   "store": "semver@7.7.4",
+   "files": 45,
+   "bytes": 55226
+  },
+  {
+   "package": "set-cookie-parser",
+   "version": "2.7.2",
+   "peerHash": "",
+   "store": "set-cookie-parser@2.7.2",
+   "files": 1,
+   "bytes": 5703
+  },
+  {
+   "package": "shebang-command",
+   "version": "2.0.0",
+   "peerHash": "",
+   "store": "shebang-command@2.0.0",
+   "files": 1,
+   "bytes": 489
+  },
+  {
+   "package": "shebang-regex",
+   "version": "3.0.0",
+   "peerHash": "",
+   "store": "shebang-regex@3.0.0",
+   "files": 1,
+   "bytes": 98
+  },
+  {
+   "package": "signal-exit",
+   "version": "4.1.0",
+   "peerHash": "",
+   "store": "signal-exit@4.1.0",
+   "files": 4,
+   "bytes": 12183
+  },
+  {
+   "package": "sigstore",
+   "version": "4.1.0",
+   "peerHash": "",
+   "store": "sigstore@4.1.0",
+   "files": 3,
+   "bytes": 8963
+  },
+  {
+   "package": "sisteransi",
+   "version": "1.0.5",
+   "peerHash": "",
+   "store": "sisteransi@1.0.5",
+   "files": 1,
+   "bytes": 1576
+  },
+  {
+   "package": "smart-buffer",
+   "version": "4.2.0",
+   "peerHash": "",
+   "store": "smart-buffer@4.2.0",
+   "files": 2,
+   "bytes": 21276
+  },
+  {
+   "package": "socks-proxy-agent",
+   "version": "8.0.5",
+   "peerHash": "",
+   "store": "socks-proxy-agent@8.0.5",
+   "files": 1,
+   "bytes": 5699
+  },
+  {
+   "package": "socks",
+   "version": "2.8.7",
+   "peerHash": "",
+   "store": "socks@2.8.7",
+   "files": 6,
+   "bytes": 40843
+  },
+  {
+   "package": "solid-js",
+   "version": "1.9.10",
+   "peerHash": "",
+   "store": "solid-js@1.9.10",
+   "files": 3,
+   "bytes": 96072
+  },
+  {
+   "package": "sonic-boom",
+   "version": "4.2.1",
+   "peerHash": "",
+   "store": "sonic-boom@4.2.1",
+   "files": 1,
+   "bytes": 17031
+  },
+  {
+   "package": "spdx-exceptions",
+   "version": "2.5.0",
+   "peerHash": "",
+   "store": "spdx-exceptions@2.5.0",
+   "files": 1,
+   "bytes": 1955
+  },
+  {
+   "package": "spdx-expression-parse",
+   "version": "4.0.0",
+   "peerHash": "",
+   "store": "spdx-expression-parse@4.0.0",
+   "files": 3,
+   "bytes": 5829
+  },
+  {
+   "package": "spdx-license-ids",
+   "version": "3.0.23",
+   "peerHash": "",
+   "store": "spdx-license-ids@3.0.23",
+   "files": 2,
+   "bytes": 14138
+  },
+  {
+   "package": "ssri",
+   "version": "13.0.1",
+   "peerHash": "",
+   "store": "ssri@13.0.1",
+   "files": 1,
+   "bytes": 14477
+  },
+  {
+   "package": "string-width",
+   "version": "7.2.0",
+   "peerHash": "",
+   "store": "string-width@7.2.0",
+   "files": 1,
+   "bytes": 1470
+  },
+  {
+   "package": "strip-ansi",
+   "version": "7.1.2",
+   "peerHash": "",
+   "store": "strip-ansi@7.1.2",
+   "files": 1,
+   "bytes": 208
+  },
+  {
+   "package": "strip-bom-string",
+   "version": "1.0.0",
+   "peerHash": "",
+   "store": "strip-bom-string@1.0.0",
+   "files": 1,
+   "bytes": 405
+  },
+  {
+   "package": "strip-final-newline",
+   "version": "3.0.0",
+   "peerHash": "",
+   "store": "strip-final-newline@3.0.0",
+   "files": 1,
+   "bytes": 342
+  },
+  {
+   "package": "supports-color",
+   "version": "7.2.0",
+   "peerHash": "",
+   "store": "supports-color@7.2.0",
+   "files": 1,
+   "bytes": 2703
+  },
+  {
+   "package": "system-architecture",
+   "version": "0.1.0",
+   "peerHash": "",
+   "store": "system-architecture@0.1.0",
+   "files": 1,
+   "bytes": 887
+  },
+  {
+   "package": "tar",
+   "version": "7.5.13",
+   "peerHash": "",
+   "store": "tar@7.5.13",
+   "files": 1,
+   "bytes": 154098
+  },
+  {
+   "package": "thread-stream",
+   "version": "4.0.0",
+   "peerHash": "",
+   "store": "thread-stream@4.0.0",
+   "files": 4,
+   "bytes": 16697
+  },
+  {
+   "package": "thunky",
+   "version": "1.1.0",
+   "peerHash": "",
+   "store": "thunky@1.1.0",
+   "files": 1,
+   "bytes": 1140
+  },
+  {
+   "package": "to-regex-range",
+   "version": "5.0.1",
+   "peerHash": "",
+   "store": "to-regex-range@5.0.1",
+   "files": 1,
+   "bytes": 6899
+  },
+  {
+   "package": "toad-cache",
+   "version": "3.7.0",
+   "peerHash": "",
+   "store": "toad-cache@3.7.0",
+   "files": 1,
+   "bytes": 17926
+  },
+  {
+   "package": "tree-sitter-bash",
+   "version": "0.25.0",
+   "peerHash": "",
+   "store": "tree-sitter-bash@0.25.0",
+   "files": 1,
+   "bytes": 137
+  },
+  {
+   "package": "tree-sitter-powershell",
+   "version": "0.25.10",
+   "peerHash": "",
+   "store": "tree-sitter-powershell@0.25.10",
+   "files": 1,
+   "bytes": 149
+  },
+  {
+   "package": "treeverse",
+   "version": "3.0.0",
+   "peerHash": "",
+   "store": "treeverse@3.0.0",
+   "files": 4,
+   "bytes": 4553
+  },
+  {
+   "package": "tslib",
+   "version": "2.8.1",
+   "peerHash": "",
+   "store": "tslib@2.8.1",
+   "files": 2,
+   "bytes": 24237
+  },
+  {
+   "package": "tuf-js",
+   "version": "4.1.0",
+   "peerHash": "",
+   "store": "tuf-js@4.1.0",
+   "files": 9,
+   "bytes": 27393
+  },
+  {
+   "package": "tunnel",
+   "version": "0.0.6",
+   "peerHash": "",
+   "store": "tunnel@0.0.6",
+   "files": 1,
+   "bytes": 7569
+  },
+  {
+   "package": "turndown",
+   "version": "7.2.0",
+   "peerHash": "",
+   "store": "turndown@7.2.0",
+   "files": 1,
+   "bytes": 20147
+  },
+  {
+   "package": "ulid",
+   "version": "3.0.1",
+   "peerHash": "",
+   "store": "ulid@3.0.1",
+   "files": 1,
+   "bytes": 3532
+  },
+  {
+   "package": "universal-user-agent",
+   "version": "6.0.1",
+   "peerHash": "",
+   "store": "universal-user-agent@6.0.1",
+   "files": 1,
+   "bytes": 497
+  },
+  {
+   "package": "universal-user-agent",
+   "version": "7.0.3",
+   "peerHash": "",
+   "store": "universal-user-agent@7.0.3",
+   "files": 1,
+   "bytes": 319
+  },
+  {
+   "package": "util-deprecate",
+   "version": "1.0.2",
+   "peerHash": "",
+   "store": "util-deprecate@1.0.2",
+   "files": 1,
+   "bytes": 108
+  },
+  {
+   "package": "validate-npm-package-name",
+   "version": "7.0.2",
+   "peerHash": "",
+   "store": "validate-npm-package-name@7.0.2",
+   "files": 2,
+   "bytes": 3865
+  },
+  {
+   "package": "venice-ai-sdk-provider",
+   "version": "2.0.1",
+   "peerHash": "b21b12fde20069e6",
+   "store": "venice-ai-sdk-provider@2.0.1+b21b12fde20069e6",
+   "files": 1,
+   "bytes": 562957
+  },
+  {
+   "package": "vscode-jsonrpc",
+   "version": "8.2.1",
+   "peerHash": "",
+   "store": "vscode-jsonrpc@8.2.1",
+   "files": 16,
+   "bytes": 114033
+  },
+  {
+   "package": "walk-up-path",
+   "version": "4.0.0",
+   "peerHash": "",
+   "store": "walk-up-path@4.0.0",
+   "files": 1,
+   "bytes": 467
+  },
+  {
+   "package": "web-tree-sitter",
+   "version": "0.25.10",
+   "peerHash": "",
+   "store": "web-tree-sitter@0.25.10",
+   "files": 2,
+   "bytes": 132191
+  },
+  {
+   "package": "which",
+   "version": "2.0.2",
+   "peerHash": "",
+   "store": "which@2.0.2",
+   "files": 1,
+   "bytes": 3146
+  },
+  {
+   "package": "which",
+   "version": "6.0.1",
+   "peerHash": "",
+   "store": "which@6.0.1",
+   "files": 1,
+   "bytes": 2791
+  },
+  {
+   "package": "wrap-ansi",
+   "version": "9.0.2",
+   "peerHash": "",
+   "store": "wrap-ansi@9.0.2",
+   "files": 1,
+   "bytes": 5226
+  },
+  {
+   "package": "wrappy",
+   "version": "1.0.2",
+   "peerHash": "",
+   "store": "wrappy@1.0.2",
+   "files": 1,
+   "bytes": 778
+  },
+  {
+   "package": "write-file-atomic",
+   "version": "7.0.1",
+   "peerHash": "",
+   "store": "write-file-atomic@7.0.1",
+   "files": 1,
+   "bytes": 6493
+  },
+  {
+   "package": "xdg-basedir",
+   "version": "5.1.0",
+   "peerHash": "",
+   "store": "xdg-basedir@5.1.0",
+   "files": 1,
+   "bytes": 1039
+  },
+  {
+   "package": "y18n",
+   "version": "5.0.8",
+   "peerHash": "",
+   "store": "y18n@5.0.8",
+   "files": 3,
+   "bytes": 5278
+  },
+  {
+   "package": "yallist",
+   "version": "3.1.1",
+   "peerHash": "",
+   "store": "yallist@3.1.1",
+   "files": 2,
+   "bytes": 9557
+  },
+  {
+   "package": "yargs-parser",
+   "version": "22.0.0",
+   "peerHash": "",
+   "store": "yargs-parser@22.0.0",
+   "files": 6,
+   "bytes": 35356
+  },
+  {
+   "package": "yargs",
+   "version": "18.0.0",
+   "peerHash": "",
+   "store": "yargs@18.0.0",
+   "files": 23,
+   "bytes": 138029
+  },
+  {
+   "package": "zod-to-json-schema",
+   "version": "3.24.5",
+   "peerHash": "d6123d32214422cb",
+   "store": "zod-to-json-schema@3.24.5+d6123d32214422cb",
+   "files": 38,
+   "bytes": 42688
+  },
+  {
+   "package": "zod-to-json-schema",
+   "version": "3.25.2",
+   "peerHash": "d6123d32214422cb",
+   "store": "zod-to-json-schema@3.25.2+d6123d32214422cb",
+   "files": 32,
+   "bytes": 2976
+  },
+  {
+   "package": "zod",
+   "version": "3.25.76",
+   "peerHash": "",
+   "store": "zod@3.25.76",
+   "files": 10,
+   "bytes": 127472
+  },
+  {
+   "package": "zod",
+   "version": "4.1.8",
+   "peerHash": "",
+   "store": "zod@4.1.8",
+   "files": 90,
+   "bytes": 574211
+  }
+ ],
+ "runtime": [
+  {
+   "specifier": "async_hooks",
+   "kind": "node-builtin",
+   "modules": [
+    "util/context.ts"
+   ],
+   "count": 1
+  },
+  {
+   "specifier": "bun:ffi",
+   "kind": "bun-runtime",
+   "modules": [
+    "cli/cmd/tui/win32.ts"
+   ],
+   "count": 1
+  },
+  {
+   "specifier": "bun:sqlite",
+   "kind": "bun-runtime",
+   "modules": [
+    "cli/cmd/db.ts",
+    "storage/db.bun.ts"
+   ],
+   "count": 2
+  },
+  {
+   "specifier": "child_process",
+   "kind": "node-builtin",
+   "modules": [
+    "cli/cmd/db.ts",
+    "cli/cmd/github.ts",
+    "effect/cross-spawn-spawner.ts"
+   ],
+   "count": 3
+  },
+  {
+   "specifier": "crypto",
+   "kind": "node-builtin",
+   "modules": [
+    "id/id.ts",
+    "server/instance.ts",
+    "util/flock.ts",
+    "util/hash.ts"
+   ],
+   "count": 4
+  },
+  {
+   "specifier": "events",
+   "kind": "node-builtin",
+   "modules": [
+    "bus/global.ts",
+    "sync/index.ts"
+   ],
+   "count": 2
+  },
+  {
+   "specifier": "fs",
+   "kind": "node-builtin",
+   "modules": [
+    "cli/cmd/tui/attach.ts",
+    "config/config.ts",
+    "config/tui.ts",
+    "filesystem/index.ts",
+    "patch/index.ts",
+    "storage/db.ts",
+    "storage/json-migration.ts",
+    "tool/read.ts",
+    "util/filesystem.ts",
+    "util/log.ts"
+   ],
+   "count": 11
+  },
+  {
+   "specifier": "fs/promises",
+   "kind": "node-builtin",
+   "modules": [
+    "cli/cmd/agent.ts",
+    "cli/cmd/tui/component/prompt/frecency.tsx",
+    "cli/cmd/tui/component/prompt/history.tsx",
+    "cli/cmd/tui/component/prompt/stash.tsx",
+    "cli/cmd/tui/util/clipboard__dup2.ts",
+    "cli/cmd/tui/util/editor.ts",
+    "cli/cmd/uninstall.ts",
+    "config/config.ts",
+    "file/ripgrep.ts",
+    "file/watcher.ts",
+    "filesystem/index.ts",
+    "global/index.ts",
+    "lsp/server.ts",
+    "npm/index.ts",
+    "patch/index.ts",
+    "tool/apply_patch.ts",
+    "tool/read.ts",
+    "util/filesystem.ts",
+    "util/flock.ts",
+    "util/log.ts",
+    "worktree/index.ts"
+   ],
+   "count": 21
+  },
+  {
+   "specifier": "http",
+   "kind": "node-builtin",
+   "modules": [
+    "provider/error.ts"
+   ],
+   "count": 1
+  },
+  {
+   "specifier": "net",
+   "kind": "node-builtin",
+   "modules": [
+    "mcp/oauth-callback.ts"
+   ],
+   "count": 1
+  },
+  {
+   "specifier": "os",
+   "kind": "node-builtin",
+   "modules": [
+    "cli/cmd/agent.ts",
+    "cli/cmd/db__dup2.ts",
+    "cli/cmd/debug/agent.ts",
+    "cli/cmd/debug/config.ts",
+    "cli/cmd/debug/file.ts",
+    "cli/cmd/debug/lsp.ts",
+    "cli/cmd/debug/ripgrep.ts",
+    "cli/cmd/debug/scrap.ts",
+    "cli/cmd/debug/skill.ts",
+    "cli/cmd/export.ts",
+    "cli/cmd/import.ts",
+    "cli/cmd/models.ts",
+    "cli/cmd/providers.ts",
+    "cli/cmd/run__dup3.ts",
+    "cli/cmd/session.ts",
+    "cli/cmd/tui/util/clipboard.ts",
+    "cli/cmd/tui/util/clipboard__dup2.ts",
+    "cli/cmd/tui/util/editor.ts",
+    "cli/cmd/uninstall.ts",
+    "cli/cmd/web.ts",
+    "cli/ui.ts",
+    "config/config.ts",
+    "config/paths.ts",
+    "file/protected.ts",
+    "global/index.ts",
+    "index__dup4.ts",
+    "lsp/server.ts",
+    "permission/index.ts",
+    "plugin/codex.ts",
+    "provider/provider.ts",
+    "session/instruction.ts",
+    "session/prompt.ts",
+    "skill/index.ts",
+    "tool/bash.ts",
+    "util/flock.ts"
+   ],
+   "count": 35
+  },
+  {
+   "specifier": "path",
+   "kind": "node-builtin",
+   "modules": [
+    "agent/agent.ts",
+    "auth/index.ts",
+    "cli/cmd/agent.ts",
+    "cli/cmd/debug/agent.ts",
+    "cli/cmd/github.ts",
+    "cli/cmd/mcp.ts",
+    "cli/cmd/providers.ts",
+    "cli/cmd/run.ts",
+    "cli/cmd/session.ts",
+    "cli/cmd/tui/component/prompt/frecency.tsx",
+    "cli/cmd/tui/component/prompt/history.tsx",
+    "cli/cmd/tui/component/prompt/index.tsx",
+    "cli/cmd/tui/component/prompt/stash.tsx",
+    "cli/cmd/tui/context/kv.tsx",
+    "cli/cmd/tui/context/local.tsx",
+    "cli/cmd/tui/context/theme.tsx",
+    "cli/cmd/tui/plugin/runtime.ts",
+    "cli/cmd/tui/routes/session/index.tsx",
+    "cli/cmd/tui/routes/session/permission.tsx",
+    "cli/cmd/tui/thread.ts",
+    "cli/cmd/tui/util/clipboard__dup2.ts",
+    "cli/cmd/tui/util/editor.ts",
+    "cli/cmd/uninstall.ts",
+    "cli/heap.ts",
+    "config/config.ts",
+    "config/paths.ts",
+    "config/tui-migrate.ts",
+    "file/index.ts",
+    "file/protected.ts",
+    "file/ripgrep.ts",
+    "file/watcher.ts",
+    "filesystem/index.ts",
+    "format/index.ts",
+    "global/index.ts",
+    "index__dup5.ts",
+    "installation/index.ts",
+    "lsp/client.ts",
+    "lsp/index.ts",
+    "lsp/server.ts",
+    "mcp/auth.ts",
+    "npm/index.ts",
+    "patch/index.ts",
+    "plugin/install.ts",
+    "plugin/meta.ts",
+    "plugin/shared.ts",
+    "project/vcs.ts",
+    "provider/models.ts",
+    "provider/provider.ts",
+    "session/index.ts",
+    "session/instruction.ts",
+    "session/prompt.ts",
+    "shell/shell.ts",
+    "skill/index.ts",
+    "snapshot/index.ts",
+    "storage/db.ts",
+    "storage/json-migration.ts",
+    "storage/storage.ts",
+    "tool/apply_patch.ts",
+    "tool/bash.ts",
+    "tool/edit.ts",
+    "tool/external-directory.ts",
+    "tool/glob.ts",
+    "tool/grep.ts",
+    "tool/lsp.ts",
+    "tool/plan.ts",
+    "tool/read.ts",
+    "tool/registry.ts",
+    "tool/skill.ts",
+    "tool/truncate.ts",
+    "tool/truncation-dir.ts",
+    "tool/write.ts",
+    "util/filesystem.ts",
+    "util/flock.ts",
+    "util/log.ts",
+    "util/which.ts"
+   ],
+   "count": 75
+  },
+  {
+   "specifier": "readline",
+   "kind": "node-builtin",
+   "modules": [
+    "tool/read.ts"
+   ],
+   "count": 1
+  },
+  {
+   "specifier": "stream",
+   "kind": "node-builtin",
+   "modules": [
+    "effect/cross-spawn-spawner.ts",
+    "util/filesystem.ts"
+   ],
+   "count": 2
+  },
+  {
+   "specifier": "stream/consumers",
+   "kind": "node-builtin",
+   "modules": [
+    "cli/cmd/providers.ts",
+    "file/ripgrep.ts",
+    "format/formatter.ts",
+    "lsp/server.ts",
+    "tool/grep.ts",
+    "util/process.ts"
+   ],
+   "count": 6
+  },
+  {
+   "specifier": "stream/promises",
+   "kind": "node-builtin",
+   "modules": [
+    "util/filesystem.ts"
+   ],
+   "count": 1
+  },
+  {
+   "specifier": "timers/promises",
+   "kind": "node-builtin",
+   "modules": [
+    "cli/cmd/debug/lsp.ts",
+    "cli/cmd/github__dup2.ts",
+    "cli/cmd/tui/component/dialog-workspace-list.tsx",
+    "control-plane/workspace.ts",
+    "plugin/codex.ts",
+    "plugin/github-copilot/copilot.ts",
+    "shell/shell.ts"
+   ],
+   "count": 7
+  },
+  {
+   "specifier": "url",
+   "kind": "node-builtin",
+   "modules": [
+    "acp/agent.ts",
+    "cli/cmd/run.ts",
+    "cli/cmd/tui/feature-plugins/system/plugins.tsx",
+    "cli/cmd/tui/plugin/runtime.ts",
+    "cli/cmd/tui/thread.ts",
+    "config/config.ts",
+    "lsp/client.ts",
+    "lsp/index.ts",
+    "plugin/meta.ts",
+    "plugin/shared.ts",
+    "session/prompt.ts",
+    "skill/index.ts",
+    "tool/bash.ts",
+    "tool/lsp.ts",
+    "tool/registry.ts",
+    "tool/skill.ts"
+   ],
+   "count": 16
+  },
+  {
+   "specifier": "v8",
+   "kind": "node-builtin",
+   "modules": [
+    "cli/cmd/tui/thread.ts",
+    "cli/heap.ts"
+   ],
+   "count": 2
+  }
+ ]
+}

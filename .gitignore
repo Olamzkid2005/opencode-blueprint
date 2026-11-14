@@ -1,0 +1,7 @@
+# Freebuff project marker
+.freebuff/
+
+# OS / Python noise
+.DS_Store
+__pycache__/
+*.pyc

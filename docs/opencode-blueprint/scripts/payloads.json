@@ -1,0 +1,483 @@
+{
+ "generated": "payload_dump.mjs",
+ "totals": {
+  "payloads": 67,
+  "text": 34,
+  "json": 33,
+  "lines": 8516,
+  "bytes": 275804,
+  "substantive": 1672,
+  "substantiveBefore": 34
+ },
+ "entries": [
+  {
+   "module": "agent/generate.txt",
+   "kind": "text",
+   "lines": 77,
+   "bytes": 5051,
+   "sha1": "05c1ea2d57055d1bbc180fdae6eb08a241c38935"
+  },
+  {
+   "module": "agent/prompt/compaction.txt",
+   "kind": "text",
+   "lines": 17,
+   "bytes": 794,
+   "sha1": "1d32add3036d7fcbe67df994b5307af58e9f0622"
+  },
+  {
+   "module": "agent/prompt/explore.txt",
+   "kind": "text",
+   "lines": 20,
+   "bytes": 926,
+   "sha1": "1b9e4020230dcffbe1ac3b8aae0409517c0f3e4e"
+  },
+  {
+   "module": "agent/prompt/summary.txt",
+   "kind": "text",
+   "lines": 13,
+   "bytes": 704,
+   "sha1": "b71eb956f0fdc01a8da2a706fec5452cbc6c38a5"
+  },
+  {
+   "module": "agent/prompt/title.txt",
+   "kind": "text",
+   "lines": 46,
+   "bytes": 2207,
+   "sha1": "bd19fa7d2cefaf33e17959850a905c9d67adaf0d"
+  },
+  {
+   "module": "cli/cmd/tui/context/theme/aura.json",
+   "kind": "json",
+   "lines": 69,
+   "bytes": 1858,
+   "sha1": "b18fe26a6e28cb90b43f412fce94ec24f793a9af"
+  },
+  {
+   "module": "cli/cmd/tui/context/theme/ayu.json",
+   "kind": "json",
+   "lines": 80,
+   "bytes": 2327,
+   "sha1": "16770214a3852f402bb7ac49b2f77e26c062106b"
+  },
+  {
+   "module": "cli/cmd/tui/context/theme/carbonfox.json",
+   "kind": "json",
+   "lines": 248,
+   "bytes": 4644,
+   "sha1": "5e8a0ea59d7749b53fe88927d74ecf86910ff8cf"
+  },
+  {
+   "module": "cli/cmd/tui/context/theme/catppuccin-frappe.json",
+   "kind": "json",
+   "lines": 233,
+   "bytes": 4936,
+   "sha1": "cd9f8c5ff21cf3fa2fdcb8fe7a0c0bc46513354d"
+  },
+  {
+   "module": "cli/cmd/tui/context/theme/catppuccin-macchiato.json",
+   "kind": "json",
+   "lines": 233,
+   "bytes": 4585,
+   "sha1": "e66ef4b25f3b29ef9e7292081f14d0960fdfdb72"
+  },
+  {
+   "module": "cli/cmd/tui/context/theme/catppuccin.json",
+   "kind": "json",
+   "lines": 112,
+   "bytes": 4688,
+   "sha1": "c8f14b67ba386a7ae918ac03cee0c68dc19b81ae"
+  },
+  {
+   "module": "cli/cmd/tui/context/theme/cobalt2.json",
+   "kind": "json",
+   "lines": 228,
+   "bytes": 4321,
+   "sha1": "5e4b4177dee9eff3ebece67e9f50889c41e9c3d5"
+  },
+  {
+   "module": "cli/cmd/tui/context/theme/cursor.json",
+   "kind": "json",
+   "lines": 249,
+   "bytes": 5207,
+   "sha1": "6ad5e0e03599e7af45220078d7f08cce510a82d6"
+  },
+  {
+   "module": "cli/cmd/tui/context/theme/dracula.json",
+   "kind": "json",
+   "lines": 219,
+   "bytes": 3983,
+   "sha1": "678e47caa5c926b40f717c27e7ce7d26acb8cc06"
+  },
+  {
+   "module": "cli/cmd/tui/context/theme/everforest.json",
+   "kind": "json",
+   "lines": 241,
+   "bytes": 4891,
+   "sha1": "221152f0575ac7b406d632559c2e81a99b3ca063"
+  },
+  {
+   "module": "cli/cmd/tui/context/theme/flexoki.json",
+   "kind": "json",
+   "lines": 237,
+   "bytes": 4568,
+   "sha1": "ace46c07b7a5b1cfd6368c91620200ca602b8dc1"
+  },
+  {
+   "module": "cli/cmd/tui/context/theme/github.json",
+   "kind": "json",
+   "lines": 233,
+   "bytes": 4639,
+   "sha1": "1948c0a5c5d79487fceeb926fe49d3b0774b2c75"
+  },
+  {
+   "module": "cli/cmd/tui/context/theme/gruvbox.json",
+   "kind": "json",
+   "lines": 242,
+   "bytes": 5042,
+   "sha1": "890ce0e0baad2a9611d8fd7f174cd5d3015eb318"
+  },
+  {
+   "module": "cli/cmd/tui/context/theme/kanagawa.json",
+   "kind": "json",
+   "lines": 77,
+   "bytes": 3695,
+   "sha1": "daa51dfb38078e44e87815c687d50d48d9005fa5"
+  },
+  {
+   "module": "cli/cmd/tui/context/theme/lucent-orng.json",
+   "kind": "json",
+   "lines": 237,
+   "bytes": 4849,
+   "sha1": "ca558360eb84526c4733bc25f516ced31dda997b"
+  },
+  {
+   "module": "cli/cmd/tui/context/theme/material.json",
+   "kind": "json",
+   "lines": 235,
+   "bytes": 4712,
+   "sha1": "15b30be2bc39ee2479bea57c2ceda3429d76427b"
+  },
+  {
+   "module": "cli/cmd/tui/context/theme/matrix.json",
+   "kind": "json",
+   "lines": 77,
+   "bytes": 3743,
+   "sha1": "e75e9170daaddd5f0695b682ece4d4de7ecfde7c"
+  },
+  {
+   "module": "cli/cmd/tui/context/theme/mercury.json",
+   "kind": "json",
+   "lines": 245,
+   "bytes": 5328,
+   "sha1": "8397c1cde0736663c67cd596cd4f123d3751feb9"
+  },
+  {
+   "module": "cli/cmd/tui/context/theme/monokai.json",
+   "kind": "json",
+   "lines": 221,
+   "bytes": 4030,
+   "sha1": "91e18a92fd2cb68fa2a9cb839dc838f89eefae12"
+  },
+  {
+   "module": "cli/cmd/tui/context/theme/nightowl.json",
+   "kind": "json",
+   "lines": 221,
+   "bytes": 4701,
+   "sha1": "b82171215be3b296007a16997a04d6834174f3a2"
+  },
+  {
+   "module": "cli/cmd/tui/context/theme/nord.json",
+   "kind": "json",
+   "lines": 223,
+   "bytes": 4006,
+   "sha1": "4e6f5931f9a8eeb460b951856b23fdd817fd712c"
+  },
+  {
+   "module": "cli/cmd/tui/context/theme/one-dark.json",
+   "kind": "json",
+   "lines": 84,
+   "bytes": 3823,
+   "sha1": "34eb93bff611a8e4342b1fa612a37830ddc15a61"
+  },
+  {
+   "module": "cli/cmd/tui/context/theme/opencode.json",
+   "kind": "json",
+   "lines": 245,
+   "bytes": 5039,
+   "sha1": "9569952cb7a1f310e53145945d78391e9f2bc7d5"
+  },
+  {
+   "module": "cli/cmd/tui/context/theme/orng.json",
+   "kind": "json",
+   "lines": 249,
+   "bytes": 5062,
+   "sha1": "ce5ca249d6e0fb9f6b793072f488c870d29c7a84"
+  },
+  {
+   "module": "cli/cmd/tui/context/theme/osaka-jade.json",
+   "kind": "json",
+   "lines": 93,
+   "bytes": 4090,
+   "sha1": "493d68f52e5f453d1a2524e18f7e072e01f1218c"
+  },
+  {
+   "module": "cli/cmd/tui/context/theme/palenight.json",
+   "kind": "json",
+   "lines": 222,
+   "bytes": 4116,
+   "sha1": "c04d354537fd0811c53c6067f23878259efd737a"
+  },
+  {
+   "module": "cli/cmd/tui/context/theme/rosepine.json",
+   "kind": "json",
+   "lines": 234,
+   "bytes": 4393,
+   "sha1": "b10c8ddba82dafbbf20439d2136ddb13ba2bd14c"
+  },
+  {
+   "module": "cli/cmd/tui/context/theme/solarized.json",
+   "kind": "json",
+   "lines": 223,
+   "bytes": 3982,
+   "sha1": "9a5ef9ffade9c84e71483402400a860e76f575cd"
+  },
+  {
+   "module": "cli/cmd/tui/context/theme/synthwave84.json",
+   "kind": "json",
+   "lines": 226,
+   "bytes": 4292,
+   "sha1": "a6b153713951efa799fc1426aa8e292b3393afc9"
+  },
+  {
+   "module": "cli/cmd/tui/context/theme/tokyonight.json",
+   "kind": "json",
+   "lines": 243,
+   "bytes": 4976,
+   "sha1": "6a02e9e0a00a8a4ebf5d17a2352da4da778c71b1"
+  },
+  {
+   "module": "cli/cmd/tui/context/theme/vercel.json",
+   "kind": "json",
+   "lines": 245,
+   "bytes": 4891,
+   "sha1": "8370716e1f170109a3925a46cbf7a66491a75480"
+  },
+  {
+   "module": "cli/cmd/tui/context/theme/vesper.json",
+   "kind": "json",
+   "lines": 218,
+   "bytes": 4331,
+   "sha1": "ec9e64f9addda4601561d9b8ce4bf28668f35277"
+  },
+  {
+   "module": "cli/cmd/tui/context/theme/zenburn.json",
+   "kind": "json",
+   "lines": 223,
+   "bytes": 4079,
+   "sha1": "92bfccc61ff60dca874ac0904cc38831e7df4914"
+  },
+  {
+   "module": "command/template/initialize.txt",
+   "kind": "text",
+   "lines": 68,
+   "bytes": 3584,
+   "sha1": "9fdf1cdfd295a9d353c931296edb5341e3d432d5"
+  },
+  {
+   "module": "command/template/review.txt",
+   "kind": "text",
+   "lines": 103,
+   "bytes": 4787,
+   "sha1": "850f0a5db8f9b92eb2a14d0f1cec97237215ba3a"
+  },
+  {
+   "module": "session/prompt/anthropic.txt",
+   "kind": "text",
+   "lines": 107,
+   "bytes": 8276,
+   "sha1": "0f594ba4b4d572c2174453165c7fc9ce032d2d34"
+  },
+  {
+   "module": "session/prompt/beast.txt",
+   "kind": "text",
+   "lines": 149,
+   "bytes": 11154,
+   "sha1": "1eb9404f85e4b519c561eebba9b866f5c2dded2f"
+  },
+  {
+   "module": "session/prompt/build-switch.txt",
+   "kind": "text",
+   "lines": 7,
+   "bytes": 298,
+   "sha1": "29043553e163f1e5505ccce12b4cb1805ba037c0"
+  },
+  {
+   "module": "session/prompt/codex.txt",
+   "kind": "text",
+   "lines": 81,
+   "bytes": 7492,
+   "sha1": "00fa1576d0ad36cb6ce8ccb0563abdf9ee64df82"
+  },
+  {
+   "module": "session/prompt/default.txt",
+   "kind": "text",
+   "lines": 107,
+   "bytes": 8720,
+   "sha1": "6141436930646132f96d6d41c8ad6e2a8a85414f"
+  },
+  {
+   "module": "session/prompt/gemini.txt",
+   "kind": "text",
+   "lines": 157,
+   "bytes": 15473,
+   "sha1": "65d85b515ec7894ba817338c78a67f29ce94e9bc"
+  },
+  {
+   "module": "session/prompt/gpt.txt",
+   "kind": "text",
+   "lines": 109,
+   "bytes": 9368,
+   "sha1": "98243472e7a742f4a714d78df8c337d64e557cbb"
+  },
+  {
+   "module": "session/prompt/kimi.txt",
+   "kind": "text",
+   "lines": 97,
+   "bytes": 8818,
+   "sha1": "cd5d564a492a5885ccb627cb373cee3d2a4f90b4"
+  },
+  {
+   "module": "session/prompt/max-steps.txt",
+   "kind": "text",
+   "lines": 17,
+   "bytes": 809,
+   "sha1": "1e05e50c0caebca5538d9b19584c869c4e63a65b"
+  },
+  {
+   "module": "session/prompt/plan.txt",
+   "kind": "text",
+   "lines": 28,
+   "bytes": 1533,
+   "sha1": "aeb9edf3971a03586c8019eba8a8c1981019a278"
+  },
+  {
+   "module": "session/prompt/trinity.txt",
+   "kind": "text",
+   "lines": 99,
+   "bytes": 7807,
+   "sha1": "98eb32296968395353e7292889cd2a82771f6d78"
+  },
+  {
+   "module": "tool/apply_patch.txt",
+   "kind": "text",
+   "lines": 35,
+   "bytes": 1180,
+   "sha1": "2de9de402dfaa3b6fc6694b8238214bcddf9bd44"
+  },
+  {
+   "module": "tool/bash.txt",
+   "kind": "text",
+   "lines": 119,
+   "bytes": 9378,
+   "sha1": "8d2f782169cfa7fddc9965c43da71e7f13ead782"
+  },
+  {
+   "module": "tool/batch.txt",
+   "kind": "text",
+   "lines": 25,
+   "bytes": 1061,
+   "sha1": "84fcf111ea0e91bd604412566d63e49d3048404b"
+  },
+  {
+   "module": "tool/codesearch.txt",
+   "kind": "text",
+   "lines": 14,
+   "bytes": 863,
+   "sha1": "00b44d779167c84c5afef3c316624650c045ee69"
+  },
+  {
+   "module": "tool/edit.txt",
+   "kind": "text",
+   "lines": 2,
+   "bytes": 1429,
+   "sha1": "640ebbb6b88af1af56c1077baf02313b10b8959d"
+  },
+  {
+   "module": "tool/glob.txt",
+   "kind": "text",
+   "lines": 8,
+   "bytes": 595,
+   "sha1": "058471b13f20965969da34cddb3dc3d12f3175c2"
+  },
+  {
+   "module": "tool/grep.txt",
+   "kind": "text",
+   "lines": 10,
+   "bytes": 744,
+   "sha1": "fff7e8dcd3041bf66245fc4b6abec96504c552de"
+  },
+  {
+   "module": "tool/lsp.txt",
+   "kind": "text",
+   "lines": 21,
+   "bytes": 1088,
+   "sha1": "3ee47d0fa2f296bb25992d052714b7c560dd593c"
+  },
+  {
+   "module": "tool/plan-exit.txt",
+   "kind": "text",
+   "lines": 15,
+   "bytes": 638,
+   "sha1": "89eb94652648857c73cab8d797cb9ec01c1ae2d7"
+  },
+  {
+   "module": "tool/question.txt",
+   "kind": "text",
+   "lines": 12,
+   "bytes": 719,
+   "sha1": "e9c54feb34bedbff1f7109d7ece8c189565f3b50"
+  },
+  {
+   "module": "tool/read.txt",
+   "kind": "text",
+   "lines": 16,
+   "bytes": 1213,
+   "sha1": "a0f5b11eca6939f13a884e7c475ca01f5802a656"
+  },
+  {
+   "module": "tool/task.txt",
+   "kind": "text",
+   "lines": 62,
+   "bytes": 3848,
+   "sha1": "424547edb03aa5ba965e4c3fb884e7491284ca59"
+  },
+  {
+   "module": "tool/todowrite.txt",
+   "kind": "text",
+   "lines": 169,
+   "bytes": 8904,
+   "sha1": "297ca309e124dfe15111d0f0a1d748b6b38f1734"
+  },
+  {
+   "module": "tool/webfetch.txt",
+   "kind": "text",
+   "lines": 15,
+   "bytes": 807,
+   "sha1": "a53e6416aec24b6758e30e964afae7ea440980fd"
+  },
+  {
+   "module": "tool/websearch.txt",
+   "kind": "text",
+   "lines": 16,
+   "bytes": 1035,
+   "sha1": "e39f7b7add15bc0be356185f16c7b17f3861dbf2"
+  },
+  {
+   "module": "tool/write.txt",
+   "kind": "text",
+   "lines": 10,
+   "bytes": 674,
+   "sha1": "89dd02acfc8f238e1b6fe287da70c8e02586cbdc"
+  }
+ ]
+}

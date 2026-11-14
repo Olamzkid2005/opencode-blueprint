@@ -1,0 +1,7440 @@
+{
+ "mods": [
+  {
+   "path": "src/account/account.sql.ts",
+   "key": "account/account.sql.ts",
+   "lines": 28
+  },
+  {
+   "path": "src/account/index.ts",
+   "key": "account/index.ts",
+   "lines": 273
+  },
+  {
+   "path": "src/account/repo.ts",
+   "key": "account/repo.ts",
+   "lines": 79
+  },
+  {
+   "path": "src/account/schema.ts",
+   "key": "account/schema.ts",
+   "lines": 58
+  },
+  {
+   "path": "src/acp/agent.ts",
+   "key": "acp/agent.ts",
+   "lines": 4
+  },
+  {
+   "path": "src/acp/agent__dup2.ts",
+   "key": "acp/agent__dup2.ts",
+   "lines": 1470
+  },
+  {
+   "path": "src/acp/session.ts",
+   "key": "acp/session.ts",
+   "lines": 81
+  },
+  {
+   "path": "src/agent/agent.ts",
+   "key": "agent/agent.ts",
+   "lines": 338
+  },
+  {
+   "path": "src/agent/generate.txt",
+   "key": "agent/generate.txt",
+   "lines": 77
+  },
+  {
+   "path": "src/agent/prompt/compaction.txt",
+   "key": "agent/prompt/compaction.txt",
+   "lines": 17
+  },
+  {
+   "path": "src/agent/prompt/explore.txt",
+   "key": "agent/prompt/explore.txt",
+   "lines": 20
+  },
+  {
+   "path": "src/agent/prompt/summary.txt",
+   "key": "agent/prompt/summary.txt",
+   "lines": 13
+  },
+  {
+   "path": "src/agent/prompt/title.txt",
+   "key": "agent/prompt/title.txt",
+   "lines": 46
+  },
+  {
+   "path": "src/auth/index.ts",
+   "key": "auth/index.ts",
+   "lines": 101
+  },
+  {
+   "path": "src/bus/bus-event.ts",
+   "key": "bus/bus-event.ts",
+   "lines": 29
+  },
+  {
+   "path": "src/bus/global.ts",
+   "key": "bus/global.ts",
+   "lines": 5
+  },
+  {
+   "path": "src/bus/index.ts",
+   "key": "bus/index.ts",
+   "lines": 120
+  },
+  {
+   "path": "src/cli/bootstrap.ts",
+   "key": "cli/bootstrap.ts",
+   "lines": 18
+  },
+  {
+   "path": "src/cli/cmd/account.ts",
+   "key": "cli/cmd/account.ts",
+   "lines": 2
+  },
+  {
+   "path": "src/cli/cmd/account__dup2.ts",
+   "key": "cli/cmd/account__dup2.ts",
+   "lines": 192
+  },
+  {
+   "path": "src/cli/cmd/acp.ts",
+   "key": "cli/cmd/acp.ts",
+   "lines": 1
+  },
+  {
+   "path": "src/cli/cmd/acp__dup2.ts",
+   "key": "cli/cmd/acp__dup2.ts",
+   "lines": 56
+  },
+  {
+   "path": "src/cli/cmd/agent.ts",
+   "key": "cli/cmd/agent.ts",
+   "lines": 205
+  },
+  {
+   "path": "src/cli/cmd/cmd.ts",
+   "key": "cli/cmd/cmd.ts",
+   "lines": 3
+  },
+  {
+   "path": "src/cli/cmd/db.ts",
+   "key": "cli/cmd/db.ts",
+   "lines": 3
+  },
+  {
+   "path": "src/cli/cmd/db__dup2.ts",
+   "key": "cli/cmd/db__dup2.ts",
+   "lines": 109
+  },
+  {
+   "path": "src/cli/cmd/debug/agent.ts",
+   "key": "cli/cmd/debug/agent.ts",
+   "lines": 146
+  },
+  {
+   "path": "src/cli/cmd/debug/config.ts",
+   "key": "cli/cmd/debug/config.ts",
+   "lines": 13
+  },
+  {
+   "path": "src/cli/cmd/debug/file.ts",
+   "key": "cli/cmd/debug/file.ts",
+   "lines": 78
+  },
+  {
+   "path": "src/cli/cmd/debug/index.ts",
+   "key": "cli/cmd/debug/index.ts",
+   "lines": 1
+  },
+  {
+   "path": "src/cli/cmd/debug/index__dup2.ts",
+   "key": "cli/cmd/debug/index__dup2.ts",
+   "lines": 23
+  },
+  {
+   "path": "src/cli/cmd/debug/lsp.ts",
+   "key": "cli/cmd/debug/lsp.ts",
+   "lines": 60
+  },
+  {
+   "path": "src/cli/cmd/debug/ripgrep.ts",
+   "key": "cli/cmd/debug/ripgrep.ts",
+   "lines": 75
+  },
+  {
+   "path": "src/cli/cmd/debug/scrap.ts",
+   "key": "cli/cmd/debug/scrap.ts",
+   "lines": 16
+  },
+  {
+   "path": "src/cli/cmd/debug/skill.ts",
+   "key": "cli/cmd/debug/skill.ts",
+   "lines": 13
+  },
+  {
+   "path": "src/cli/cmd/debug/snapshot.ts",
+   "key": "cli/cmd/debug/snapshot.ts",
+   "lines": 44
+  },
+  {
+   "path": "src/cli/cmd/export.ts",
+   "key": "cli/cmd/export.ts",
+   "lines": 73
+  },
+  {
+   "path": "src/cli/cmd/generate.ts",
+   "key": "cli/cmd/generate.ts",
+   "lines": 37
+  },
+  {
+   "path": "src/cli/cmd/github.ts",
+   "key": "cli/cmd/github.ts",
+   "lines": 4
+  },
+  {
+   "path": "src/cli/cmd/github__dup2.ts",
+   "key": "cli/cmd/github__dup2.ts",
+   "lines": 1238
+  },
+  {
+   "path": "src/cli/cmd/import.ts",
+   "key": "cli/cmd/import.ts",
+   "lines": 143
+  },
+  {
+   "path": "src/cli/cmd/mcp.ts",
+   "key": "cli/cmd/mcp.ts",
+   "lines": 638
+  },
+  {
+   "path": "src/cli/cmd/models.ts",
+   "key": "cli/cmd/models.ts",
+   "lines": 69
+  },
+  {
+   "path": "src/cli/cmd/plug.ts",
+   "key": "cli/cmd/plug.ts",
+   "lines": 173
+  },
+  {
+   "path": "src/cli/cmd/pr.ts",
+   "key": "cli/cmd/pr.ts",
+   "lines": 101
+  },
+  {
+   "path": "src/cli/cmd/providers.ts",
+   "key": "cli/cmd/providers.ts",
+   "lines": 428
+  },
+  {
+   "path": "src/cli/cmd/run.ts",
+   "key": "cli/cmd/run.ts",
+   "lines": 2
+  },
+  {
+   "path": "src/cli/cmd/run__dup2.ts",
+   "key": "cli/cmd/run__dup2.ts",
+   "lines": 1
+  },
+  {
+   "path": "src/cli/cmd/run__dup3.ts",
+   "key": "cli/cmd/run__dup3.ts",
+   "lines": 2
+  },
+  {
+   "path": "src/cli/cmd/run__dup4.ts",
+   "key": "cli/cmd/run__dup4.ts",
+   "lines": 5
+  },
+  {
+   "path": "src/cli/cmd/run__dup5.ts",
+   "key": "cli/cmd/run__dup5.ts",
+   "lines": 537
+  },
+  {
+   "path": "src/cli/cmd/serve.ts",
+   "key": "cli/cmd/serve.ts",
+   "lines": 1
+  },
+  {
+   "path": "src/cli/cmd/serve__dup2.ts",
+   "key": "cli/cmd/serve__dup2.ts",
+   "lines": 16
+  },
+  {
+   "path": "src/cli/cmd/session.ts",
+   "key": "cli/cmd/session.ts",
+   "lines": 134
+  },
+  {
+   "path": "src/cli/cmd/stats.ts",
+   "key": "cli/cmd/stats.ts",
+   "lines": 288
+  },
+  {
+   "path": "src/cli/cmd/tui/app.tsx",
+   "key": "cli/cmd/tui/app.tsx",
+   "lines": 2
+  },
+  {
+   "path": "src/cli/cmd/tui/app__dup2.tsx",
+   "key": "cli/cmd/tui/app__dup2.tsx",
+   "lines": 884
+  },
+  {
+   "path": "src/cli/cmd/tui/attach.ts",
+   "key": "cli/cmd/tui/attach.ts",
+   "lines": 74
+  },
+  {
+   "path": "src/cli/cmd/tui/component/border.tsx",
+   "key": "cli/cmd/tui/component/border.tsx",
+   "lines": 20
+  },
+  {
+   "path": "src/cli/cmd/tui/component/dialog-agent.tsx",
+   "key": "cli/cmd/tui/component/dialog-agent.tsx",
+   "lines": 24
+  },
+  {
+   "path": "src/cli/cmd/tui/component/dialog-command.tsx",
+   "key": "cli/cmd/tui/component/dialog-command.tsx",
+   "lines": 153
+  },
+  {
+   "path": "src/cli/cmd/tui/component/dialog-console-org.tsx",
+   "key": "cli/cmd/tui/component/dialog-console-org.tsx",
+   "lines": 100
+  },
+  {
+   "path": "src/cli/cmd/tui/component/dialog-mcp.tsx",
+   "key": "cli/cmd/tui/component/dialog-mcp.tsx",
+   "lines": 91
+  },
+  {
+   "path": "src/cli/cmd/tui/component/dialog-model.tsx",
+   "key": "cli/cmd/tui/component/dialog-model.tsx",
+   "lines": 1
+  },
+  {
+   "path": "src/cli/cmd/tui/component/dialog-model__dup2.tsx",
+   "key": "cli/cmd/tui/component/dialog-model__dup2.tsx",
+   "lines": 1
+  },
+  {
+   "path": "src/cli/cmd/tui/component/dialog-model__dup3.tsx",
+   "key": "cli/cmd/tui/component/dialog-model__dup3.tsx",
+   "lines": 139
+  },
+  {
+   "path": "src/cli/cmd/tui/component/dialog-provider.tsx",
+   "key": "cli/cmd/tui/component/dialog-provider.tsx",
+   "lines": 1
+  },
+  {
+   "path": "src/cli/cmd/tui/component/dialog-provider__dup2.tsx",
+   "key": "cli/cmd/tui/component/dialog-provider__dup2.tsx",
+   "lines": 446
+  },
+  {
+   "path": "src/cli/cmd/tui/component/dialog-session-list.tsx",
+   "key": "cli/cmd/tui/component/dialog-session-list.tsx",
+   "lines": 95
+  },
+  {
+   "path": "src/cli/cmd/tui/component/dialog-session-rename.tsx",
+   "key": "cli/cmd/tui/component/dialog-session-rename.tsx",
+   "lines": 20
+  },
+  {
+   "path": "src/cli/cmd/tui/component/dialog-skill.tsx",
+   "key": "cli/cmd/tui/component/dialog-skill.tsx",
+   "lines": 30
+  },
+  {
+   "path": "src/cli/cmd/tui/component/dialog-stash.tsx",
+   "key": "cli/cmd/tui/component/dialog-stash.tsx",
+   "lines": 77
+  },
+  {
+   "path": "src/cli/cmd/tui/component/dialog-status.tsx",
+   "key": "cli/cmd/tui/component/dialog-status.tsx",
+   "lines": 334
+  },
+  {
+   "path": "src/cli/cmd/tui/component/dialog-theme-list.tsx",
+   "key": "cli/cmd/tui/component/dialog-theme-list.tsx",
+   "lines": 42
+  },
+  {
+   "path": "src/cli/cmd/tui/component/dialog-variant.tsx",
+   "key": "cli/cmd/tui/component/dialog-variant.tsx",
+   "lines": 31
+  },
+  {
+   "path": "src/cli/cmd/tui/component/dialog-workspace-list.tsx",
+   "key": "cli/cmd/tui/component/dialog-workspace-list.tsx",
+   "lines": 296
+  },
+  {
+   "path": "src/cli/cmd/tui/component/error-component.tsx",
+   "key": "cli/cmd/tui/component/error-component.tsx",
+   "lines": 121
+  },
+  {
+   "path": "src/cli/cmd/tui/component/logo.tsx",
+   "key": "cli/cmd/tui/component/logo.tsx",
+   "lines": 95
+  },
+  {
+   "path": "src/cli/cmd/tui/component/plugin-route-missing.tsx",
+   "key": "cli/cmd/tui/component/plugin-route-missing.tsx",
+   "lines": 36
+  },
+  {
+   "path": "src/cli/cmd/tui/component/prompt/autocomplete.tsx",
+   "key": "cli/cmd/tui/component/prompt/autocomplete.tsx",
+   "lines": 3
+  },
+  {
+   "path": "src/cli/cmd/tui/component/prompt/autocomplete__dup2.tsx",
+   "key": "cli/cmd/tui/component/prompt/autocomplete__dup2.tsx",
+   "lines": 592
+  },
+  {
+   "path": "src/cli/cmd/tui/component/prompt/frecency.tsx",
+   "key": "cli/cmd/tui/component/prompt/frecency.tsx",
+   "lines": 79
+  },
+  {
+   "path": "src/cli/cmd/tui/component/prompt/history.tsx",
+   "key": "cli/cmd/tui/component/prompt/history.tsx",
+   "lines": 82
+  },
+  {
+   "path": "src/cli/cmd/tui/component/prompt/index.tsx",
+   "key": "cli/cmd/tui/component/prompt/index.tsx",
+   "lines": 3
+  },
+  {
+   "path": "src/cli/cmd/tui/component/prompt/index__dup2.tsx",
+   "key": "cli/cmd/tui/component/prompt/index__dup2.tsx",
+   "lines": 1
+  },
+  {
+   "path": "src/cli/cmd/tui/component/prompt/index__dup3.tsx",
+   "key": "cli/cmd/tui/component/prompt/index__dup3.tsx",
+   "lines": 1282
+  },
+  {
+   "path": "src/cli/cmd/tui/component/prompt/part.ts",
+   "key": "cli/cmd/tui/component/prompt/part.ts",
+   "lines": 11
+  },
+  {
+   "path": "src/cli/cmd/tui/component/prompt/stash.tsx",
+   "key": "cli/cmd/tui/component/prompt/stash.tsx",
+   "lines": 87
+  },
+  {
+   "path": "src/cli/cmd/tui/component/spinner.tsx",
+   "key": "cli/cmd/tui/component/spinner.tsx",
+   "lines": 43
+  },
+  {
+   "path": "src/cli/cmd/tui/component/startup-loading.tsx",
+   "key": "cli/cmd/tui/component/startup-loading.tsx",
+   "lines": 77
+  },
+  {
+   "path": "src/cli/cmd/tui/component/textarea-keybindings.ts",
+   "key": "cli/cmd/tui/component/textarea-keybindings.ts",
+   "lines": 62
+  },
+  {
+   "path": "src/cli/cmd/tui/component/todo-item.tsx",
+   "key": "cli/cmd/tui/component/todo-item.tsx",
+   "lines": 36
+  },
+  {
+   "path": "src/cli/cmd/tui/component/workspace/dialog-session-list.tsx",
+   "key": "cli/cmd/tui/component/workspace/dialog-session-list.tsx",
+   "lines": 141
+  },
+  {
+   "path": "src/cli/cmd/tui/context/args.tsx",
+   "key": "cli/cmd/tui/context/args.tsx",
+   "lines": 7
+  },
+  {
+   "path": "src/cli/cmd/tui/context/exit.tsx",
+   "key": "cli/cmd/tui/context/exit.tsx",
+   "lines": 51
+  },
+  {
+   "path": "src/cli/cmd/tui/context/helper.tsx",
+   "key": "cli/cmd/tui/context/helper.tsx",
+   "lines": 27
+  },
+  {
+   "path": "src/cli/cmd/tui/context/keybind.tsx",
+   "key": "cli/cmd/tui/context/keybind.tsx",
+   "lines": 98
+  },
+  {
+   "path": "src/cli/cmd/tui/context/kv.tsx",
+   "key": "cli/cmd/tui/context/kv.tsx",
+   "lines": 44
+  },
+  {
+   "path": "src/cli/cmd/tui/context/local.tsx",
+   "key": "cli/cmd/tui/context/local.tsx",
+   "lines": 393
+  },
+  {
+   "path": "src/cli/cmd/tui/context/plugin-keybinds.ts",
+   "key": "cli/cmd/tui/context/plugin-keybinds.ts",
+   "lines": 19
+  },
+  {
+   "path": "src/cli/cmd/tui/context/prompt.tsx",
+   "key": "cli/cmd/tui/context/prompt.tsx",
+   "lines": 17
+  },
+  {
+   "path": "src/cli/cmd/tui/context/route.tsx",
+   "key": "cli/cmd/tui/context/route.tsx",
+   "lines": 23
+  },
+  {
+   "path": "src/cli/cmd/tui/context/sdk.tsx",
+   "key": "cli/cmd/tui/context/sdk.tsx",
+   "lines": 108
+  },
+  {
+   "path": "src/cli/cmd/tui/context/sync.tsx",
+   "key": "cli/cmd/tui/context/sync.tsx",
+   "lines": 379
+  },
+  {
+   "path": "src/cli/cmd/tui/context/theme.tsx",
+   "key": "cli/cmd/tui/context/theme.tsx",
+   "lines": 2
+  },
+  {
+   "path": "src/cli/cmd/tui/context/theme/aura.json",
+   "key": "cli/cmd/tui/context/theme/aura.json",
+   "lines": 69
+  },
+  {
+   "path": "src/cli/cmd/tui/context/theme/ayu.json",
+   "key": "cli/cmd/tui/context/theme/ayu.json",
+   "lines": 80
+  },
+  {
+   "path": "src/cli/cmd/tui/context/theme/carbonfox.json",
+   "key": "cli/cmd/tui/context/theme/carbonfox.json",
+   "lines": 248
+  },
+  {
+   "path": "src/cli/cmd/tui/context/theme/catppuccin-frappe.json",
+   "key": "cli/cmd/tui/context/theme/catppuccin-frappe.json",
+   "lines": 233
+  },
+  {
+   "path": "src/cli/cmd/tui/context/theme/catppuccin-macchiato.json",
+   "key": "cli/cmd/tui/context/theme/catppuccin-macchiato.json",
+   "lines": 233
+  },
+  {
+   "path": "src/cli/cmd/tui/context/theme/catppuccin.json",
+   "key": "cli/cmd/tui/context/theme/catppuccin.json",
+   "lines": 112
+  },
+  {
+   "path": "src/cli/cmd/tui/context/theme/cobalt2.json",
+   "key": "cli/cmd/tui/context/theme/cobalt2.json",
+   "lines": 228
+  },
+  {
+   "path": "src/cli/cmd/tui/context/theme/cursor.json",
+   "key": "cli/cmd/tui/context/theme/cursor.json",
+   "lines": 249
+  },
+  {
+   "path": "src/cli/cmd/tui/context/theme/dracula.json",
+   "key": "cli/cmd/tui/context/theme/dracula.json",
+   "lines": 219
+  },
+  {
+   "path": "src/cli/cmd/tui/context/theme/everforest.json",
+   "key": "cli/cmd/tui/context/theme/everforest.json",
+   "lines": 241
+  },
+  {
+   "path": "src/cli/cmd/tui/context/theme/flexoki.json",
+   "key": "cli/cmd/tui/context/theme/flexoki.json",
+   "lines": 237
+  },
+  {
+   "path": "src/cli/cmd/tui/context/theme/github.json",
+   "key": "cli/cmd/tui/context/theme/github.json",
+   "lines": 233
+  },
+  {
+   "path": "src/cli/cmd/tui/context/theme/gruvbox.json",
+   "key": "cli/cmd/tui/context/theme/gruvbox.json",
+   "lines": 242
+  },
+  {
+   "path": "src/cli/cmd/tui/context/theme/kanagawa.json",
+   "key": "cli/cmd/tui/context/theme/kanagawa.json",
+   "lines": 77
+  },
+  {
+   "path": "src/cli/cmd/tui/context/theme/lucent-orng.json",
+   "key": "cli/cmd/tui/context/theme/lucent-orng.json",
+   "lines": 237
+  },
+  {
+   "path": "src/cli/cmd/tui/context/theme/material.json",
+   "key": "cli/cmd/tui/context/theme/material.json",
+   "lines": 235
+  },
+  {
+   "path": "src/cli/cmd/tui/context/theme/matrix.json",
+   "key": "cli/cmd/tui/context/theme/matrix.json",
+   "lines": 77
+  },
+  {
+   "path": "src/cli/cmd/tui/context/theme/mercury.json",
+   "key": "cli/cmd/tui/context/theme/mercury.json",
+   "lines": 245
+  },
+  {
+   "path": "src/cli/cmd/tui/context/theme/monokai.json",
+   "key": "cli/cmd/tui/context/theme/monokai.json",
+   "lines": 221
+  },
+  {
+   "path": "src/cli/cmd/tui/context/theme/nightowl.json",
+   "key": "cli/cmd/tui/context/theme/nightowl.json",
+   "lines": 221
+  },
+  {
+   "path": "src/cli/cmd/tui/context/theme/nord.json",
+   "key": "cli/cmd/tui/context/theme/nord.json",
+   "lines": 223
+  },
+  {
+   "path": "src/cli/cmd/tui/context/theme/one-dark.json",
+   "key": "cli/cmd/tui/context/theme/one-dark.json",
+   "lines": 84
+  },
+  {
+   "path": "src/cli/cmd/tui/context/theme/opencode.json",
+   "key": "cli/cmd/tui/context/theme/opencode.json",
+   "lines": 245
+  },
+  {
+   "path": "src/cli/cmd/tui/context/theme/orng.json",
+   "key": "cli/cmd/tui/context/theme/orng.json",
+   "lines": 249
+  },
+  {
+   "path": "src/cli/cmd/tui/context/theme/osaka-jade.json",
+   "key": "cli/cmd/tui/context/theme/osaka-jade.json",
+   "lines": 93
+  },
+  {
+   "path": "src/cli/cmd/tui/context/theme/palenight.json",
+   "key": "cli/cmd/tui/context/theme/palenight.json",
+   "lines": 222
+  },
+  {
+   "path": "src/cli/cmd/tui/context/theme/rosepine.json",
+   "key": "cli/cmd/tui/context/theme/rosepine.json",
+   "lines": 234
+  },
+  {
+   "path": "src/cli/cmd/tui/context/theme/solarized.json",
+   "key": "cli/cmd/tui/context/theme/solarized.json",
+   "lines": 223
+  },
+  {
+   "path": "src/cli/cmd/tui/context/theme/synthwave84.json",
+   "key": "cli/cmd/tui/context/theme/synthwave84.json",
+   "lines": 226
+  },
+  {
+   "path": "src/cli/cmd/tui/context/theme/tokyonight.json",
+   "key": "cli/cmd/tui/context/theme/tokyonight.json",
+   "lines": 243
+  },
+  {
+   "path": "src/cli/cmd/tui/context/theme/vercel.json",
+   "key": "cli/cmd/tui/context/theme/vercel.json",
+   "lines": 245
+  },
+  {
+   "path": "src/cli/cmd/tui/context/theme/vesper.json",
+   "key": "cli/cmd/tui/context/theme/vesper.json",
+   "lines": 218
+  },
+  {
+   "path": "src/cli/cmd/tui/context/theme/zenburn.json",
+   "key": "cli/cmd/tui/context/theme/zenburn.json",
+   "lines": 223
+  },
+  {
+   "path": "src/cli/cmd/tui/context/theme__dup2.tsx",
+   "key": "cli/cmd/tui/context/theme__dup2.tsx",
+   "lines": 2
+  },
+  {
+   "path": "src/cli/cmd/tui/context/theme__dup3.tsx",
+   "key": "cli/cmd/tui/context/theme__dup3.tsx",
+   "lines": 1040
+  },
+  {
+   "path": "src/cli/cmd/tui/context/tui-config.tsx",
+   "key": "cli/cmd/tui/context/tui-config.tsx",
+   "lines": 9
+  },
+  {
+   "path": "src/cli/cmd/tui/event.ts",
+   "key": "cli/cmd/tui/event.ts",
+   "lines": 41
+  },
+  {
+   "path": "src/cli/cmd/tui/feature-plugins/home/footer.tsx",
+   "key": "cli/cmd/tui/feature-plugins/home/footer.tsx",
+   "lines": 138
+  },
+  {
+   "path": "src/cli/cmd/tui/feature-plugins/home/tips-view.tsx",
+   "key": "cli/cmd/tui/feature-plugins/home/tips-view.tsx",
+   "lines": 62
+  },
+  {
+   "path": "src/cli/cmd/tui/feature-plugins/home/tips.tsx",
+   "key": "cli/cmd/tui/feature-plugins/home/tips.tsx",
+   "lines": 55
+  },
+  {
+   "path": "src/cli/cmd/tui/feature-plugins/sidebar/context.tsx",
+   "key": "cli/cmd/tui/feature-plugins/sidebar/context.tsx",
+   "lines": 74
+  },
+  {
+   "path": "src/cli/cmd/tui/feature-plugins/sidebar/files.tsx",
+   "key": "cli/cmd/tui/feature-plugins/sidebar/files.tsx",
+   "lines": 105
+  },
+  {
+   "path": "src/cli/cmd/tui/feature-plugins/sidebar/footer.tsx",
+   "key": "cli/cmd/tui/feature-plugins/sidebar/footer.tsx",
+   "lines": 144
+  },
+  {
+   "path": "src/cli/cmd/tui/feature-plugins/sidebar/lsp.tsx",
+   "key": "cli/cmd/tui/feature-plugins/sidebar/lsp.tsx",
+   "lines": 93
+  },
+  {
+   "path": "src/cli/cmd/tui/feature-plugins/sidebar/mcp.tsx",
+   "key": "cli/cmd/tui/feature-plugins/sidebar/mcp.tsx",
+   "lines": 164
+  },
+  {
+   "path": "src/cli/cmd/tui/feature-plugins/sidebar/todo.tsx",
+   "key": "cli/cmd/tui/feature-plugins/sidebar/todo.tsx",
+   "lines": 75
+  },
+  {
+   "path": "src/cli/cmd/tui/feature-plugins/system/plugins.tsx",
+   "key": "cli/cmd/tui/feature-plugins/system/plugins.tsx",
+   "lines": 277
+  },
+  {
+   "path": "src/cli/cmd/tui/plugin/api.tsx",
+   "key": "cli/cmd/tui/plugin/api.tsx",
+   "lines": 434
+  },
+  {
+   "path": "src/cli/cmd/tui/plugin/internal.ts",
+   "key": "cli/cmd/tui/plugin/internal.ts",
+   "lines": 11
+  },
+  {
+   "path": "src/cli/cmd/tui/plugin/runtime.ts",
+   "key": "cli/cmd/tui/plugin/runtime.ts",
+   "lines": 3
+  },
+  {
+   "path": "src/cli/cmd/tui/plugin/runtime__dup2.ts",
+   "key": "cli/cmd/tui/plugin/runtime__dup2.ts",
+   "lines": 7
+  },
+  {
+   "path": "src/cli/cmd/tui/plugin/runtime__dup3.ts",
+   "key": "cli/cmd/tui/plugin/runtime__dup3.ts",
+   "lines": 7
+  },
+  {
+   "path": "src/cli/cmd/tui/plugin/runtime__dup4.ts",
+   "key": "cli/cmd/tui/plugin/runtime__dup4.ts",
+   "lines": 851
+  },
+  {
+   "path": "src/cli/cmd/tui/plugin/slots.tsx",
+   "key": "cli/cmd/tui/plugin/slots.tsx",
+   "lines": 38
+  },
+  {
+   "path": "src/cli/cmd/tui/routes/home.tsx",
+   "key": "cli/cmd/tui/routes/home.tsx",
+   "lines": 122
+  },
+  {
+   "path": "src/cli/cmd/tui/routes/session/dialog-fork-from-timeline.tsx",
+   "key": "cli/cmd/tui/routes/session/dialog-fork-from-timeline.tsx",
+   "lines": 59
+  },
+  {
+   "path": "src/cli/cmd/tui/routes/session/dialog-message.tsx",
+   "key": "cli/cmd/tui/routes/session/dialog-message.tsx",
+   "lines": 92
+  },
+  {
+   "path": "src/cli/cmd/tui/routes/session/dialog-timeline.tsx",
+   "key": "cli/cmd/tui/routes/session/dialog-timeline.tsx",
+   "lines": 45
+  },
+  {
+   "path": "src/cli/cmd/tui/routes/session/index.tsx",
+   "key": "cli/cmd/tui/routes/session/index.tsx",
+   "lines": 2
+  },
+  {
+   "path": "src/cli/cmd/tui/routes/session/index__dup2.tsx",
+   "key": "cli/cmd/tui/routes/session/index__dup2.tsx",
+   "lines": 263
+  },
+  {
+   "path": "src/cli/cmd/tui/routes/session/index__dup3.tsx",
+   "key": "cli/cmd/tui/routes/session/index__dup3.tsx",
+   "lines": 2
+  },
+  {
+   "path": "src/cli/cmd/tui/routes/session/index__dup4.tsx",
+   "key": "cli/cmd/tui/routes/session/index__dup4.tsx",
+   "lines": 3020
+  },
+  {
+   "path": "src/cli/cmd/tui/routes/session/permission.tsx",
+   "key": "cli/cmd/tui/routes/session/permission.tsx",
+   "lines": 949
+  },
+  {
+   "path": "src/cli/cmd/tui/routes/session/question.tsx",
+   "key": "cli/cmd/tui/routes/session/question.tsx",
+   "lines": 609
+  },
+  {
+   "path": "src/cli/cmd/tui/routes/session/sidebar.tsx",
+   "key": "cli/cmd/tui/routes/session/sidebar.tsx",
+   "lines": 129
+  },
+  {
+   "path": "src/cli/cmd/tui/routes/session/subagent-footer.tsx",
+   "key": "cli/cmd/tui/routes/session/subagent-footer.tsx",
+   "lines": 174
+  },
+  {
+   "path": "src/cli/cmd/tui/thread.ts",
+   "key": "cli/cmd/tui/thread.ts",
+   "lines": 180
+  },
+  {
+   "path": "src/cli/cmd/tui/ui/dialog-alert.tsx",
+   "key": "cli/cmd/tui/ui/dialog-alert.tsx",
+   "lines": 70
+  },
+  {
+   "path": "src/cli/cmd/tui/ui/dialog-confirm.tsx",
+   "key": "cli/cmd/tui/ui/dialog-confirm.tsx",
+   "lines": 95
+  },
+  {
+   "path": "src/cli/cmd/tui/ui/dialog-export-options.tsx",
+   "key": "cli/cmd/tui/ui/dialog-export-options.tsx",
+   "lines": 256
+  },
+  {
+   "path": "src/cli/cmd/tui/ui/dialog-help.tsx",
+   "key": "cli/cmd/tui/ui/dialog-help.tsx",
+   "lines": 60
+  },
+  {
+   "path": "src/cli/cmd/tui/ui/dialog-prompt.tsx",
+   "key": "cli/cmd/tui/ui/dialog-prompt.tsx",
+   "lines": 160
+  },
+  {
+   "path": "src/cli/cmd/tui/ui/dialog-select.tsx",
+   "key": "cli/cmd/tui/ui/dialog-select.tsx",
+   "lines": 3
+  },
+  {
+   "path": "src/cli/cmd/tui/ui/dialog-select__dup2.tsx",
+   "key": "cli/cmd/tui/ui/dialog-select__dup2.tsx",
+   "lines": 480
+  },
+  {
+   "path": "src/cli/cmd/tui/ui/dialog.tsx",
+   "key": "cli/cmd/tui/ui/dialog.tsx",
+   "lines": 197
+  },
+  {
+   "path": "src/cli/cmd/tui/ui/link.tsx",
+   "key": "cli/cmd/tui/ui/link.tsx",
+   "lines": 13
+  },
+  {
+   "path": "src/cli/cmd/tui/ui/spinner.ts",
+   "key": "cli/cmd/tui/ui/spinner.ts",
+   "lines": 206
+  },
+  {
+   "path": "src/cli/cmd/tui/ui/toast.tsx",
+   "key": "cli/cmd/tui/ui/toast.tsx",
+   "lines": 119
+  },
+  {
+   "path": "src/cli/cmd/tui/util/clipboard.ts",
+   "key": "cli/cmd/tui/util/clipboard.ts",
+   "lines": 1
+  },
+  {
+   "path": "src/cli/cmd/tui/util/clipboard__dup2.ts",
+   "key": "cli/cmd/tui/util/clipboard__dup2.ts",
+   "lines": 155
+  },
+  {
+   "path": "src/cli/cmd/tui/util/editor.ts",
+   "key": "cli/cmd/tui/util/editor.ts",
+   "lines": 43
+  },
+  {
+   "path": "src/cli/cmd/tui/util/model.ts",
+   "key": "cli/cmd/tui/util/model.ts",
+   "lines": 10
+  },
+  {
+   "path": "src/cli/cmd/tui/util/provider-origin.ts",
+   "key": "cli/cmd/tui/util/provider-origin.ts",
+   "lines": 5
+  },
+  {
+   "path": "src/cli/cmd/tui/util/scroll.ts",
+   "key": "cli/cmd/tui/util/scroll.ts",
+   "lines": 19
+  },
+  {
+   "path": "src/cli/cmd/tui/util/selection.ts",
+   "key": "cli/cmd/tui/util/selection.ts",
+   "lines": 12
+  },
+  {
+   "path": "src/cli/cmd/tui/util/signal.ts",
+   "key": "cli/cmd/tui/util/signal.ts",
+   "lines": 4
+  },
+  {
+   "path": "src/cli/cmd/tui/util/transcript.ts",
+   "key": "cli/cmd/tui/util/transcript.ts",
+   "lines": 98
+  },
+  {
+   "path": "src/cli/cmd/tui/win32.ts",
+   "key": "cli/cmd/tui/win32.ts",
+   "lines": 101
+  },
+  {
+   "path": "src/cli/cmd/uninstall.ts",
+   "key": "cli/cmd/uninstall.ts",
+   "lines": 282
+  },
+  {
+   "path": "src/cli/cmd/upgrade.ts",
+   "key": "cli/cmd/upgrade.ts",
+   "lines": 65
+  },
+  {
+   "path": "src/cli/cmd/web.ts",
+   "key": "cli/cmd/web.ts",
+   "lines": 56
+  },
+  {
+   "path": "src/cli/effect/prompt.ts",
+   "key": "cli/effect/prompt.ts",
+   "lines": 18
+  },
+  {
+   "path": "src/cli/error.ts",
+   "key": "cli/error.ts",
+   "lines": 44
+  },
+  {
+   "path": "src/cli/heap.ts",
+   "key": "cli/heap.ts",
+   "lines": 53
+  },
+  {
+   "path": "src/cli/logo.ts",
+   "key": "cli/logo.ts",
+   "lines": 5
+  },
+  {
+   "path": "src/cli/network.ts",
+   "key": "cli/network.ts",
+   "lines": 48
+  },
+  {
+   "path": "src/cli/ui.ts",
+   "key": "cli/ui.ts",
+   "lines": 3
+  },
+  {
+   "path": "src/cli/ui__dup2.ts",
+   "key": "cli/ui__dup2.ts",
+   "lines": 128
+  },
+  {
+   "path": "src/command/index.ts",
+   "key": "command/index.ts",
+   "lines": 146
+  },
+  {
+   "path": "src/command/template/initialize.txt",
+   "key": "command/template/initialize.txt",
+   "lines": 68
+  },
+  {
+   "path": "src/command/template/review.txt",
+   "key": "command/template/review.txt",
+   "lines": 103
+  },
+  {
+   "path": "src/config/config.ts",
+   "key": "config/config.ts",
+   "lines": 1138
+  },
+  {
+   "path": "src/config/console-state.ts",
+   "key": "config/console-state.ts",
+   "lines": 14
+  },
+  {
+   "path": "src/config/markdown.ts",
+   "key": "config/markdown.ts",
+   "lines": 79
+  },
+  {
+   "path": "src/config/paths.ts",
+   "key": "config/paths.ts",
+   "lines": 142
+  },
+  {
+   "path": "src/config/tui-migrate.ts",
+   "key": "config/tui-migrate.ts",
+   "lines": 5
+  },
+  {
+   "path": "src/config/tui-migrate__dup2.ts",
+   "key": "config/tui-migrate__dup2.ts",
+   "lines": 117
+  },
+  {
+   "path": "src/config/tui-schema.ts",
+   "key": "config/tui-schema.ts",
+   "lines": 18
+  },
+  {
+   "path": "src/config/tui.ts",
+   "key": "config/tui.ts",
+   "lines": 6
+  },
+  {
+   "path": "src/config/tui__dup2.ts",
+   "key": "config/tui__dup2.ts",
+   "lines": 134
+  },
+  {
+   "path": "src/control-plane/adaptors/index.ts",
+   "key": "control-plane/adaptors/index.ts",
+   "lines": 9
+  },
+  {
+   "path": "src/control-plane/adaptors/worktree.ts",
+   "key": "control-plane/adaptors/worktree.ts",
+   "lines": 40
+  },
+  {
+   "path": "src/control-plane/schema.ts",
+   "key": "control-plane/schema.ts",
+   "lines": 12
+  },
+  {
+   "path": "src/control-plane/sse.ts",
+   "key": "control-plane/sse.ts",
+   "lines": 66
+  },
+  {
+   "path": "src/control-plane/types.ts",
+   "key": "control-plane/types.ts",
+   "lines": 15
+  },
+  {
+   "path": "src/control-plane/workspace.sql.ts",
+   "key": "control-plane/workspace.sql.ts",
+   "lines": 14
+  },
+  {
+   "path": "src/control-plane/workspace.ts",
+   "key": "control-plane/workspace.ts",
+   "lines": 134
+  },
+  {
+   "path": "src/effect/cross-spawn-spawner.ts",
+   "key": "effect/cross-spawn-spawner.ts",
+   "lines": 389
+  },
+  {
+   "path": "src/effect/instance-ref.ts",
+   "key": "effect/instance-ref.ts",
+   "lines": 9
+  },
+  {
+   "path": "src/effect/instance-registry.ts",
+   "key": "effect/instance-registry.ts",
+   "lines": 13
+  },
+  {
+   "path": "src/effect/instance-state.ts",
+   "key": "effect/instance-state.ts",
+   "lines": 53
+  },
+  {
+   "path": "src/effect/run-service.ts",
+   "key": "effect/run-service.ts",
+   "lines": 34
+  },
+  {
+   "path": "src/effect/runner.ts",
+   "key": "effect/runner.ts",
+   "lines": 144
+  },
+  {
+   "path": "src/env/index.ts",
+   "key": "env/index.ts",
+   "lines": 28
+  },
+  {
+   "path": "src/file/ignore.ts",
+   "key": "file/ignore.ts",
+   "lines": 68
+  },
+  {
+   "path": "src/file/index.ts",
+   "key": "file/index.ts",
+   "lines": 601
+  },
+  {
+   "path": "src/file/protected.ts",
+   "key": "file/protected.ts",
+   "lines": 52
+  },
+  {
+   "path": "src/file/ripgrep.ts",
+   "key": "file/ripgrep.ts",
+   "lines": 315
+  },
+  {
+   "path": "src/file/time.ts",
+   "key": "file/time.ts",
+   "lines": 104
+  },
+  {
+   "path": "src/file/watcher.ts",
+   "key": "file/watcher.ts",
+   "lines": 134
+  },
+  {
+   "path": "src/filesystem/index.ts",
+   "key": "filesystem/index.ts",
+   "lines": 197
+  },
+  {
+   "path": "src/flag/flag.ts",
+   "key": "flag/flag.ts",
+   "lines": 111
+  },
+  {
+   "path": "src/format/formatter.ts",
+   "key": "format/formatter.ts",
+   "lines": 436
+  },
+  {
+   "path": "src/format/index.ts",
+   "key": "format/index.ts",
+   "lines": 161
+  },
+  {
+   "path": "src/git/index.ts",
+   "key": "git/index.ts",
+   "lines": 243
+  },
+  {
+   "path": "src/global/index.ts",
+   "key": "global/index.ts",
+   "lines": 43
+  },
+  {
+   "path": "src/id/id.ts",
+   "key": "id/id.ts",
+   "lines": 75
+  },
+  {
+   "path": "src/index.ts",
+   "key": "index.ts",
+   "lines": 1
+  },
+  {
+   "path": "src/index__dup2.ts",
+   "key": "index__dup2.ts",
+   "lines": 2
+  },
+  {
+   "path": "src/index__dup3.ts",
+   "key": "index__dup3.ts",
+   "lines": 1
+  },
+  {
+   "path": "src/index__dup4.ts",
+   "key": "index__dup4.ts",
+   "lines": 1
+  },
+  {
+   "path": "src/index__dup5.ts",
+   "key": "index__dup5.ts",
+   "lines": 4
+  },
+  {
+   "path": "src/index__dup6.ts",
+   "key": "index__dup6.ts",
+   "lines": 153
+  },
+  {
+   "path": "src/installation/index.ts",
+   "key": "installation/index.ts",
+   "lines": 279
+  },
+  {
+   "path": "src/installation/meta.ts",
+   "key": "installation/meta.ts",
+   "lines": 1
+  },
+  {
+   "path": "src/lsp/client.ts",
+   "key": "lsp/client.ts",
+   "lines": 209
+  },
+  {
+   "path": "src/lsp/index.ts",
+   "key": "lsp/index.ts",
+   "lines": 421
+  },
+  {
+   "path": "src/lsp/language.ts",
+   "key": "lsp/language.ts",
+   "lines": 123
+  },
+  {
+   "path": "src/lsp/launch.ts",
+   "key": "lsp/launch.ts",
+   "lines": 16
+  },
+  {
+   "path": "src/lsp/server.ts",
+   "key": "lsp/server.ts",
+   "lines": 1727
+  },
+  {
+   "path": "src/mcp/auth.ts",
+   "key": "mcp/auth.ts",
+   "lines": 124
+  },
+  {
+   "path": "src/mcp/index.ts",
+   "key": "mcp/index.ts",
+   "lines": 633
+  },
+  {
+   "path": "src/mcp/oauth-callback.ts",
+   "key": "mcp/oauth-callback.ts",
+   "lines": 189
+  },
+  {
+   "path": "src/mcp/oauth-provider.ts",
+   "key": "mcp/oauth-provider.ts",
+   "lines": 132
+  },
+  {
+   "path": "src/npm/index.ts",
+   "key": "npm/index.ts",
+   "lines": 189
+  },
+  {
+   "path": "src/patch/index.ts",
+   "key": "patch/index.ts",
+   "lines": 489
+  },
+  {
+   "path": "src/permission/arity.ts",
+   "key": "permission/arity.ts",
+   "lines": 155
+  },
+  {
+   "path": "src/permission/evaluate.ts",
+   "key": "permission/evaluate.ts",
+   "lines": 8
+  },
+  {
+   "path": "src/permission/index.ts",
+   "key": "permission/index.ts",
+   "lines": 264
+  },
+  {
+   "path": "src/permission/schema.ts",
+   "key": "permission/schema.ts",
+   "lines": 14
+  },
+  {
+   "path": "src/plugin/cloudflare.ts",
+   "key": "plugin/cloudflare.ts",
+   "lines": 56
+  },
+  {
+   "path": "src/plugin/codex.ts",
+   "key": "plugin/codex.ts",
+   "lines": 484
+  },
+  {
+   "path": "src/plugin/github-copilot/copilot.ts",
+   "key": "plugin/github-copilot/copilot.ts",
+   "lines": 274
+  },
+  {
+   "path": "src/plugin/github-copilot/models.ts",
+   "key": "plugin/github-copilot/models.ts",
+   "lines": 117
+  },
+  {
+   "path": "src/plugin/index.ts",
+   "key": "plugin/index.ts",
+   "lines": 220
+  },
+  {
+   "path": "src/plugin/install.ts",
+   "key": "plugin/install.ts",
+   "lines": 340
+  },
+  {
+   "path": "src/plugin/loader.ts",
+   "key": "plugin/loader.ts",
+   "lines": 118
+  },
+  {
+   "path": "src/plugin/meta.ts",
+   "key": "plugin/meta.ts",
+   "lines": 148
+  },
+  {
+   "path": "src/plugin/shared.ts",
+   "key": "plugin/shared.ts",
+   "lines": 293
+  },
+  {
+   "path": "src/project/bootstrap.ts",
+   "key": "project/bootstrap.ts",
+   "lines": 33
+  },
+  {
+   "path": "src/project/instance.ts",
+   "key": "project/instance.ts",
+   "lines": 145
+  },
+  {
+   "path": "src/project/project.sql.ts",
+   "key": "project/project.sql.ts",
+   "lines": 17
+  },
+  {
+   "path": "src/project/project.ts",
+   "key": "project/project.ts",
+   "lines": 366
+  },
+  {
+   "path": "src/project/schema.ts",
+   "key": "project/schema.ts",
+   "lines": 11
+  },
+  {
+   "path": "src/project/state.ts",
+   "key": "project/state.ts",
+   "lines": 56
+  },
+  {
+   "path": "src/project/vcs.ts",
+   "key": "project/vcs.ts",
+   "lines": 165
+  },
+  {
+   "path": "src/provider/auth.ts",
+   "key": "provider/auth.ts",
+   "lines": 168
+  },
+  {
+   "path": "src/provider/error.ts",
+   "key": "provider/error.ts",
+   "lines": 149
+  },
+  {
+   "path": "src/provider/models-snapshot.js",
+   "key": "provider/models-snapshot.js",
+   "lines": 8
+  },
+  {
+   "path": "src/provider/models.ts",
+   "key": "provider/models.ts",
+   "lines": 140
+  },
+  {
+   "path": "src/provider/provider.ts",
+   "key": "provider/provider.ts",
+   "lines": 1436
+  },
+  {
+   "path": "src/provider/schema.ts",
+   "key": "provider/schema.ts",
+   "lines": 26
+  },
+  {
+   "path": "src/provider/sdk/copilot/chat/convert-to-openai-compatible-chat-messages.ts",
+   "key": "provider/sdk/copilot/chat/convert-to-openai-compatible-chat-messages.ts",
+   "lines": 143
+  },
+  {
+   "path": "src/provider/sdk/copilot/chat/get-response-metadata.ts",
+   "key": "provider/sdk/copilot/chat/get-response-metadata.ts",
+   "lines": 11
+  },
+  {
+   "path": "src/provider/sdk/copilot/chat/map-openai-compatible-finish-reason.ts",
+   "key": "provider/sdk/copilot/chat/map-openai-compatible-finish-reason.ts",
+   "lines": 15
+  },
+  {
+   "path": "src/provider/sdk/copilot/chat/openai-compatible-chat-language-model.ts",
+   "key": "provider/sdk/copilot/chat/openai-compatible-chat-language-model.ts",
+   "lines": 574
+  },
+  {
+   "path": "src/provider/sdk/copilot/chat/openai-compatible-chat-options.ts",
+   "key": "provider/sdk/copilot/chat/openai-compatible-chat-options.ts",
+   "lines": 10
+  },
+  {
+   "path": "src/provider/sdk/copilot/chat/openai-compatible-prepare-tools.ts",
+   "key": "provider/sdk/copilot/chat/openai-compatible-prepare-tools.ts",
+   "lines": 53
+  },
+  {
+   "path": "src/provider/sdk/copilot/copilot-provider.ts",
+   "key": "provider/sdk/copilot/copilot-provider.ts",
+   "lines": 42
+  },
+  {
+   "path": "src/provider/sdk/copilot/index.ts",
+   "key": "provider/sdk/copilot/index.ts",
+   "lines": 3
+  },
+  {
+   "path": "src/provider/sdk/copilot/openai-compatible-error.ts",
+   "key": "provider/sdk/copilot/openai-compatible-error.ts",
+   "lines": 16
+  },
+  {
+   "path": "src/provider/sdk/copilot/responses/convert-to-openai-responses-input.ts",
+   "key": "provider/sdk/copilot/responses/convert-to-openai-responses-input.ts",
+   "lines": 271
+  },
+  {
+   "path": "src/provider/sdk/copilot/responses/map-openai-responses-finish-reason.ts",
+   "key": "provider/sdk/copilot/responses/map-openai-responses-finish-reason.ts",
+   "lines": 16
+  },
+  {
+   "path": "src/provider/sdk/copilot/responses/openai-error.ts",
+   "key": "provider/sdk/copilot/responses/openai-error.ts",
+   "lines": 17
+  },
+  {
+   "path": "src/provider/sdk/copilot/responses/openai-responses-language-model.ts",
+   "key": "provider/sdk/copilot/responses/openai-responses-language-model.ts",
+   "lines": 1388
+  },
+  {
+   "path": "src/provider/sdk/copilot/responses/openai-responses-prepare-tools.ts",
+   "key": "provider/sdk/copilot/responses/openai-responses-prepare-tools.ts",
+   "lines": 130
+  },
+  {
+   "path": "src/provider/sdk/copilot/responses/tool/code-interpreter.ts",
+   "key": "provider/sdk/copilot/responses/tool/code-interpreter.ts",
+   "lines": 28
+  },
+  {
+   "path": "src/provider/sdk/copilot/responses/tool/file-search.ts",
+   "key": "provider/sdk/copilot/responses/tool/file-search.ts",
+   "lines": 38
+  },
+  {
+   "path": "src/provider/sdk/copilot/responses/tool/image-generation.ts",
+   "key": "provider/sdk/copilot/responses/tool/image-generation.ts",
+   "lines": 28
+  },
+  {
+   "path": "src/provider/sdk/copilot/responses/tool/local-shell.ts",
+   "key": "provider/sdk/copilot/responses/tool/local-shell.ts",
+   "lines": 23
+  },
+  {
+   "path": "src/provider/sdk/copilot/responses/tool/web-search-preview.ts",
+   "key": "provider/sdk/copilot/responses/tool/web-search-preview.ts",
+   "lines": 35
+  },
+  {
+   "path": "src/provider/sdk/copilot/responses/tool/web-search.ts",
+   "key": "provider/sdk/copilot/responses/tool/web-search.ts",
+   "lines": 38
+  },
+  {
+   "path": "src/provider/transform.ts",
+   "key": "provider/transform.ts",
+   "lines": 836
+  },
+  {
+   "path": "src/pty/index.ts",
+   "key": "pty/index.ts",
+   "lines": 310
+  },
+  {
+   "path": "src/pty/schema.ts",
+   "key": "pty/schema.ts",
+   "lines": 12
+  },
+  {
+   "path": "src/question/index.ts",
+   "key": "question/index.ts",
+   "lines": 150
+  },
+  {
+   "path": "src/question/schema.ts",
+   "key": "question/schema.ts",
+   "lines": 14
+  },
+  {
+   "path": "src/server/error.ts",
+   "key": "server/error.ts",
+   "lines": 33
+  },
+  {
+   "path": "src/server/event.ts",
+   "key": "server/event.ts",
+   "lines": 9
+  },
+  {
+   "path": "src/server/instance.ts",
+   "key": "server/instance.ts",
+   "lines": 234
+  },
+  {
+   "path": "src/server/mdns.ts",
+   "key": "server/mdns.ts",
+   "lines": 59
+  },
+  {
+   "path": "src/server/middleware.ts",
+   "key": "server/middleware.ts",
+   "lines": 39
+  },
+  {
+   "path": "src/server/projectors.ts",
+   "key": "server/projectors.ts",
+   "lines": 28
+  },
+  {
+   "path": "src/server/router.ts",
+   "key": "server/router.ts",
+   "lines": 78
+  },
+  {
+   "path": "src/server/routes/config.ts",
+   "key": "server/routes/config.ts",
+   "lines": 81
+  },
+  {
+   "path": "src/server/routes/event.ts",
+   "key": "server/routes/event.ts",
+   "lines": 71
+  },
+  {
+   "path": "src/server/routes/experimental.ts",
+   "key": "server/routes/experimental.ts",
+   "lines": 281
+  },
+  {
+   "path": "src/server/routes/file.ts",
+   "key": "server/routes/file.ts",
+   "lines": 143
+  },
+  {
+   "path": "src/server/routes/global.ts",
+   "key": "server/routes/global.ts",
+   "lines": 244
+  },
+  {
+   "path": "src/server/routes/mcp.ts",
+   "key": "server/routes/mcp.ts",
+   "lines": 173
+  },
+  {
+   "path": "src/server/routes/permission.ts",
+   "key": "server/routes/permission.ts",
+   "lines": 55
+  },
+  {
+   "path": "src/server/routes/project.ts",
+   "key": "server/routes/project.ts",
+   "lines": 98
+  },
+  {
+   "path": "src/server/routes/provider.ts",
+   "key": "server/routes/provider.ts",
+   "lines": 128
+  },
+  {
+   "path": "src/server/routes/pty.ts",
+   "key": "server/routes/pty.ts",
+   "lines": 176
+  },
+  {
+   "path": "src/server/routes/question.ts",
+   "key": "server/routes/question.ts",
+   "lines": 76
+  },
+  {
+   "path": "src/server/routes/session.ts",
+   "key": "server/routes/session.ts",
+   "lines": 737
+  },
+  {
+   "path": "src/server/routes/tui.ts",
+   "key": "server/routes/tui.ts",
+   "lines": 286
+  },
+  {
+   "path": "src/server/routes/workspace.ts",
+   "key": "server/routes/workspace.ts",
+   "lines": 72
+  },
+  {
+   "path": "src/server/server.ts",
+   "key": "server/server.ts",
+   "lines": 239
+  },
+  {
+   "path": "src/session/compaction.ts",
+   "key": "session/compaction.ts",
+   "lines": 327
+  },
+  {
+   "path": "src/session/index.ts",
+   "key": "session/index.ts",
+   "lines": 584
+  },
+  {
+   "path": "src/session/instruction.ts",
+   "key": "session/instruction.ts",
+   "lines": 197
+  },
+  {
+   "path": "src/session/llm.ts",
+   "key": "session/llm.ts",
+   "lines": 242
+  },
+  {
+   "path": "src/session/message-v2.ts",
+   "key": "session/message-v2.ts",
+   "lines": 798
+  },
+  {
+   "path": "src/session/overflow.ts",
+   "key": "session/overflow.ts",
+   "lines": 15
+  },
+  {
+   "path": "src/session/processor.ts",
+   "key": "session/processor.ts",
+   "lines": 406
+  },
+  {
+   "path": "src/session/projectors.ts",
+   "key": "session/projectors.ts",
+   "lines": 107
+  },
+  {
+   "path": "src/session/prompt.ts",
+   "key": "session/prompt.ts",
+   "lines": 1589
+  },
+  {
+   "path": "src/session/prompt/anthropic.txt",
+   "key": "session/prompt/anthropic.txt",
+   "lines": 107
+  },
+  {
+   "path": "src/session/prompt/beast.txt",
+   "key": "session/prompt/beast.txt",
+   "lines": 149
+  },
+  {
+   "path": "src/session/prompt/build-switch.txt",
+   "key": "session/prompt/build-switch.txt",
+   "lines": 7
+  },
+  {
+   "path": "src/session/prompt/codex.txt",
+   "key": "session/prompt/codex.txt",
+   "lines": 81
+  },
+  {
+   "path": "src/session/prompt/default.txt",
+   "key": "session/prompt/default.txt",
+   "lines": 107
+  },
+  {
+   "path": "src/session/prompt/gemini.txt",
+   "key": "session/prompt/gemini.txt",
+   "lines": 157
+  },
+  {
+   "path": "src/session/prompt/gpt.txt",
+   "key": "session/prompt/gpt.txt",
+   "lines": 109
+  },
+  {
+   "path": "src/session/prompt/kimi.txt",
+   "key": "session/prompt/kimi.txt",
+   "lines": 97
+  },
+  {
+   "path": "src/session/prompt/max-steps.txt",
+   "key": "session/prompt/max-steps.txt",
+   "lines": 17
+  },
+  {
+   "path": "src/session/prompt/plan.txt",
+   "key": "session/prompt/plan.txt",
+   "lines": 28
+  },
+  {
+   "path": "src/session/prompt/trinity.txt",
+   "key": "session/prompt/trinity.txt",
+   "lines": 99
+  },
+  {
+   "path": "src/session/retry.ts",
+   "key": "session/retry.ts",
+   "lines": 93
+  },
+  {
+   "path": "src/session/revert.ts",
+   "key": "session/revert.ts",
+   "lines": 159
+  },
+  {
+   "path": "src/session/schema.ts",
+   "key": "session/schema.ts",
+   "lines": 27
+  },
+  {
+   "path": "src/session/session.sql.ts",
+   "key": "session/session.sql.ts",
+   "lines": 62
+  },
+  {
+   "path": "src/session/status.ts",
+   "key": "session/status.ts",
+   "lines": 79
+  },
+  {
+   "path": "src/session/summary.ts",
+   "key": "session/summary.ts",
+   "lines": 131
+  },
+  {
+   "path": "src/session/system.ts",
+   "key": "session/system.ts",
+   "lines": 72
+  },
+  {
+   "path": "src/session/todo.ts",
+   "key": "session/todo.ts",
+   "lines": 67
+  },
+  {
+   "path": "src/share/share-next.ts",
+   "key": "share/share-next.ts",
+   "lines": 225
+  },
+  {
+   "path": "src/share/share.sql.ts",
+   "key": "share/share.sql.ts",
+   "lines": 13
+  },
+  {
+   "path": "src/shell/shell.ts",
+   "key": "shell/shell.ts",
+   "lines": 96
+  },
+  {
+   "path": "src/skill/discovery.ts",
+   "key": "skill/discovery.ts",
+   "lines": 76
+  },
+  {
+   "path": "src/skill/index.ts",
+   "key": "skill/index.ts",
+   "lines": 208
+  },
+  {
+   "path": "src/snapshot/index.ts",
+   "key": "snapshot/index.ts",
+   "lines": 557
+  },
+  {
+   "path": "src/storage/db.bun.ts",
+   "key": "storage/db.bun.ts",
+   "lines": 9
+  },
+  {
+   "path": "src/storage/db.ts",
+   "key": "storage/db.ts",
+   "lines": 128
+  },
+  {
+   "path": "src/storage/json-migration.ts",
+   "key": "storage/json-migration.ts",
+   "lines": 380
+  },
+  {
+   "path": "src/storage/schema.sql.ts",
+   "key": "storage/schema.sql.ts",
+   "lines": 8
+  },
+  {
+   "path": "src/storage/storage.ts",
+   "key": "storage/storage.ts",
+   "lines": 269
+  },
+  {
+   "path": "src/sync/event.sql.ts",
+   "key": "sync/event.sql.ts",
+   "lines": 15
+  },
+  {
+   "path": "src/sync/index.ts",
+   "key": "sync/index.ts",
+   "lines": 167
+  },
+  {
+   "path": "src/sync/schema.ts",
+   "key": "sync/schema.ts",
+   "lines": 11
+  },
+  {
+   "path": "src/tool/apply_patch.ts",
+   "key": "tool/apply_patch.ts",
+   "lines": 250
+  },
+  {
+   "path": "src/tool/apply_patch.txt",
+   "key": "tool/apply_patch.txt",
+   "lines": 35
+  },
+  {
+   "path": "src/tool/bash.ts",
+   "key": "tool/bash.ts",
+   "lines": 408
+  },
+  {
+   "path": "src/tool/bash.txt",
+   "key": "tool/bash.txt",
+   "lines": 119
+  },
+  {
+   "path": "src/tool/batch.ts",
+   "key": "tool/batch.ts",
+   "lines": 160
+  },
+  {
+   "path": "src/tool/batch.txt",
+   "key": "tool/batch.txt",
+   "lines": 25
+  },
+  {
+   "path": "src/tool/codesearch.ts",
+   "key": "tool/codesearch.ts",
+   "lines": 86
+  },
+  {
+   "path": "src/tool/codesearch.txt",
+   "key": "tool/codesearch.txt",
+   "lines": 14
+  },
+  {
+   "path": "src/tool/edit.ts",
+   "key": "tool/edit.ts",
+   "lines": 564
+  },
+  {
+   "path": "src/tool/edit.txt",
+   "key": "tool/edit.txt",
+   "lines": 2
+  },
+  {
+   "path": "src/tool/external-directory.ts",
+   "key": "tool/external-directory.ts",
+   "lines": 31
+  },
+  {
+   "path": "src/tool/glob.ts",
+   "key": "tool/glob.ts",
+   "lines": 73
+  },
+  {
+   "path": "src/tool/glob.txt",
+   "key": "tool/glob.txt",
+   "lines": 8
+  },
+  {
+   "path": "src/tool/grep.ts",
+   "key": "tool/grep.ts",
+   "lines": 131
+  },
+  {
+   "path": "src/tool/grep.txt",
+   "key": "tool/grep.txt",
+   "lines": 10
+  },
+  {
+   "path": "src/tool/invalid.ts",
+   "key": "tool/invalid.ts",
+   "lines": 19
+  },
+  {
+   "path": "src/tool/lsp.ts",
+   "key": "tool/lsp.ts",
+   "lines": 93
+  },
+  {
+   "path": "src/tool/lsp.txt",
+   "key": "tool/lsp.txt",
+   "lines": 21
+  },
+  {
+   "path": "src/tool/plan-exit.txt",
+   "key": "tool/plan-exit.txt",
+   "lines": 15
+  },
+  {
+   "path": "src/tool/plan.ts",
+   "key": "tool/plan.ts",
+   "lines": 73
+  },
+  {
+   "path": "src/tool/question.ts",
+   "key": "tool/question.ts",
+   "lines": 35
+  },
+  {
+   "path": "src/tool/question.txt",
+   "key": "tool/question.txt",
+   "lines": 12
+  },
+  {
+   "path": "src/tool/read.ts",
+   "key": "tool/read.ts",
+   "lines": 291
+  },
+  {
+   "path": "src/tool/read.txt",
+   "key": "tool/read.txt",
+   "lines": 16
+  },
+  {
+   "path": "src/tool/registry.ts",
+   "key": "tool/registry.ts",
+   "lines": 200
+  },
+  {
+   "path": "src/tool/schema.ts",
+   "key": "tool/schema.ts",
+   "lines": 12
+  },
+  {
+   "path": "src/tool/skill.ts",
+   "key": "tool/skill.ts",
+   "lines": 96
+  },
+  {
+   "path": "src/tool/task.ts",
+   "key": "tool/task.ts",
+   "lines": 145
+  },
+  {
+   "path": "src/tool/task.txt",
+   "key": "tool/task.txt",
+   "lines": 62
+  },
+  {
+   "path": "src/tool/todo.ts",
+   "key": "tool/todo.ts",
+   "lines": 39
+  },
+  {
+   "path": "src/tool/todowrite.txt",
+   "key": "tool/todowrite.txt",
+   "lines": 169
+  },
+  {
+   "path": "src/tool/tool.ts",
+   "key": "tool/tool.ts",
+   "lines": 51
+  },
+  {
+   "path": "src/tool/truncate.ts",
+   "key": "tool/truncate.ts",
+   "lines": 114
+  },
+  {
+   "path": "src/tool/truncation-dir.ts",
+   "key": "tool/truncation-dir.ts",
+   "lines": 6
+  },
+  {
+   "path": "src/tool/webfetch.ts",
+   "key": "tool/webfetch.ts",
+   "lines": 164
+  },
+  {
+   "path": "src/tool/webfetch.txt",
+   "key": "tool/webfetch.txt",
+   "lines": 15
+  },
+  {
+   "path": "src/tool/websearch.ts",
+   "key": "tool/websearch.ts",
+   "lines": 100
+  },
+  {
+   "path": "src/tool/websearch.txt",
+   "key": "tool/websearch.txt",
+   "lines": 16
+  },
+  {
+   "path": "src/tool/write.ts",
+   "key": "tool/write.ts",
+   "lines": 95
+  },
+  {
+   "path": "src/tool/write.txt",
+   "key": "tool/write.txt",
+   "lines": 10
+  },
+  {
+   "path": "src/util/abort.ts",
+   "key": "util/abort.ts",
+   "lines": 17
+  },
+  {
+   "path": "src/util/archive.ts",
+   "key": "util/archive.ts",
+   "lines": 11
+  },
+  {
+   "path": "src/util/context.ts",
+   "key": "util/context.ts",
+   "lines": 31
+  },
+  {
+   "path": "src/util/data-url.ts",
+   "key": "util/data-url.ts",
+   "lines": 10
+  },
+  {
+   "path": "src/util/defer.ts",
+   "key": "util/defer.ts",
+   "lines": 10
+  },
+  {
+   "path": "src/util/effect-http-client.ts",
+   "key": "util/effect-http-client.ts",
+   "lines": 9
+  },
+  {
+   "path": "src/util/effect-zod.ts",
+   "key": "util/effect-zod.ts",
+   "lines": 96
+  },
+  {
+   "path": "src/util/error.ts",
+   "key": "util/error.ts",
+   "lines": 73
+  },
+  {
+   "path": "src/util/filesystem.ts",
+   "key": "util/filesystem.ts",
+   "lines": 219
+  },
+  {
+   "path": "src/util/flock.ts",
+   "key": "util/flock.ts",
+   "lines": 263
+  },
+  {
+   "path": "src/util/fn.ts",
+   "key": "util/fn.ts",
+   "lines": 21
+  },
+  {
+   "path": "src/util/format.ts",
+   "key": "util/format.ts",
+   "lines": 22
+  },
+  {
+   "path": "src/util/glob.ts",
+   "key": "util/glob.ts",
+   "lines": 28
+  },
+  {
+   "path": "src/util/hash.ts",
+   "key": "util/hash.ts",
+   "lines": 10
+  },
+  {
+   "path": "src/util/iife.ts",
+   "key": "util/iife.ts",
+   "lines": 3
+  },
+  {
+   "path": "src/util/keybind.ts",
+   "key": "util/keybind.ts",
+   "lines": 92
+  },
+  {
+   "path": "src/util/lazy.ts",
+   "key": "util/lazy.ts",
+   "lines": 20
+  },
+  {
+   "path": "src/util/locale.ts",
+   "key": "util/locale.ts",
+   "lines": 81
+  },
+  {
+   "path": "src/util/log.ts",
+   "key": "util/log.ts",
+   "lines": 150
+  },
+  {
+   "path": "src/util/process.ts",
+   "key": "util/process.ts",
+   "lines": 138
+  },
+  {
+   "path": "src/util/queue.ts",
+   "key": "util/queue.ts",
+   "lines": 23
+  },
+  {
+   "path": "src/util/record.ts",
+   "key": "util/record.ts",
+   "lines": 3
+  },
+  {
+   "path": "src/util/rpc.ts",
+   "key": "util/rpc.ts",
+   "lines": 61
+  },
+  {
+   "path": "src/util/schema.ts",
+   "key": "util/schema.ts",
+   "lines": 12
+  },
+  {
+   "path": "src/util/timeout.ts",
+   "key": "util/timeout.ts",
+   "lines": 14
+  },
+  {
+   "path": "src/util/token.ts",
+   "key": "util/token.ts",
+   "lines": 10
+  },
+  {
+   "path": "src/util/update-schema.ts",
+   "key": "util/update-schema.ts",
+   "lines": 10
+  },
+  {
+   "path": "src/util/which.ts",
+   "key": "util/which.ts",
+   "lines": 16
+  },
+  {
+   "path": "src/util/wildcard.ts",
+   "key": "util/wildcard.ts",
+   "lines": 59
+  },
+  {
+   "path": "src/worktree/index.ts",
+   "key": "worktree/index.ts",
+   "lines": 410
+  }
+ ],
+ "hits": {
+  "session/processor.ts": [
+   [
+    "00",
+    "1. What was analyzed (provenance)"
+   ],
+   [
+    "03",
+    "2. One user prompt \u2192 assistant turn \u2192 tool call \u2192 next step"
+   ],
+   [
+    "04",
+    "Contents"
+   ],
+   [
+    "11",
+    "4. Coverage log \u2014 what was actually read"
+   ]
+  ],
+  "git/index.ts": [
+   [
+    "00",
+    "2. How to read this document set"
+   ],
+   [
+    "11",
+    "4. Coverage log \u2014 what was actually read"
+   ],
+   [
+    "18",
+    "2. `git/index.ts` \u2014 the plumbing everything else assumes"
+   ],
+   [
+    "18",
+    "Contents"
+   ],
+   [
+    "18",
+    "Contents"
+   ]
+  ],
+  "format/index.ts": [
+   [
+    "00",
+    "2. How to read this document set"
+   ],
+   [
+    "11",
+    "4. Coverage log \u2014 what was actually read"
+   ],
+   [
+    "11",
+    "4. Coverage log \u2014 what was actually read"
+   ],
+   [
+    "15",
+    "3. `Format` \u2014 automatic formatting after writes (`src/format/index.ts` 161 + `formatter.ts` 436)"
+   ],
+   [
+    "15",
+    "Contents"
+   ],
+   [
+    "18",
+    "5. `format/index.ts` \u2014 the state machine (formatter table itself was already complete)"
+   ],
+   [
+    "18",
+    "Contents"
+   ],
+   [
+    "18",
+    "Contents"
+   ]
+  ],
+  "flag/flag.ts": [
+   [
+    "01",
+    "1. Three layers between `opencode` and your terminal"
+   ],
+   [
+    "02",
+    "7. Shared conventions across modules \u2014 [verified]"
+   ],
+   [
+    "08",
+    "6. Flags (`src/flag/flag.ts`) \u2014 the complete environment surface"
+   ],
+   [
+    "08",
+    "Contents"
+   ],
+   [
+    "08",
+    "Contents"
+   ]
+  ],
+  "project/project.ts": [
+   [
+    "01",
+    "1. Three layers between `opencode` and your terminal"
+   ],
+   [
+    "08",
+    "7. Project identity (`project/project.sql.ts`, `src/project/*`)"
+   ],
+   [
+    "11",
+    "4. Coverage log \u2014 what was actually read"
+   ]
+  ],
+  "cli/cmd/tui/thread.ts": [
+   [
+    "01",
+    "1. Three layers between `opencode` and your terminal"
+   ],
+   [
+    "02",
+    "6. Two processes, two module graphs \u2014 [verified]"
+   ],
+   [
+    "02",
+    "6. Two processes, two module graphs \u2014 [verified]"
+   ],
+   [
+    "03",
+    "1. `opencode` (bare) \u2192 a rendered TUI"
+   ],
+   [
+    "03",
+    "1. `opencode` (bare) \u2192 a rendered TUI"
+   ],
+   [
+    "07",
+    "1. Three transports, one service layer"
+   ],
+   [
+    "07",
+    "4. The TUI's data layer"
+   ],
+   [
+    "07",
+    "Contents"
+   ],
+   [
+    "11",
+    "4. Coverage log \u2014 what was actually read"
+   ],
+   [
+    "13",
+    "1. Process and boot (`thread.ts` \u2192 `app.tsx`)"
+   ],
+   [
+    "13",
+    "1. Process and boot (`thread.ts` \u2192 `app.tsx`)"
+   ],
+   [
+    "13",
+    "13. Windows (`win32.ts`, 101 lines)"
+   ],
+   [
+    "13",
+    "Contents"
+   ],
+   [
+    "13",
+    "Contents"
+   ],
+   [
+    "13",
+    "Contents"
+   ],
+   [
+    "14",
+    "1. Command inventory (verified from the modules)"
+   ]
+  ],
+  "effect/cross-spawn-spawner.ts": [
+   [
+    "02",
+    "2. The Effect service model \u2014 [verified]"
+   ],
+   [
+    "02",
+    "Contents"
+   ]
+  ],
+  "util/process.ts": [
+   [
+    "02",
+    "2. The Effect service model \u2014 [verified]"
+   ],
+   [
+    "02",
+    "Contents"
+   ]
+  ],
+  "project/state.ts": [
+   [
+    "02",
+    "3. The per-directory instance model \u2014 [verified]"
+   ],
+   [
+    "02",
+    "Contents"
+   ],
+   [
+    "11",
+    "4. Coverage log \u2014 what was actually read"
+   ]
+  ],
+  "util/wildcard.ts": [
+   [
+    "02",
+    "3. The per-directory instance model \u2014 [verified]"
+   ],
+   [
+    "02",
+    "Contents"
+   ]
+  ],
+  "cli/heap.ts": [
+   [
+    "02",
+    "3. The per-directory instance model \u2014 [verified]"
+   ],
+   [
+    "02",
+    "Contents"
+   ]
+  ],
+  "cli/error.ts": [
+   [
+    "02",
+    "3. The per-directory instance model \u2014 [verified]"
+   ],
+   [
+    "02",
+    "Contents"
+   ]
+  ],
+  "config/tui-schema.ts": [
+   [
+    "02",
+    "3. The per-directory instance model \u2014 [verified]"
+   ],
+   [
+    "02",
+    "Contents"
+   ]
+  ],
+  "config/console-state.ts": [
+   [
+    "02",
+    "3. The per-directory instance model \u2014 [verified]"
+   ],
+   [
+    "02",
+    "Contents"
+   ]
+  ],
+  "question/schema.ts": [
+   [
+    "02",
+    "3. The per-directory instance model \u2014 [verified]"
+   ],
+   [
+    "02",
+    "Contents"
+   ]
+  ],
+  "pty/schema.ts": [
+   [
+    "02",
+    "3. The per-directory instance model \u2014 [verified]"
+   ],
+   [
+    "02",
+    "Contents"
+   ]
+  ],
+  "sync/schema.ts": [
+   [
+    "02",
+    "3. The per-directory instance model \u2014 [verified]"
+   ],
+   [
+    "02",
+    "Contents"
+   ]
+  ],
+  "project/schema.ts": [
+   [
+    "02",
+    "3. The per-directory instance model \u2014 [verified]"
+   ],
+   [
+    "02",
+    "Contents"
+   ]
+  ],
+  "bus/bus-event.ts": [
+   [
+    "02",
+    "3. The per-directory instance model \u2014 [verified]"
+   ],
+   [
+    "02",
+    "Contents"
+   ]
+  ],
+  "util/glob.ts": [
+   [
+    "02",
+    "3. The per-directory instance model \u2014 [verified]"
+   ],
+   [
+    "02",
+    "Contents"
+   ]
+  ],
+  "util/log.ts": [
+   [
+    "02",
+    "8. The utility layer (`src/util/*`) \u2014 [verified, all 20 modules read]"
+   ],
+   [
+    "02",
+    "8. The utility layer (`src/util/*`) \u2014 [verified, all 20 modules read]"
+   ],
+   [
+    "02",
+    "Contents"
+   ]
+  ],
+  "util/flock.ts": [
+   [
+    "02",
+    "8. The utility layer (`src/util/*`) \u2014 [verified, all 20 modules read]"
+   ],
+   [
+    "02",
+    "8. The utility layer (`src/util/*`) \u2014 [verified, all 20 modules read]"
+   ],
+   [
+    "02",
+    "Contents"
+   ],
+   [
+    "16",
+    "9. Config (formerly [undetermined] \u2014 now [verified])"
+   ],
+   [
+    "16",
+    "Contents"
+   ]
+  ],
+  "acp/agent.ts": [
+   [
+    "02",
+    "1. The four-layer picture \u2014 [verified]"
+   ],
+   [
+    "07",
+    "1. Three transports, one service layer"
+   ],
+   [
+    "11",
+    "3. Technical debt, concretely"
+   ],
+   [
+    "16",
+    "Contents"
+   ],
+   [
+    "16",
+    "Contents"
+   ]
+  ],
+  "bus/index.ts": [
+   [
+    "02",
+    "2. The Effect service model \u2014 [verified]"
+   ],
+   [
+    "02",
+    "4. Bus: the event spine \u2014 [verified]"
+   ],
+   [
+    "11",
+    "4. Coverage log \u2014 what was actually read"
+   ]
+  ],
+  "session/retry.ts": [
+   [
+    "02",
+    "2. The Effect service model \u2014 [verified]"
+   ],
+   [
+    "03",
+    "2. One user prompt \u2192 assistant turn \u2192 tool call \u2192 next step"
+   ],
+   [
+    "03",
+    "Contents"
+   ],
+   [
+    "04",
+    "Contents"
+   ],
+   [
+    "11",
+    "4. Coverage log \u2014 what was actually read"
+   ]
+  ],
+  "effect/instance-state.ts": [
+   [
+    "02",
+    "3. The per-directory instance model \u2014 [verified]"
+   ],
+   [
+    "02",
+    "8. The utility layer (`src/util/*`) \u2014 [verified, all 20 modules read]"
+   ],
+   [
+    "08",
+    "4. Instance state \u2014 the per-directory universe (`src/instance/`, `effect/instance-state.ts`)"
+   ],
+   [
+    "08",
+    "4. Instance state \u2014 the per-directory universe (`src/instance/`, `effect/instance-state.ts`)"
+   ],
+   [
+    "08",
+    "Contents"
+   ],
+   [
+    "08",
+    "Contents"
+   ],
+   [
+    "11",
+    "4. Coverage log \u2014 what was actually read"
+   ],
+   [
+    "16",
+    "5. `Runner` / `InstanceState` \u2014 the concurrency substrate"
+   ]
+  ],
+  "filesystem/index.ts": [
+   [
+    "02",
+    "3. The per-directory instance model \u2014 [verified]"
+   ]
+  ],
+  "util/filesystem.ts": [
+   [
+    "02",
+    "3. The per-directory instance model \u2014 [verified]"
+   ]
+  ],
+  "id/id.ts": [
+   [
+    "02",
+    "3. The per-directory instance model \u2014 [verified]"
+   ]
+  ],
+  "session/schema.ts": [
+   [
+    "02",
+    "3. The per-directory instance model \u2014 [verified]"
+   ],
+   [
+    "04",
+    "Contents"
+   ]
+  ],
+  "permission/schema.ts": [
+   [
+    "02",
+    "3. The per-directory instance model \u2014 [verified]"
+   ],
+   [
+    "06",
+    "Contents"
+   ]
+  ],
+  "file/ignore.ts": [
+   [
+    "02",
+    "3. The per-directory instance model \u2014 [verified]"
+   ]
+  ],
+  "storage/db.bun.ts": [
+   [
+    "02",
+    "3. The per-directory instance model \u2014 [verified]"
+   ]
+  ],
+  "storage/schema.sql.ts": [
+   [
+    "02",
+    "3. The per-directory instance model \u2014 [verified]"
+   ]
+  ],
+  "effect/instance-registry.ts": [
+   [
+    "02",
+    "3. The per-directory instance model \u2014 [verified]"
+   ]
+  ],
+  "effect/instance-ref.ts": [
+   [
+    "02",
+    "3. The per-directory instance model \u2014 [verified]"
+   ]
+  ],
+  "bus/global.ts": [
+   [
+    "02",
+    "3. The per-directory instance model \u2014 [verified]"
+   ]
+  ],
+  "util/data-url.ts": [
+   [
+    "02",
+    "3. The per-directory instance model \u2014 [verified]"
+   ]
+  ],
+  "installation/meta.ts": [
+   [
+    "02",
+    "3. The per-directory instance model \u2014 [verified]"
+   ]
+  ],
+  "cli/logo.ts": [
+   [
+    "02",
+    "3. The per-directory instance model \u2014 [verified]"
+   ]
+  ],
+  "env/index.ts": [
+   [
+    "02",
+    "3. The per-directory instance model \u2014 [verified]"
+   ]
+  ],
+  "session/index.ts": [
+   [
+    "02",
+    "7. Shared conventions across modules \u2014 [verified]"
+   ],
+   [
+    "02",
+    "8. The utility layer (`src/util/*`) \u2014 [verified, all 20 modules read]"
+   ],
+   [
+    "04",
+    "1. `Session` \u2014 the durable aggregate (`src/session/index.ts`, 585 lines)"
+   ],
+   [
+    "04",
+    "Contents"
+   ],
+   [
+    "04",
+    "Contents"
+   ],
+   [
+    "11",
+    "4. Coverage log \u2014 what was actually read"
+   ]
+  ],
+  "project/instance.ts": [
+   [
+    "02",
+    "7. Shared conventions across modules \u2014 [verified]"
+   ],
+   [
+    "02",
+    "8. The utility layer (`src/util/*`) \u2014 [verified, all 20 modules read]"
+   ],
+   [
+    "02",
+    "8. The utility layer (`src/util/*`) \u2014 [verified, all 20 modules read]"
+   ],
+   [
+    "11",
+    "4. Coverage log \u2014 what was actually read"
+   ],
+   [
+    "16",
+    "8. Instance layer (`project/instance.ts`, `bootstrap.ts`)"
+   ],
+   [
+    "16",
+    "Contents"
+   ],
+   [
+    "16",
+    "Contents"
+   ]
+  ],
+  "util/context.ts": [
+   [
+    "02",
+    "8. The utility layer (`src/util/*`) \u2014 [verified, all 20 modules read]"
+   ],
+   [
+    "02",
+    "8. The utility layer (`src/util/*`) \u2014 [verified, all 20 modules read]"
+   ]
+  ],
+  "storage/db.ts": [
+   [
+    "02",
+    "8. The utility layer (`src/util/*`) \u2014 [verified, all 20 modules read]"
+   ],
+   [
+    "02",
+    "8. The utility layer (`src/util/*`) \u2014 [verified, all 20 modules read]"
+   ],
+   [
+    "08",
+    "2. SQLite schema (`session.sql.ts`, `storage/db.ts`)"
+   ],
+   [
+    "08",
+    "Contents"
+   ],
+   [
+    "08",
+    "Contents"
+   ],
+   [
+    "11",
+    "4. Coverage log \u2014 what was actually read"
+   ]
+  ],
+  "util/timeout.ts": [
+   [
+    "02",
+    "8. The utility layer (`src/util/*`) \u2014 [verified, all 20 modules read]"
+   ]
+  ],
+  "util/abort.ts": [
+   [
+    "02",
+    "8. The utility layer (`src/util/*`) \u2014 [verified, all 20 modules read]"
+   ]
+  ],
+  "tool/websearch.ts": [
+   [
+    "02",
+    "8. The utility layer (`src/util/*`) \u2014 [verified, all 20 modules read]"
+   ],
+   [
+    "11",
+    "4. Coverage log \u2014 what was actually read"
+   ],
+   [
+    "16",
+    "10. Tools read in full this pass"
+   ],
+   [
+    "16",
+    "Contents"
+   ],
+   [
+    "16",
+    "Contents"
+   ]
+  ],
+  "tool/webfetch.ts": [
+   [
+    "02",
+    "8. The utility layer (`src/util/*`) \u2014 [verified, all 20 modules read]"
+   ],
+   [
+    "10",
+    "1. Trust model (as actually implemented)"
+   ],
+   [
+    "10",
+    "2. The permission gate, precisely"
+   ],
+   [
+    "11",
+    "4. Coverage log \u2014 what was actually read"
+   ]
+  ],
+  "tool/codesearch.ts": [
+   [
+    "02",
+    "8. The utility layer (`src/util/*`) \u2014 [verified, all 20 modules read]"
+   ]
+  ],
+  "util/effect-http-client.ts": [
+   [
+    "02",
+    "8. The utility layer (`src/util/*`) \u2014 [verified, all 20 modules read]"
+   ],
+   [
+    "04",
+    "9. Instruction files \u2014 `AGENTS.md`, `CLAUDE.md`, `CONTEXT.md` (`src/session/instruction.ts`, 197 lines)"
+   ]
+  ],
+  "util/token.ts": [
+   [
+    "02",
+    "8. The utility layer (`src/util/*`) \u2014 [verified, all 20 modules read]"
+   ]
+  ],
+  "session/compaction.ts": [
+   [
+    "02",
+    "8. The utility layer (`src/util/*`) \u2014 [verified, all 20 modules read]"
+   ],
+   [
+    "04",
+    "4. `SessionCompaction` \u2014 context management (`src/session/compaction.ts`)"
+   ],
+   [
+    "04",
+    "Contents"
+   ],
+   [
+    "04",
+    "Contents"
+   ],
+   [
+    "11",
+    "2. Secondary decisions worth knowing"
+   ],
+   [
+    "11",
+    "4. Coverage log \u2014 what was actually read"
+   ]
+  ],
+  "util/which.ts": [
+   [
+    "02",
+    "8. The utility layer (`src/util/*`) \u2014 [verified, all 20 modules read]"
+   ]
+  ],
+  "util/hash.ts": [
+   [
+    "02",
+    "8. The utility layer (`src/util/*`) \u2014 [verified, all 20 modules read]"
+   ]
+  ],
+  "util/lazy.ts": [
+   [
+    "02",
+    "8. The utility layer (`src/util/*`) \u2014 [verified, all 20 modules read]"
+   ]
+  ],
+  "util/queue.ts": [
+   [
+    "02",
+    "8. The utility layer (`src/util/*`) \u2014 [verified, all 20 modules read]"
+   ]
+  ],
+  "server/routes/event.ts": [
+   [
+    "02",
+    "8. The utility layer (`src/util/*`) \u2014 [verified, all 20 modules read]"
+   ]
+  ],
+  "server/routes/global.ts": [
+   [
+    "02",
+    "8. The utility layer (`src/util/*`) \u2014 [verified, all 20 modules read]"
+   ]
+  ],
+  "server/routes/tui.ts": [
+   [
+    "02",
+    "8. The utility layer (`src/util/*`) \u2014 [verified, all 20 modules read]"
+   ]
+  ],
+  "util/effect-zod.ts": [
+   [
+    "02",
+    "8. The utility layer (`src/util/*`) \u2014 [verified, all 20 modules read]"
+   ]
+  ],
+  "auth/index.ts": [
+   [
+    "02",
+    "8. The utility layer (`src/util/*`) \u2014 [verified, all 20 modules read]"
+   ],
+   [
+    "10",
+    "1. Trust model (as actually implemented)"
+   ],
+   [
+    "11",
+    "4. Coverage log \u2014 what was actually read"
+   ]
+  ],
+  "util/update-schema.ts": [
+   [
+    "02",
+    "8. The utility layer (`src/util/*`) \u2014 [verified, all 20 modules read]"
+   ]
+  ],
+  "util/schema.ts": [
+   [
+    "02",
+    "8. The utility layer (`src/util/*`) \u2014 [verified, all 20 modules read]"
+   ]
+  ],
+  "util/fn.ts": [
+   [
+    "02",
+    "8. The utility layer (`src/util/*`) \u2014 [verified, all 20 modules read]"
+   ],
+   [
+    "02",
+    "8. The utility layer (`src/util/*`) \u2014 [verified, all 20 modules read]"
+   ]
+  ],
+  "util/error.ts": [
+   [
+    "02",
+    "8. The utility layer (`src/util/*`) \u2014 [verified, all 20 modules read]"
+   ]
+  ],
+  "util/locale.ts": [
+   [
+    "02",
+    "8. The utility layer (`src/util/*`) \u2014 [verified, all 20 modules read]"
+   ]
+  ],
+  "util/format.ts": [
+   [
+    "02",
+    "8. The utility layer (`src/util/*`) \u2014 [verified, all 20 modules read]"
+   ]
+  ],
+  "util/record.ts": [
+   [
+    "02",
+    "8. The utility layer (`src/util/*`) \u2014 [verified, all 20 modules read]"
+   ]
+  ],
+  "util/archive.ts": [
+   [
+    "02",
+    "8. The utility layer (`src/util/*`) \u2014 [verified, all 20 modules read]"
+   ]
+  ],
+  "lsp/server.ts": [
+   [
+    "02",
+    "8. The utility layer (`src/util/*`) \u2014 [verified, all 20 modules read]"
+   ],
+   [
+    "09",
+    "3. LSP (`src/lsp/index.ts`, 421 lines; `src/lsp/{language,client,server,diagnostic}.ts`)"
+   ],
+   [
+    "09",
+    "Contents"
+   ],
+   [
+    "10",
+    "8. Known weaknesses (verified or strongly implied)"
+   ],
+   [
+    "11",
+    "4. Coverage log \u2014 what was actually read"
+   ],
+   [
+    "18",
+    "3. LSP \u2014 the builtin table and the client"
+   ],
+   [
+    "18",
+    "Contents"
+   ],
+   [
+    "18",
+    "Contents"
+   ]
+  ],
+  "util/defer.ts": [
+   [
+    "02",
+    "8. The utility layer (`src/util/*`) \u2014 [verified, all 20 modules read]"
+   ]
+  ],
+  "util/iife.ts": [
+   [
+    "02",
+    "8. The utility layer (`src/util/*`) \u2014 [verified, all 20 modules read]"
+   ]
+  ],
+  "effect/run-service.ts": [
+   [
+    "02",
+    "8. The utility layer (`src/util/*`) \u2014 [verified, all 20 modules read]"
+   ]
+  ],
+  "effect/runner.ts": [
+   [
+    "03",
+    "2. One user prompt \u2192 assistant turn \u2192 tool call \u2192 next step"
+   ],
+   [
+    "03",
+    "Contents"
+   ],
+   [
+    "11",
+    "4. Coverage log \u2014 what was actually read"
+   ],
+   [
+    "16",
+    "5. `Runner` / `InstanceState` \u2014 the concurrency substrate"
+   ]
+  ],
+  "index.ts": [
+   [
+    "03",
+    "1. `opencode` (bare) \u2192 a rendered TUI"
+   ],
+   [
+    "03",
+    "1. `opencode` (bare) \u2192 a rendered TUI"
+   ],
+   [
+    "03",
+    "1. `opencode` (bare) \u2192 a rendered TUI"
+   ],
+   [
+    "05",
+    "9. The vendored OpenAI-compatible SDK (`src/provider/sdk/copilot/**`, 20 files, 2,879 lines) \u2014 [verified]"
+   ],
+   [
+    "09",
+    "1. Plugins (`src/plugin/index.ts`, `src/plugin/loader.ts`, `src/plugin/{codex,github-copilot/*}`)"
+   ],
+   [
+    "09",
+    "1. Plugins (`src/plugin/index.ts`, `src/plugin/loader.ts`, `src/plugin/{codex,github-copilot/*}`)"
+   ],
+   [
+    "11",
+    "3. Technical debt, concretely"
+   ],
+   [
+    "11",
+    "4. Coverage log \u2014 what was actually read"
+   ],
+   [
+    "18",
+    "3. LSP \u2014 the builtin table and the client"
+   ],
+   [
+    "18",
+    "Contents"
+   ]
+  ],
+  "cli/cmd/tui/app.tsx": [
+   [
+    "03",
+    "1. `opencode` (bare) \u2192 a rendered TUI"
+   ],
+   [
+    "03",
+    "1. `opencode` (bare) \u2192 a rendered TUI"
+   ],
+   [
+    "11",
+    "4. Coverage log \u2014 what was actually read"
+   ],
+   [
+    "13",
+    "1. Process and boot (`thread.ts` \u2192 `app.tsx`)"
+   ],
+   [
+    "13",
+    "1. Process and boot (`thread.ts` \u2192 `app.tsx`)"
+   ],
+   [
+    "13",
+    "1. Process and boot (`thread.ts` \u2192 `app.tsx`)"
+   ],
+   [
+    "13",
+    "Contents"
+   ],
+   [
+    "13",
+    "Contents"
+   ],
+   [
+    "13",
+    "Contents"
+   ],
+   [
+    "13",
+    "Contents"
+   ]
+  ],
+  "cli/cmd/tui/app__dup2.tsx": [
+   [
+    "03",
+    "1. `opencode` (bare) \u2192 a rendered TUI"
+   ],
+   [
+    "03",
+    "1. `opencode` (bare) \u2192 a rendered TUI"
+   ],
+   [
+    "11",
+    "4. Coverage log \u2014 what was actually read"
+   ],
+   [
+    "13",
+    "1. Process and boot (`thread.ts` \u2192 `app.tsx`)"
+   ],
+   [
+    "13",
+    "1. Process and boot (`thread.ts` \u2192 `app.tsx`)"
+   ],
+   [
+    "13",
+    "1. Process and boot (`thread.ts` \u2192 `app.tsx`)"
+   ],
+   [
+    "13",
+    "Contents"
+   ],
+   [
+    "13",
+    "Contents"
+   ],
+   [
+    "13",
+    "Contents"
+   ],
+   [
+    "13",
+    "Contents"
+   ]
+  ],
+  "session/prompt.ts": [
+   [
+    "03",
+    "2. One user prompt \u2192 assistant turn \u2192 tool call \u2192 next step"
+   ],
+   [
+    "04",
+    "9. Instruction files \u2014 `AGENTS.md`, `CLAUDE.md`, `CONTEXT.md` (`src/session/instruction.ts`, 197 lines)"
+   ],
+   [
+    "04",
+    "9. Instruction files \u2014 `AGENTS.md`, `CLAUDE.md`, `CONTEXT.md` (`src/session/instruction.ts`, 197 lines)"
+   ],
+   [
+    "04",
+    "Contents"
+   ],
+   [
+    "06",
+    "3. The builtin tools \u2014 verified behaviour"
+   ],
+   [
+    "11",
+    "4. Coverage log \u2014 what was actually read"
+   ],
+   [
+    "11",
+    "4. Coverage log \u2014 what was actually read"
+   ],
+   [
+    "11",
+    "4. Coverage log \u2014 what was actually read"
+   ],
+   [
+    "16",
+    "Contents"
+   ],
+   [
+    "16",
+    "Contents"
+   ]
+  ],
+  "session/instruction.ts": [
+   [
+    "04",
+    "9. Instruction files \u2014 `AGENTS.md`, `CLAUDE.md`, `CONTEXT.md` (`src/session/instruction.ts`, 197 lines)"
+   ],
+   [
+    "04",
+    "Contents"
+   ],
+   [
+    "04",
+    "Contents"
+   ],
+   [
+    "11",
+    "2. Secondary decisions worth knowing"
+   ],
+   [
+    "11",
+    "4. Coverage log \u2014 what was actually read"
+   ],
+   [
+    "11",
+    "4. Coverage log \u2014 what was actually read"
+   ]
+  ],
+  "session/status.ts": [
+   [
+    "04",
+    "Contents"
+   ],
+   [
+    "11",
+    "2. Secondary decisions worth knowing"
+   ],
+   [
+    "11",
+    "4. Coverage log \u2014 what was actually read"
+   ]
+  ],
+  "session/summary.ts": [
+   [
+    "04",
+    "Contents"
+   ],
+   [
+    "11",
+    "4. Coverage log \u2014 what was actually read"
+   ],
+   [
+    "16",
+    "12. Summary / diff accounting (`session/summary.ts`)"
+   ],
+   [
+    "16",
+    "Contents"
+   ],
+   [
+    "16",
+    "Contents"
+   ],
+   [
+    "18",
+    "7. Corrections to the existing documents"
+   ]
+  ],
+  "session/revert.ts": [
+   [
+    "04",
+    "Contents"
+   ],
+   [
+    "11",
+    "4. Coverage log \u2014 what was actually read"
+   ],
+   [
+    "16",
+    "11. Revert, unrevert, cleanup (`session/revert.ts`)"
+   ],
+   [
+    "16",
+    "Contents"
+   ],
+   [
+    "16",
+    "Contents"
+   ]
+  ],
+  "session/message-v2.ts": [
+   [
+    "04",
+    "Contents"
+   ],
+   [
+    "11",
+    "4. Coverage log \u2014 what was actually read"
+   ],
+   [
+    "16",
+    "6. `MessageV2` \u2014 the storage\u2194model boundary (`message-v2.ts`)"
+   ],
+   [
+    "16",
+    "Contents"
+   ],
+   [
+    "16",
+    "Contents"
+   ],
+   [
+    "16",
+    "Contents"
+   ]
+  ],
+  "session/llm.ts": [
+   [
+    "04",
+    "Contents"
+   ],
+   [
+    "05",
+    "5. Streaming surface (`src/session/llm.ts`)"
+   ],
+   [
+    "05",
+    "Contents"
+   ],
+   [
+    "05",
+    "Contents"
+   ],
+   [
+    "11",
+    "2. Secondary decisions worth knowing"
+   ],
+   [
+    "11",
+    "2. Secondary decisions worth knowing"
+   ],
+   [
+    "11",
+    "2. Secondary decisions worth knowing"
+   ],
+   [
+    "11",
+    "4. Coverage log \u2014 what was actually read"
+   ]
+  ],
+  "session/overflow.ts": [
+   [
+    "04",
+    "4. `SessionCompaction` \u2014 context management (`src/session/compaction.ts`)"
+   ],
+   [
+    "04",
+    "Contents"
+   ]
+  ],
+  "session/system.ts": [
+   [
+    "04",
+    "Contents"
+   ],
+   [
+    "11",
+    "4. Coverage log \u2014 what was actually read"
+   ],
+   [
+    "16",
+    "9. Config (formerly [undetermined] \u2014 now [verified])"
+   ],
+   [
+    "16",
+    "Contents"
+   ]
+  ],
+  "session/todo.ts": [
+   [
+    "04",
+    "Contents"
+   ],
+   [
+    "06",
+    "3. The builtin tools \u2014 verified behaviour"
+   ]
+  ],
+  "session/projectors.ts": [
+   [
+    "04",
+    "5. `SyncEvent`, projectors and the write path"
+   ],
+   [
+    "04",
+    "Contents"
+   ],
+   [
+    "11",
+    "4. Coverage log \u2014 what was actually read"
+   ],
+   [
+    "16",
+    "13. Projectors \u2014 how events become rows (`session/projectors.ts`)"
+   ],
+   [
+    "16",
+    "Contents"
+   ],
+   [
+    "16",
+    "Contents"
+   ]
+  ],
+  "session/session.sql.ts": [
+   [
+    "04",
+    "Contents"
+   ],
+   [
+    "08",
+    "2. SQLite schema (`session.sql.ts`, `storage/db.ts`)"
+   ],
+   [
+    "08",
+    "Contents"
+   ],
+   [
+    "08",
+    "Contents"
+   ]
+  ],
+  "server/projectors.ts": [
+   [
+    "04",
+    "5. `SyncEvent`, projectors and the write path"
+   ],
+   [
+    "07",
+    "3. HTTP server (`src/server/server.ts`)"
+   ],
+   [
+    "07",
+    "Contents"
+   ]
+  ],
+  "command/template/review.txt": [
+   [
+    "04",
+    "9. Instruction files \u2014 `AGENTS.md`, `CLAUDE.md`, `CONTEXT.md` (`src/session/instruction.ts`, 197 lines)"
+   ]
+  ],
+  "tool/read.ts": [
+   [
+    "04",
+    "9. Instruction files \u2014 `AGENTS.md`, `CLAUDE.md`, `CONTEXT.md` (`src/session/instruction.ts`, 197 lines)"
+   ],
+   [
+    "06",
+    "3. The builtin tools \u2014 verified behaviour"
+   ],
+   [
+    "06",
+    "Contents"
+   ],
+   [
+    "10",
+    "2. The permission gate, precisely"
+   ],
+   [
+    "11",
+    "2. Secondary decisions worth knowing"
+   ],
+   [
+    "11",
+    "4. Coverage log \u2014 what was actually read"
+   ],
+   [
+    "11",
+    "4. Coverage log \u2014 what was actually read"
+   ]
+  ],
+  "provider/provider.ts": [
+   [
+    "05",
+    "2. Provider registry construction (`provider.ts:839+`) \u2014 [verified]"
+   ],
+   [
+    "05",
+    "3. Model + language-model resolution"
+   ],
+   [
+    "05",
+    "3. Model + language-model resolution"
+   ],
+   [
+    "05",
+    "5. Streaming surface (`src/session/llm.ts`)"
+   ],
+   [
+    "05",
+    "9. The vendored OpenAI-compatible SDK (`src/provider/sdk/copilot/**`, 20 files, 2,879 lines) \u2014 [verified]"
+   ],
+   [
+    "05",
+    "Contents"
+   ],
+   [
+    "05",
+    "Contents"
+   ],
+   [
+    "05",
+    "Contents"
+   ],
+   [
+    "11",
+    "4. Coverage log \u2014 what was actually read"
+   ]
+  ],
+  "provider/transform.ts": [
+   [
+    "05",
+    "2. Provider registry construction (`provider.ts:839+`) \u2014 [verified]"
+   ],
+   [
+    "05",
+    "4. Request transformation (`transform.ts`)"
+   ],
+   [
+    "05",
+    "Contents"
+   ],
+   [
+    "05",
+    "Contents"
+   ],
+   [
+    "11",
+    "4. Coverage log \u2014 what was actually read"
+   ],
+   [
+    "11",
+    "5. If you were to change one thing"
+   ],
+   [
+    "18",
+    "1. `config/config.ts` \u2014 the loader, in code order"
+   ]
+  ],
+  "provider/schema.ts": [
+   [
+    "05",
+    "2. Provider registry construction (`provider.ts:839+`) \u2014 [verified]"
+   ],
+   [
+    "05",
+    "Contents"
+   ]
+  ],
+  "provider/models.ts": [
+   [
+    "05",
+    "2. Provider registry construction (`provider.ts:839+`) \u2014 [verified]"
+   ],
+   [
+    "05",
+    "Contents"
+   ]
+  ],
+  "provider/error.ts": [
+   [
+    "05",
+    "6. Cost and token accounting (`Session.getUsage`)"
+   ],
+   [
+    "05",
+    "Contents"
+   ]
+  ],
+  "provider/auth.ts": [
+   [
+    "05",
+    "7. Auth (`src/provider/auth.ts`, `src/mcp/*oauth*`)"
+   ],
+   [
+    "05",
+    "Contents"
+   ],
+   [
+    "09",
+    "1. Plugins (`src/plugin/index.ts`, `src/plugin/loader.ts`, `src/plugin/{codex,github-copilot/*}`)"
+   ]
+  ],
+  "provider/models-snapshot.js": [
+   [
+    "05",
+    "2. Provider registry construction (`provider.ts:839+`) \u2014 [verified]"
+   ],
+   [
+    "05",
+    "2. Provider registry construction (`provider.ts:839+`) \u2014 [verified]"
+   ],
+   [
+    "05",
+    "8. `models-snapshot.js` \u2014 the 1.76 MB constant"
+   ],
+   [
+    "05",
+    "Contents"
+   ],
+   [
+    "11",
+    "1. The seven decisions that shape everything"
+   ]
+  ],
+  "provider/sdk/copilot/copilot-provider.ts": [
+   [
+    "05",
+    "9. The vendored OpenAI-compatible SDK (`src/provider/sdk/copilot/**`, 20 files, 2,879 lines) \u2014 [verified]"
+   ],
+   [
+    "05",
+    "9. The vendored OpenAI-compatible SDK (`src/provider/sdk/copilot/**`, 20 files, 2,879 lines) \u2014 [verified]"
+   ],
+   [
+    "05",
+    "9. The vendored OpenAI-compatible SDK (`src/provider/sdk/copilot/**`, 20 files, 2,879 lines) \u2014 [verified]"
+   ],
+   [
+    "05",
+    "9. The vendored OpenAI-compatible SDK (`src/provider/sdk/copilot/**`, 20 files, 2,879 lines) \u2014 [verified]"
+   ],
+   [
+    "05",
+    "Contents"
+   ]
+  ],
+  "provider/sdk/copilot/chat/openai-compatible-chat-language-model.ts": [
+   [
+    "05",
+    "9. The vendored OpenAI-compatible SDK (`src/provider/sdk/copilot/**`, 20 files, 2,879 lines) \u2014 [verified]"
+   ],
+   [
+    "05",
+    "9. The vendored OpenAI-compatible SDK (`src/provider/sdk/copilot/**`, 20 files, 2,879 lines) \u2014 [verified]"
+   ],
+   [
+    "05",
+    "Contents"
+   ]
+  ],
+  "mcp/oauth-provider.ts": [
+   [
+    "05",
+    "7. Auth (`src/provider/auth.ts`, `src/mcp/*oauth*`)"
+   ]
+  ],
+  "mcp/oauth-callback.ts": [
+   [
+    "05",
+    "7. Auth (`src/provider/auth.ts`, `src/mcp/*oauth*`)"
+   ]
+  ],
+  "plugin/codex.ts": [
+   [
+    "05",
+    "7. Auth (`src/provider/auth.ts`, `src/mcp/*oauth*`)"
+   ]
+  ],
+  "provider/sdk/copilot/index.ts": [
+   [
+    "05",
+    "9. The vendored OpenAI-compatible SDK (`src/provider/sdk/copilot/**`, 20 files, 2,879 lines) \u2014 [verified]"
+   ],
+   [
+    "05",
+    "9. The vendored OpenAI-compatible SDK (`src/provider/sdk/copilot/**`, 20 files, 2,879 lines) \u2014 [verified]"
+   ]
+  ],
+  "provider/sdk/copilot/openai-compatible-error.ts": [
+   [
+    "05",
+    "9. The vendored OpenAI-compatible SDK (`src/provider/sdk/copilot/**`, 20 files, 2,879 lines) \u2014 [verified]"
+   ],
+   [
+    "05",
+    "9. The vendored OpenAI-compatible SDK (`src/provider/sdk/copilot/**`, 20 files, 2,879 lines) \u2014 [verified]"
+   ],
+   [
+    "05",
+    "9. The vendored OpenAI-compatible SDK (`src/provider/sdk/copilot/**`, 20 files, 2,879 lines) \u2014 [verified]"
+   ]
+  ],
+  "plugin/github-copilot/copilot.ts": [
+   [
+    "05",
+    "9. The vendored OpenAI-compatible SDK (`src/provider/sdk/copilot/**`, 20 files, 2,879 lines) \u2014 [verified]"
+   ]
+  ],
+  "provider/sdk/copilot/responses/convert-to-openai-responses-input.ts": [
+   [
+    "05",
+    "9. The vendored OpenAI-compatible SDK (`src/provider/sdk/copilot/**`, 20 files, 2,879 lines) \u2014 [verified]"
+   ],
+   [
+    "05",
+    "9. The vendored OpenAI-compatible SDK (`src/provider/sdk/copilot/**`, 20 files, 2,879 lines) \u2014 [verified]"
+   ]
+  ],
+  "provider/sdk/copilot/chat/convert-to-openai-compatible-chat-messages.ts": [
+   [
+    "05",
+    "9. The vendored OpenAI-compatible SDK (`src/provider/sdk/copilot/**`, 20 files, 2,879 lines) \u2014 [verified]"
+   ]
+  ],
+  "provider/sdk/copilot/chat/openai-compatible-prepare-tools.ts": [
+   [
+    "05",
+    "9. The vendored OpenAI-compatible SDK (`src/provider/sdk/copilot/**`, 20 files, 2,879 lines) \u2014 [verified]"
+   ]
+  ],
+  "provider/sdk/copilot/chat/openai-compatible-chat-options.ts": [
+   [
+    "05",
+    "9. The vendored OpenAI-compatible SDK (`src/provider/sdk/copilot/**`, 20 files, 2,879 lines) \u2014 [verified]"
+   ]
+  ],
+  "provider/sdk/copilot/chat/map-openai-compatible-finish-reason.ts": [
+   [
+    "05",
+    "9. The vendored OpenAI-compatible SDK (`src/provider/sdk/copilot/**`, 20 files, 2,879 lines) \u2014 [verified]"
+   ]
+  ],
+  "provider/sdk/copilot/chat/get-response-metadata.ts": [
+   [
+    "05",
+    "9. The vendored OpenAI-compatible SDK (`src/provider/sdk/copilot/**`, 20 files, 2,879 lines) \u2014 [verified]"
+   ]
+  ],
+  "provider/sdk/copilot/responses/openai-responses-language-model.ts": [
+   [
+    "05",
+    "9. The vendored OpenAI-compatible SDK (`src/provider/sdk/copilot/**`, 20 files, 2,879 lines) \u2014 [verified]"
+   ]
+  ],
+  "provider/sdk/copilot/responses/openai-responses-prepare-tools.ts": [
+   [
+    "05",
+    "9. The vendored OpenAI-compatible SDK (`src/provider/sdk/copilot/**`, 20 files, 2,879 lines) \u2014 [verified]"
+   ]
+  ],
+  "provider/sdk/copilot/responses/openai-error.ts": [
+   [
+    "05",
+    "9. The vendored OpenAI-compatible SDK (`src/provider/sdk/copilot/**`, 20 files, 2,879 lines) \u2014 [verified]"
+   ],
+   [
+    "05",
+    "9. The vendored OpenAI-compatible SDK (`src/provider/sdk/copilot/**`, 20 files, 2,879 lines) \u2014 [verified]"
+   ]
+  ],
+  "provider/sdk/copilot/responses/map-openai-responses-finish-reason.ts": [
+   [
+    "05",
+    "9. The vendored OpenAI-compatible SDK (`src/provider/sdk/copilot/**`, 20 files, 2,879 lines) \u2014 [verified]"
+   ]
+  ],
+  "provider/sdk/copilot/responses/tool/web-search.ts": [
+   [
+    "05",
+    "9. The vendored OpenAI-compatible SDK (`src/provider/sdk/copilot/**`, 20 files, 2,879 lines) \u2014 [verified]"
+   ]
+  ],
+  "provider/sdk/copilot/responses/tool/web-search-preview.ts": [
+   [
+    "05",
+    "9. The vendored OpenAI-compatible SDK (`src/provider/sdk/copilot/**`, 20 files, 2,879 lines) \u2014 [verified]"
+   ]
+  ],
+  "provider/sdk/copilot/responses/tool/file-search.ts": [
+   [
+    "05",
+    "9. The vendored OpenAI-compatible SDK (`src/provider/sdk/copilot/**`, 20 files, 2,879 lines) \u2014 [verified]"
+   ]
+  ],
+  "provider/sdk/copilot/responses/tool/code-interpreter.ts": [
+   [
+    "05",
+    "9. The vendored OpenAI-compatible SDK (`src/provider/sdk/copilot/**`, 20 files, 2,879 lines) \u2014 [verified]"
+   ]
+  ],
+  "provider/sdk/copilot/responses/tool/image-generation.ts": [
+   [
+    "05",
+    "9. The vendored OpenAI-compatible SDK (`src/provider/sdk/copilot/**`, 20 files, 2,879 lines) \u2014 [verified]"
+   ]
+  ],
+  "provider/sdk/copilot/responses/tool/local-shell.ts": [
+   [
+    "05",
+    "9. The vendored OpenAI-compatible SDK (`src/provider/sdk/copilot/**`, 20 files, 2,879 lines) \u2014 [verified]"
+   ]
+  ],
+  "tool/tool.ts": [
+   [
+    "06",
+    "1. The tool contract \u2014 `Tool.define` (`src/tool/tool.ts`)"
+   ],
+   [
+    "06",
+    "Contents"
+   ],
+   [
+    "06",
+    "Contents"
+   ],
+   [
+    "11",
+    "4. Coverage log \u2014 what was actually read"
+   ]
+  ],
+  "tool/registry.ts": [
+   [
+    "06",
+    "2. `ToolRegistry` (`src/tool/registry.ts`)"
+   ],
+   [
+    "06",
+    "3. The builtin tools \u2014 verified behaviour"
+   ],
+   [
+    "06",
+    "Contents"
+   ],
+   [
+    "06",
+    "Contents"
+   ],
+   [
+    "11",
+    "4. Coverage log \u2014 what was actually read"
+   ]
+  ],
+  "tool/write.ts": [
+   [
+    "06",
+    "3. The builtin tools \u2014 verified behaviour"
+   ],
+   [
+    "06",
+    "Contents"
+   ],
+   [
+    "10",
+    "2. The permission gate, precisely"
+   ],
+   [
+    "11",
+    "2. Secondary decisions worth knowing"
+   ],
+   [
+    "11",
+    "4. Coverage log \u2014 what was actually read"
+   ]
+  ],
+  "tool/edit.ts": [
+   [
+    "06",
+    "3. The builtin tools \u2014 verified behaviour"
+   ],
+   [
+    "06",
+    "Contents"
+   ],
+   [
+    "11",
+    "4. Coverage log \u2014 what was actually read"
+   ]
+  ],
+  "tool/glob.ts": [
+   [
+    "06",
+    "3. The builtin tools \u2014 verified behaviour"
+   ],
+   [
+    "06",
+    "Contents"
+   ]
+  ],
+  "tool/truncate.ts": [
+   [
+    "06",
+    "3. The builtin tools \u2014 verified behaviour"
+   ],
+   [
+    "06",
+    "3. The builtin tools \u2014 verified behaviour"
+   ],
+   [
+    "06",
+    "Contents"
+   ],
+   [
+    "10",
+    "3. Filesystem safety"
+   ],
+   [
+    "10",
+    "Contents"
+   ],
+   [
+    "11",
+    "4. Coverage log \u2014 what was actually read"
+   ]
+  ],
+  "tool/truncation-dir.ts": [
+   [
+    "06",
+    "3. The builtin tools \u2014 verified behaviour"
+   ],
+   [
+    "06",
+    "3. The builtin tools \u2014 verified behaviour"
+   ],
+   [
+    "06",
+    "Contents"
+   ]
+  ],
+  "permission/arity.ts": [
+   [
+    "06",
+    "3. The builtin tools \u2014 verified behaviour"
+   ],
+   [
+    "06",
+    "Contents"
+   ],
+   [
+    "06",
+    "Contents"
+   ]
+  ],
+  "cli/cmd/tui/util/clipboard__dup2.ts": [
+   [
+    "06",
+    "3. The builtin tools \u2014 verified behaviour"
+   ],
+   [
+    "06",
+    "Contents"
+   ]
+  ],
+  "permission/index.ts": [
+   [
+    "06",
+    "4. The permission system"
+   ],
+   [
+    "06",
+    "Contents"
+   ],
+   [
+    "06",
+    "Contents"
+   ],
+   [
+    "11",
+    "4. Coverage log \u2014 what was actually read"
+   ]
+  ],
+  "permission/evaluate.ts": [
+   [
+    "06",
+    "4. The permission system"
+   ],
+   [
+    "06",
+    "Contents"
+   ],
+   [
+    "06",
+    "Contents"
+   ],
+   [
+    "11",
+    "4. Coverage log \u2014 what was actually read"
+   ]
+  ],
+  "file/ripgrep.ts": [
+   [
+    "06",
+    "3. The builtin tools \u2014 verified behaviour"
+   ],
+   [
+    "10",
+    "5. Process and code execution"
+   ],
+   [
+    "10",
+    "8. Known weaknesses (verified or strongly implied)"
+   ],
+   [
+    "11",
+    "4. Coverage log \u2014 what was actually read"
+   ],
+   [
+    "15",
+    "14. `File` \u2014 the read/list/search service (`src/file/index.ts`, 601 lines)"
+   ],
+   [
+    "15",
+    "5. `Ripgrep` (`src/file/ripgrep.ts`, 315 lines)"
+   ],
+   [
+    "15",
+    "Contents"
+   ]
+  ],
+  "patch/index.ts": [
+   [
+    "06",
+    "3. The builtin tools \u2014 verified behaviour"
+   ],
+   [
+    "11",
+    "4. Coverage log \u2014 what was actually read"
+   ],
+   [
+    "15",
+    "11. `Patch` \u2014 the `apply_patch` engine (`src/patch/index.ts`, 489 lines)"
+   ],
+   [
+    "15",
+    "Contents"
+   ]
+  ],
+  "tool/invalid.ts": [
+   [
+    "06",
+    "3. The builtin tools \u2014 verified behaviour"
+   ],
+   [
+    "11",
+    "4. Coverage log \u2014 what was actually read"
+   ]
+  ],
+  "tool/plan.ts": [
+   [
+    "06",
+    "3. The builtin tools \u2014 verified behaviour"
+   ],
+   [
+    "11",
+    "4. Coverage log \u2014 what was actually read"
+   ]
+  ],
+  "tool/schema.ts": [
+   [
+    "06",
+    "3. The builtin tools \u2014 verified behaviour"
+   ],
+   [
+    "06",
+    "3. The builtin tools \u2014 verified behaviour"
+   ]
+  ],
+  "agent/agent.ts": [
+   [
+    "06",
+    "3. The builtin tools \u2014 verified behaviour"
+   ],
+   [
+    "10",
+    "2. The permission gate, precisely"
+   ],
+   [
+    "10",
+    "Contents"
+   ],
+   [
+    "11",
+    "4. Coverage log \u2014 what was actually read"
+   ]
+  ],
+  "tool/apply_patch.ts": [
+   [
+    "06",
+    "3. The builtin tools \u2014 verified behaviour"
+   ]
+  ],
+  "tool/bash.ts": [
+   [
+    "06",
+    "3. The builtin tools \u2014 verified behaviour"
+   ],
+   [
+    "10",
+    "8. Known weaknesses (verified or strongly implied)"
+   ],
+   [
+    "11",
+    "4. Coverage log \u2014 what was actually read"
+   ]
+  ],
+  "tool/bash.txt": [
+   [
+    "06",
+    "5. Tool exposure surface and prompt coupling"
+   ],
+   [
+    "06",
+    "5. Tool exposure surface and prompt coupling"
+   ],
+   [
+    "11",
+    "1. The seven decisions that shape everything"
+   ]
+  ],
+  "tool/edit.txt": [
+   [
+    "06",
+    "5. Tool exposure surface and prompt coupling"
+   ],
+   [
+    "06",
+    "5. Tool exposure surface and prompt coupling"
+   ],
+   [
+    "11",
+    "1. The seven decisions that shape everything"
+   ]
+  ],
+  "tool/plan-exit.txt": [
+   [
+    "06",
+    "5. Tool exposure surface and prompt coupling"
+   ],
+   [
+    "06",
+    "5. Tool exposure surface and prompt coupling"
+   ]
+  ],
+  "tool/todowrite.txt": [
+   [
+    "06",
+    "5. Tool exposure surface and prompt coupling"
+   ],
+   [
+    "06",
+    "5. Tool exposure surface and prompt coupling"
+   ]
+  ],
+  "tool/batch.txt": [
+   [
+    "06",
+    "5. Tool exposure surface and prompt coupling"
+   ]
+  ],
+  "tool/apply_patch.txt": [
+   [
+    "06",
+    "5. Tool exposure surface and prompt coupling"
+   ]
+  ],
+  "tool/lsp.txt": [
+   [
+    "06",
+    "5. Tool exposure surface and prompt coupling"
+   ]
+  ],
+  "tool/websearch.txt": [
+   [
+    "06",
+    "5. Tool exposure surface and prompt coupling"
+   ]
+  ],
+  "tool/question.txt": [
+   [
+    "06",
+    "5. Tool exposure surface and prompt coupling"
+   ]
+  ],
+  "tool/glob.txt": [
+   [
+    "06",
+    "5. Tool exposure surface and prompt coupling"
+   ]
+  ],
+  "tool/grep.txt": [
+   [
+    "06",
+    "5. Tool exposure surface and prompt coupling"
+   ]
+  ],
+  "tool/write.txt": [
+   [
+    "06",
+    "5. Tool exposure surface and prompt coupling"
+   ]
+  ],
+  "tool/read.txt": [
+   [
+    "06",
+    "5. Tool exposure surface and prompt coupling"
+   ]
+  ],
+  "tool/task.txt": [
+   [
+    "06",
+    "5. Tool exposure surface and prompt coupling"
+   ],
+   [
+    "09",
+    "5. Commands (`src/command/index.ts`, 146 lines)"
+   ],
+   [
+    "09",
+    "5. Commands (`src/command/index.ts`, 146 lines)"
+   ],
+   [
+    "09",
+    "Contents"
+   ]
+  ],
+  "tool/codesearch.txt": [
+   [
+    "06",
+    "5. Tool exposure surface and prompt coupling"
+   ]
+  ],
+  "tool/webfetch.txt": [
+   [
+    "06",
+    "5. Tool exposure surface and prompt coupling"
+   ]
+  ],
+  "tool/question.ts": [
+   [
+    "06",
+    "5. Tool exposure surface and prompt coupling"
+   ]
+  ],
+  "tool/todo.ts": [
+   [
+    "06",
+    "5. Tool exposure surface and prompt coupling"
+   ]
+  ],
+  "server/server.ts": [
+   [
+    "07",
+    "3. HTTP server (`src/server/server.ts`)"
+   ],
+   [
+    "07",
+    "Contents"
+   ],
+   [
+    "07",
+    "Contents"
+   ],
+   [
+    "11",
+    "4. Coverage log \u2014 what was actually read"
+   ]
+  ],
+  "server/routes/provider.ts": [
+   [
+    "07",
+    "3. HTTP server (`src/server/server.ts`)"
+   ],
+   [
+    "07",
+    "Contents"
+   ]
+  ],
+  "server/routes/project.ts": [
+   [
+    "07",
+    "3. HTTP server (`src/server/server.ts`)"
+   ],
+   [
+    "07",
+    "Contents"
+   ]
+  ],
+  "server/routes/config.ts": [
+   [
+    "07",
+    "3. HTTP server (`src/server/server.ts`)"
+   ],
+   [
+    "07",
+    "Contents"
+   ]
+  ],
+  "server/router.ts": [
+   [
+    "07",
+    "3. HTTP server (`src/server/server.ts`)"
+   ],
+   [
+    "07",
+    "Contents"
+   ],
+   [
+    "07",
+    "Contents"
+   ]
+  ],
+  "server/routes/question.ts": [
+   [
+    "07",
+    "3. HTTP server (`src/server/server.ts`)"
+   ],
+   [
+    "07",
+    "Contents"
+   ]
+  ],
+  "server/routes/permission.ts": [
+   [
+    "07",
+    "3. HTTP server (`src/server/server.ts`)"
+   ],
+   [
+    "07",
+    "Contents"
+   ]
+  ],
+  "server/routes/workspace.ts": [
+   [
+    "07",
+    "3. HTTP server (`src/server/server.ts`)"
+   ],
+   [
+    "07",
+    "Contents"
+   ]
+  ],
+  "server/mdns.ts": [
+   [
+    "07",
+    "3. HTTP server (`src/server/server.ts`)"
+   ],
+   [
+    "07",
+    "Contents"
+   ],
+   [
+    "07",
+    "Contents"
+   ]
+  ],
+  "cli/cmd/tui/context/sync.tsx": [
+   [
+    "07",
+    "4. The TUI's data layer"
+   ],
+   [
+    "07",
+    "Contents"
+   ],
+   [
+    "07",
+    "Contents"
+   ],
+   [
+    "11",
+    "2. Secondary decisions worth knowing"
+   ],
+   [
+    "11",
+    "4. Coverage log \u2014 what was actually read"
+   ],
+   [
+    "13",
+    "2. Data layer: `SyncProvider` (`context/sync.tsx`, 379 lines)"
+   ],
+   [
+    "13",
+    "Contents"
+   ],
+   [
+    "13",
+    "Contents"
+   ]
+  ],
+  "server/middleware.ts": [
+   [
+    "07",
+    "3. HTTP server (`src/server/server.ts`)"
+   ],
+   [
+    "07",
+    "Contents"
+   ]
+  ],
+  "server/event.ts": [
+   [
+    "07",
+    "Contents"
+   ],
+   [
+    "10",
+    "6. HTTP surface"
+   ]
+  ],
+  "server/error.ts": [
+   [
+    "07",
+    "3. HTTP server (`src/server/server.ts`)"
+   ],
+   [
+    "07",
+    "Contents"
+   ]
+  ],
+  "server/instance.ts": [
+   [
+    "07",
+    "3. HTTP server (`src/server/server.ts`)"
+   ],
+   [
+    "07",
+    "Contents"
+   ]
+  ],
+  "util/rpc.ts": [
+   [
+    "07",
+    "Contents"
+   ]
+  ],
+  "cli/cmd/tui/context/sdk.tsx": [
+   [
+    "07",
+    "Contents"
+   ],
+   [
+    "13",
+    "2. Data layer: `SyncProvider` (`context/sync.tsx`, 379 lines)"
+   ],
+   [
+    "13",
+    "Contents"
+   ],
+   [
+    "13",
+    "Contents"
+   ]
+  ],
+  "cli/cmd/tui/context/route.tsx": [
+   [
+    "07",
+    "Contents"
+   ],
+   [
+    "13",
+    "4. Keybindings (`context/keybind.tsx`, 98 lines)"
+   ],
+   [
+    "13",
+    "Contents"
+   ]
+  ],
+  "cli/cmd/tui/context/args.tsx": [
+   [
+    "07",
+    "Contents"
+   ],
+   [
+    "13",
+    "4. Keybindings (`context/keybind.tsx`, 98 lines)"
+   ],
+   [
+    "13",
+    "Contents"
+   ]
+  ],
+  "cli/cmd/tui/context/local.tsx": [
+   [
+    "07",
+    "Contents"
+   ],
+   [
+    "11",
+    "4. Coverage log \u2014 what was actually read"
+   ],
+   [
+    "13",
+    "3. Local selection state: `context/local.tsx` (393 lines)"
+   ],
+   [
+    "13",
+    "Contents"
+   ],
+   [
+    "13",
+    "Contents"
+   ]
+  ],
+  "server/routes/pty.ts": [
+   [
+    "07",
+    "3. HTTP server (`src/server/server.ts`)"
+   ]
+  ],
+  "server/routes/session.ts": [
+   [
+    "07",
+    "3. HTTP server (`src/server/server.ts`)"
+   ]
+  ],
+  "server/routes/experimental.ts": [
+   [
+    "07",
+    "3. HTTP server (`src/server/server.ts`)"
+   ]
+  ],
+  "server/routes/mcp.ts": [
+   [
+    "07",
+    "3. HTTP server (`src/server/server.ts`)"
+   ]
+  ],
+  "server/routes/file.ts": [
+   [
+    "07",
+    "3. HTTP server (`src/server/server.ts`)"
+   ]
+  ],
+  "cli/cmd/tui/routes/session/index.tsx": [
+   [
+    "07",
+    "4. The TUI's data layer"
+   ],
+   [
+    "13",
+    "5. The session route (`routes/session/index.tsx`, 3,020 lines)"
+   ],
+   [
+    "13",
+    "Contents"
+   ]
+  ],
+  "cli/cmd/tui/routes/session/index__dup2.tsx": [
+   [
+    "07",
+    "4. The TUI's data layer"
+   ],
+   [
+    "13",
+    "5. The session route (`routes/session/index.tsx`, 3,020 lines)"
+   ],
+   [
+    "13",
+    "Contents"
+   ]
+  ],
+  "cli/cmd/tui/routes/session/index__dup3.tsx": [
+   [
+    "07",
+    "4. The TUI's data layer"
+   ],
+   [
+    "13",
+    "5. The session route (`routes/session/index.tsx`, 3,020 lines)"
+   ],
+   [
+    "13",
+    "Contents"
+   ]
+  ],
+  "cli/cmd/tui/routes/session/index__dup4.tsx": [
+   [
+    "07",
+    "4. The TUI's data layer"
+   ],
+   [
+    "13",
+    "5. The session route (`routes/session/index.tsx`, 3,020 lines)"
+   ],
+   [
+    "13",
+    "Contents"
+   ]
+  ],
+  "cli/cmd/tui/component/prompt/index.tsx": [
+   [
+    "07",
+    "4. The TUI's data layer"
+   ],
+   [
+    "13",
+    "8. The composer (`component/prompt/index.tsx`, 1,282 lines)"
+   ],
+   [
+    "13",
+    "Contents"
+   ]
+  ],
+  "cli/cmd/tui/component/prompt/index__dup2.tsx": [
+   [
+    "07",
+    "4. The TUI's data layer"
+   ],
+   [
+    "13",
+    "8. The composer (`component/prompt/index.tsx`, 1,282 lines)"
+   ],
+   [
+    "13",
+    "Contents"
+   ]
+  ],
+  "cli/cmd/tui/component/prompt/index__dup3.tsx": [
+   [
+    "07",
+    "4. The TUI's data layer"
+   ],
+   [
+    "13",
+    "8. The composer (`component/prompt/index.tsx`, 1,282 lines)"
+   ],
+   [
+    "13",
+    "Contents"
+   ]
+  ],
+  "cli/cmd/tui/routes/session/permission.tsx": [
+   [
+    "07",
+    "4. The TUI's data layer"
+   ],
+   [
+    "11",
+    "4. Coverage log \u2014 what was actually read"
+   ],
+   [
+    "13",
+    "6. The permission dialog (`routes/session/permission.tsx`, 949 lines)"
+   ],
+   [
+    "13",
+    "Contents"
+   ],
+   [
+    "13",
+    "Contents"
+   ]
+  ],
+  "cli/cmd/tui/routes/session/question.tsx": [
+   [
+    "07",
+    "4. The TUI's data layer"
+   ],
+   [
+    "11",
+    "4. Coverage log \u2014 what was actually read"
+   ],
+   [
+    "13",
+    "7. The question dialog (`routes/session/question.tsx`, 609 lines)"
+   ],
+   [
+    "13",
+    "Contents"
+   ],
+   [
+    "13",
+    "Contents"
+   ]
+  ],
+  "cli/cmd/tui/plugin/runtime.ts": [
+   [
+    "07",
+    "4. The TUI's data layer"
+   ],
+   [
+    "13",
+    "12. TUI plugin runtime (`plugin/runtime.ts`, 851 lines; `plugin/api.tsx`, 433)"
+   ],
+   [
+    "13",
+    "Contents"
+   ]
+  ],
+  "cli/cmd/tui/plugin/runtime__dup2.ts": [
+   [
+    "07",
+    "4. The TUI's data layer"
+   ],
+   [
+    "13",
+    "12. TUI plugin runtime (`plugin/runtime.ts`, 851 lines; `plugin/api.tsx`, 433)"
+   ],
+   [
+    "13",
+    "Contents"
+   ]
+  ],
+  "cli/cmd/tui/plugin/runtime__dup3.ts": [
+   [
+    "07",
+    "4. The TUI's data layer"
+   ],
+   [
+    "13",
+    "12. TUI plugin runtime (`plugin/runtime.ts`, 851 lines; `plugin/api.tsx`, 433)"
+   ],
+   [
+    "13",
+    "Contents"
+   ]
+  ],
+  "cli/cmd/tui/plugin/runtime__dup4.ts": [
+   [
+    "07",
+    "4. The TUI's data layer"
+   ],
+   [
+    "13",
+    "12. TUI plugin runtime (`plugin/runtime.ts`, 851 lines; `plugin/api.tsx`, 433)"
+   ],
+   [
+    "13",
+    "Contents"
+   ]
+  ],
+  "global/index.ts": [
+   [
+    "08",
+    "1. Filesystem layout (`Global.Path`, `global/index.ts`)"
+   ],
+   [
+    "08",
+    "Contents"
+   ],
+   [
+    "08",
+    "Contents"
+   ],
+   [
+    "11",
+    "4. Coverage log \u2014 what was actually read"
+   ]
+  ],
+  "storage/json-migration.ts": [
+   [
+    "08",
+    "2. SQLite schema (`session.sql.ts`, `storage/db.ts`)"
+   ],
+   [
+    "08",
+    "Contents"
+   ],
+   [
+    "14",
+    "13. `db` and `debug`"
+   ]
+  ],
+  "config/config.ts": [
+   [
+    "08",
+    "5. Configuration \u2014 the full precedence chain (`config/config.ts`)"
+   ],
+   [
+    "08",
+    "Contents"
+   ],
+   [
+    "08",
+    "Contents"
+   ],
+   [
+    "11",
+    "4. Coverage log \u2014 what was actually read"
+   ],
+   [
+    "11",
+    "4. Coverage log \u2014 what was actually read"
+   ],
+   [
+    "11",
+    "4. Coverage log \u2014 what was actually read"
+   ],
+   [
+    "16",
+    "Contents"
+   ],
+   [
+    "18",
+    "1. `config/config.ts` \u2014 the loader, in code order"
+   ],
+   [
+    "18",
+    "1. `config/config.ts` \u2014 the loader, in code order"
+   ],
+   [
+    "18",
+    "Contents"
+   ],
+   [
+    "18",
+    "Contents"
+   ]
+  ],
+  "project/project.sql.ts": [
+   [
+    "08",
+    "7. Project identity (`project/project.sql.ts`, `src/project/*`)"
+   ],
+   [
+    "08",
+    "7. Project identity (`project/project.sql.ts`, `src/project/*`)"
+   ],
+   [
+    "08",
+    "Contents"
+   ],
+   [
+    "08",
+    "Contents"
+   ],
+   [
+    "11",
+    "4. Coverage log \u2014 what was actually read"
+   ]
+  ],
+  "storage/storage.ts": [
+   [
+    "08",
+    "2. SQLite schema (`session.sql.ts`, `storage/db.ts`)"
+   ]
+  ],
+  "cli/cmd/tui/context/theme/opencode.json": [
+   [
+    "08",
+    "5. Configuration \u2014 the full precedence chain (`config/config.ts`)"
+   ],
+   [
+    "08",
+    "5. Configuration \u2014 the full precedence chain (`config/config.ts`)"
+   ],
+   [
+    "08",
+    "5. Configuration \u2014 the full precedence chain (`config/config.ts`)"
+   ],
+   [
+    "08",
+    "5. Configuration \u2014 the full precedence chain (`config/config.ts`)"
+   ],
+   [
+    "08",
+    "5. Configuration \u2014 the full precedence chain (`config/config.ts`)"
+   ],
+   [
+    "08",
+    "5. Configuration \u2014 the full precedence chain (`config/config.ts`)"
+   ],
+   [
+    "09",
+    "1. Plugins (`src/plugin/index.ts`, `src/plugin/loader.ts`, `src/plugin/{codex,github-copilot/*}`)"
+   ],
+   [
+    "09",
+    "1. Plugins (`src/plugin/index.ts`, `src/plugin/loader.ts`, `src/plugin/{codex,github-copilot/*}`)"
+   ],
+   [
+    "09",
+    "5. Commands (`src/command/index.ts`, 146 lines)"
+   ],
+   [
+    "11",
+    "3. Technical debt, concretely"
+   ],
+   [
+    "11",
+    "3. Technical debt, concretely"
+   ],
+   [
+    "13",
+    "11. Theme (`context/theme.tsx`, 1,040 lines)"
+   ],
+   [
+    "13",
+    "11. Theme (`context/theme.tsx`, 1,040 lines)"
+   ],
+   [
+    "13",
+    "11. Theme (`context/theme.tsx`, 1,040 lines)"
+   ],
+   [
+    "15",
+    "2. `Installation` \u2014 version, method, upgrade (`src/installation/index.ts`, 279 lines)"
+   ],
+   [
+    "16",
+    "9. Config (formerly [undetermined] \u2014 now [verified])"
+   ],
+   [
+    "18",
+    "1. `config/config.ts` \u2014 the loader, in code order"
+   ],
+   [
+    "18",
+    "1. `config/config.ts` \u2014 the loader, in code order"
+   ],
+   [
+    "18",
+    "1. `config/config.ts` \u2014 the loader, in code order"
+   ],
+   [
+    "18",
+    "1. `config/config.ts` \u2014 the loader, in code order"
+   ],
+   [
+    "18",
+    "1. `config/config.ts` \u2014 the loader, in code order"
+   ],
+   [
+    "18",
+    "1. `config/config.ts` \u2014 the loader, in code order"
+   ],
+   [
+    "18",
+    "7. Corrections to the existing documents"
+   ],
+   [
+    "18",
+    "7. Corrections to the existing documents"
+   ],
+   [
+    "18",
+    "7. Corrections to the existing documents"
+   ],
+   [
+    "18",
+    "7. Corrections to the existing documents"
+   ],
+   [
+    "18",
+    "7. Corrections to the existing documents"
+   ],
+   [
+    "18",
+    "8. Debt and oddities found in this pass"
+   ]
+  ],
+  "share/share-next.ts": [
+   [
+    "08",
+    "6. Flags (`src/flag/flag.ts`) \u2014 the complete environment surface"
+   ],
+   [
+    "09",
+    "6. Sharing (`src/share/share-next.ts`, 225 lines)"
+   ],
+   [
+    "09",
+    "Contents"
+   ],
+   [
+    "10",
+    "1. Trust model (as actually implemented)"
+   ],
+   [
+    "11",
+    "4. Coverage log \u2014 what was actually read"
+   ]
+  ],
+  "plugin/index.ts": [
+   [
+    "09",
+    "1. Plugins (`src/plugin/index.ts`, `src/plugin/loader.ts`, `src/plugin/{codex,github-copilot/*}`)"
+   ],
+   [
+    "09",
+    "Contents"
+   ],
+   [
+    "10",
+    "1. Trust model (as actually implemented)"
+   ],
+   [
+    "11",
+    "4. Coverage log \u2014 what was actually read"
+   ]
+  ],
+  "plugin/loader.ts": [
+   [
+    "09",
+    "1. Plugins (`src/plugin/index.ts`, `src/plugin/loader.ts`, `src/plugin/{codex,github-copilot/*}`)"
+   ],
+   [
+    "09",
+    "Contents"
+   ]
+  ],
+  "plugin/shared.ts": [
+   [
+    "09",
+    "1. Plugins (`src/plugin/index.ts`, `src/plugin/loader.ts`, `src/plugin/{codex,github-copilot/*}`)"
+   ],
+   [
+    "09",
+    "1. Plugins (`src/plugin/index.ts`, `src/plugin/loader.ts`, `src/plugin/{codex,github-copilot/*}`)"
+   ],
+   [
+    "09",
+    "Contents"
+   ]
+  ],
+  "plugin/install.ts": [
+   [
+    "09",
+    "1. Plugins (`src/plugin/index.ts`, `src/plugin/loader.ts`, `src/plugin/{codex,github-copilot/*}`)"
+   ],
+   [
+    "09",
+    "1. Plugins (`src/plugin/index.ts`, `src/plugin/loader.ts`, `src/plugin/{codex,github-copilot/*}`)"
+   ],
+   [
+    "09",
+    "1. Plugins (`src/plugin/index.ts`, `src/plugin/loader.ts`, `src/plugin/{codex,github-copilot/*}`)"
+   ],
+   [
+    "09",
+    "Contents"
+   ]
+  ],
+  "plugin/cloudflare.ts": [
+   [
+    "09",
+    "1. Plugins (`src/plugin/index.ts`, `src/plugin/loader.ts`, `src/plugin/{codex,github-copilot/*}`)"
+   ],
+   [
+    "09",
+    "Contents"
+   ]
+  ],
+  "plugin/meta.ts": [
+   [
+    "09",
+    "1. Plugins (`src/plugin/index.ts`, `src/plugin/loader.ts`, `src/plugin/{codex,github-copilot/*}`)"
+   ],
+   [
+    "09",
+    "Contents"
+   ]
+  ],
+  "plugin/github-copilot/models.ts": [
+   [
+    "09",
+    "1. Plugins (`src/plugin/index.ts`, `src/plugin/loader.ts`, `src/plugin/{codex,github-copilot/*}`)"
+   ],
+   [
+    "09",
+    "Contents"
+   ]
+  ],
+  "mcp/index.ts": [
+   [
+    "09",
+    "2. MCP (`src/mcp/index.ts`, 633 lines)"
+   ],
+   [
+    "09",
+    "Contents"
+   ],
+   [
+    "10",
+    "1. Trust model (as actually implemented)"
+   ],
+   [
+    "11",
+    "4. Coverage log \u2014 what was actually read"
+   ],
+   [
+    "11",
+    "4. Coverage log \u2014 what was actually read"
+   ],
+   [
+    "18",
+    "1. `config/config.ts` \u2014 the loader, in code order"
+   ],
+   [
+    "18",
+    "4. MCP \u2014 the parts doc 09 summarised"
+   ],
+   [
+    "18",
+    "Contents"
+   ]
+  ],
+  "mcp/auth.ts": [
+   [
+    "09",
+    "2. MCP (`src/mcp/index.ts`, 633 lines)"
+   ],
+   [
+    "09",
+    "Contents"
+   ]
+  ],
+  "lsp/index.ts": [
+   [
+    "09",
+    "3. LSP (`src/lsp/index.ts`, 421 lines; `src/lsp/{language,client,server,diagnostic}.ts`)"
+   ],
+   [
+    "09",
+    "Contents"
+   ],
+   [
+    "11",
+    "4. Coverage log \u2014 what was actually read"
+   ],
+   [
+    "11",
+    "4. Coverage log \u2014 what was actually read"
+   ],
+   [
+    "18",
+    "Contents"
+   ]
+  ],
+  "lsp/language.ts": [
+   [
+    "09",
+    "3. LSP (`src/lsp/index.ts`, 421 lines; `src/lsp/{language,client,server,diagnostic}.ts`)"
+   ],
+   [
+    "09",
+    "Contents"
+   ]
+  ],
+  "lsp/client.ts": [
+   [
+    "09",
+    "3. LSP (`src/lsp/index.ts`, 421 lines; `src/lsp/{language,client,server,diagnostic}.ts`)"
+   ],
+   [
+    "09",
+    "Contents"
+   ],
+   [
+    "11",
+    "4. Coverage log \u2014 what was actually read"
+   ],
+   [
+    "18",
+    "3. LSP \u2014 the builtin table and the client"
+   ],
+   [
+    "18",
+    "Contents"
+   ],
+   [
+    "18",
+    "Contents"
+   ]
+  ],
+  "skill/index.ts": [
+   [
+    "09",
+    "4. Skills (`src/skill/index.ts`, 208 lines)"
+   ],
+   [
+    "09",
+    "Contents"
+   ],
+   [
+    "11",
+    "4. Coverage log \u2014 what was actually read"
+   ]
+  ],
+  "skill/discovery.ts": [
+   [
+    "09",
+    "4. Skills (`src/skill/index.ts`, 208 lines)"
+   ],
+   [
+    "09",
+    "Contents"
+   ]
+  ],
+  "command/index.ts": [
+   [
+    "09",
+    "5. Commands (`src/command/index.ts`, 146 lines)"
+   ],
+   [
+    "09",
+    "Contents"
+   ],
+   [
+    "11",
+    "4. Coverage log \u2014 what was actually read"
+   ]
+  ],
+  "command/template/initialize.txt": [
+   [
+    "09",
+    "5. Commands (`src/command/index.ts`, 146 lines)"
+   ],
+   [
+    "09",
+    "5. Commands (`src/command/index.ts`, 146 lines)"
+   ],
+   [
+    "09",
+    "Contents"
+   ]
+  ],
+  "file/time.ts": [
+   [
+    "10",
+    "3. Filesystem safety"
+   ],
+   [
+    "10",
+    "Contents"
+   ],
+   [
+    "11",
+    "4. Coverage log \u2014 what was actually read"
+   ]
+  ],
+  "tool/external-directory.ts": [
+   [
+    "10",
+    "1. Trust model (as actually implemented)"
+   ],
+   [
+    "11",
+    "4. Coverage log \u2014 what was actually read"
+   ]
+  ],
+  "tool/task.ts": [
+   [
+    "10",
+    "2. The permission gate, precisely"
+   ],
+   [
+    "11",
+    "4. Coverage log \u2014 what was actually read"
+   ]
+  ],
+  "session/prompt/plan.txt": [
+   [
+    "11",
+    "2. Secondary decisions worth knowing"
+   ],
+   [
+    "11",
+    "2. Secondary decisions worth knowing"
+   ],
+   [
+    "11",
+    "Contents"
+   ]
+  ],
+  "session/prompt/max-steps.txt": [
+   [
+    "11",
+    "2. Secondary decisions worth knowing"
+   ],
+   [
+    "11",
+    "2. Secondary decisions worth knowing"
+   ],
+   [
+    "11",
+    "Contents"
+   ]
+  ],
+  "session/prompt/build-switch.txt": [
+   [
+    "11",
+    "2. Secondary decisions worth knowing"
+   ],
+   [
+    "11",
+    "2. Secondary decisions worth knowing"
+   ],
+   [
+    "11",
+    "Contents"
+   ]
+  ],
+  "installation/index.ts": [
+   [
+    "11",
+    "1. The seven decisions that shape everything"
+   ],
+   [
+    "11",
+    "4. Coverage log \u2014 what was actually read"
+   ],
+   [
+    "15",
+    "2. `Installation` \u2014 version, method, upgrade (`src/installation/index.ts`, 279 lines)"
+   ],
+   [
+    "15",
+    "Contents"
+   ]
+  ],
+  "session/prompt/anthropic.txt": [
+   [
+    "11",
+    "1. The seven decisions that shape everything"
+   ]
+  ],
+  "session/prompt/beast.txt": [
+   [
+    "11",
+    "1. The seven decisions that shape everything"
+   ]
+  ],
+  "session/prompt/gpt.txt": [
+   [
+    "11",
+    "1. The seven decisions that shape everything"
+   ]
+  ],
+  "session/prompt/gemini.txt": [
+   [
+    "11",
+    "1. The seven decisions that shape everything"
+   ]
+  ],
+  "session/prompt/kimi.txt": [
+   [
+    "11",
+    "1. The seven decisions that shape everything"
+   ]
+  ],
+  "session/prompt/codex.txt": [
+   [
+    "11",
+    "1. The seven decisions that shape everything"
+   ]
+  ],
+  "session/prompt/trinity.txt": [
+   [
+    "11",
+    "1. The seven decisions that shape everything"
+   ]
+  ],
+  "agent/prompt/explore.txt": [
+   [
+    "11",
+    "1. The seven decisions that shape everything"
+   ]
+  ],
+  "agent/prompt/compaction.txt": [
+   [
+    "11",
+    "1. The seven decisions that shape everything"
+   ]
+  ],
+  "agent/prompt/summary.txt": [
+   [
+    "11",
+    "1. The seven decisions that shape everything"
+   ]
+  ],
+  "agent/prompt/title.txt": [
+   [
+    "11",
+    "1. The seven decisions that shape everything"
+   ]
+  ],
+  "agent/generate.txt": [
+   [
+    "11",
+    "1. The seven decisions that shape everything"
+   ]
+  ],
+  "session/prompt/default.txt": [
+   [
+    "11",
+    "1. The seven decisions that shape everything"
+   ]
+  ],
+  "tool/batch.ts": [
+   [
+    "11",
+    "2. Secondary decisions worth knowing"
+   ],
+   [
+    "11",
+    "4. Coverage log \u2014 what was actually read"
+   ]
+  ],
+  "index__dup2.ts": [
+   [
+    "11",
+    "3. Technical debt, concretely"
+   ]
+  ],
+  "index__dup6.ts": [
+   [
+    "11",
+    "3. Technical debt, concretely"
+   ]
+  ],
+  "sync/event.sql.ts": [
+   [
+    "11",
+    "3. Technical debt, concretely"
+   ]
+  ],
+  "acp/agent__dup2.ts": [
+   [
+    "11",
+    "3. Technical debt, concretely"
+   ],
+   [
+    "11",
+    "4. Coverage log \u2014 what was actually read"
+   ],
+   [
+    "16",
+    "14. What this pass changed in the earlier conclusions"
+   ],
+   [
+    "16",
+    "7. ACP \u2014 the real implementation (`acp/agent__dup2.ts`, 1,470 lines)"
+   ],
+   [
+    "16",
+    "Contents"
+   ],
+   [
+    "16",
+    "Contents"
+   ],
+   [
+    "16",
+    "Contents"
+   ]
+  ],
+  "file/index.ts": [
+   [
+    "11",
+    "4. Coverage log \u2014 what was actually read"
+   ],
+   [
+    "11",
+    "4. Coverage log \u2014 what was actually read"
+   ],
+   [
+    "15",
+    "14. `File` \u2014 the read/list/search service (`src/file/index.ts`, 601 lines)"
+   ],
+   [
+    "15",
+    "Contents"
+   ]
+  ],
+  "file/watcher.ts": [
+   [
+    "11",
+    "4. Coverage log \u2014 what was actually read"
+   ],
+   [
+    "15",
+    "14. `File` \u2014 the read/list/search service (`src/file/index.ts`, 601 lines)"
+   ],
+   [
+    "15",
+    "4. `FileWatcher` (`src/file/watcher.ts`, 134 lines)"
+   ],
+   [
+    "15",
+    "Contents"
+   ]
+  ],
+  "snapshot/index.ts": [
+   [
+    "11",
+    "4. Coverage log \u2014 what was actually read"
+   ],
+   [
+    "11",
+    "4. Coverage log \u2014 what was actually read"
+   ],
+   [
+    "16",
+    "11. Revert, unrevert, cleanup (`session/revert.ts`)"
+   ],
+   [
+    "16",
+    "Contents"
+   ]
+  ],
+  "pty/index.ts": [
+   [
+    "11",
+    "4. Coverage log \u2014 what was actually read"
+   ],
+   [
+    "15",
+    "1. `Pty` \u2014 terminal sessions (`src/pty/index.ts`, 310 lines)"
+   ],
+   [
+    "15",
+    "Contents"
+   ]
+  ],
+  "sync/index.ts": [
+   [
+    "11",
+    "4. Coverage log \u2014 what was actually read"
+   ],
+   [
+    "15",
+    "6. `SyncEvent` \u2014 the event-sourcing core (`src/sync/index.ts`, 167 lines)"
+   ],
+   [
+    "15",
+    "Contents"
+   ]
+  ],
+  "shell/shell.ts": [
+   [
+    "11",
+    "4. Coverage log \u2014 what was actually read"
+   ],
+   [
+    "15",
+    "10. `Shell` (`src/shell/shell.ts`, 96 lines)"
+   ],
+   [
+    "15",
+    "Contents"
+   ]
+  ],
+  "question/index.ts": [
+   [
+    "11",
+    "4. Coverage log \u2014 what was actually read"
+   ],
+   [
+    "15",
+    "7. `Question` (`src/question/index.ts`, 150 lines)"
+   ],
+   [
+    "15",
+    "Contents"
+   ]
+  ],
+  "account/index.ts": [
+   [
+    "11",
+    "4. Coverage log \u2014 what was actually read"
+   ],
+   [
+    "15",
+    "8. `Account` \u2014 device-flow auth for the hosted console (`src/account/index.ts`, 273 lines)"
+   ],
+   [
+    "15",
+    "Contents"
+   ]
+  ],
+  "worktree/index.ts": [
+   [
+    "11",
+    "4. Coverage log \u2014 what was actually read"
+   ],
+   [
+    "15",
+    "9. `Worktree` (`src/worktree/index.ts`, 410 lines)"
+   ],
+   [
+    "15",
+    "Contents"
+   ]
+  ],
+  "cli/cmd/tui/context/keybind.tsx": [
+   [
+    "11",
+    "4. Coverage log \u2014 what was actually read"
+   ],
+   [
+    "13",
+    "4. Keybindings (`context/keybind.tsx`, 98 lines)"
+   ],
+   [
+    "13",
+    "Contents"
+   ],
+   [
+    "13",
+    "Contents"
+   ]
+  ],
+  "cli/cmd/tui/context/theme.tsx": [
+   [
+    "11",
+    "4. Coverage log \u2014 what was actually read"
+   ],
+   [
+    "13",
+    "11. Theme (`context/theme.tsx`, 1,040 lines)"
+   ],
+   [
+    "13",
+    "Contents"
+   ],
+   [
+    "13",
+    "Contents"
+   ]
+  ],
+  "cli/cmd/tui/context/theme__dup2.tsx": [
+   [
+    "11",
+    "4. Coverage log \u2014 what was actually read"
+   ],
+   [
+    "13",
+    "11. Theme (`context/theme.tsx`, 1,040 lines)"
+   ],
+   [
+    "13",
+    "Contents"
+   ],
+   [
+    "13",
+    "Contents"
+   ]
+  ],
+  "cli/cmd/tui/context/theme__dup3.tsx": [
+   [
+    "11",
+    "4. Coverage log \u2014 what was actually read"
+   ],
+   [
+    "13",
+    "11. Theme (`context/theme.tsx`, 1,040 lines)"
+   ],
+   [
+    "13",
+    "Contents"
+   ],
+   [
+    "13",
+    "Contents"
+   ]
+  ],
+  "cli/cmd/tui/component/prompt/autocomplete.tsx": [
+   [
+    "11",
+    "4. Coverage log \u2014 what was actually read"
+   ],
+   [
+    "13",
+    "9. Autocomplete (`component/prompt/autocomplete.tsx`, 592 lines)"
+   ],
+   [
+    "13",
+    "Contents"
+   ],
+   [
+    "13",
+    "Contents"
+   ]
+  ],
+  "cli/cmd/tui/component/prompt/autocomplete__dup2.tsx": [
+   [
+    "11",
+    "4. Coverage log \u2014 what was actually read"
+   ],
+   [
+    "13",
+    "9. Autocomplete (`component/prompt/autocomplete.tsx`, 592 lines)"
+   ],
+   [
+    "13",
+    "Contents"
+   ],
+   [
+    "13",
+    "Contents"
+   ]
+  ],
+  "cli/cmd/tui/plugin/api.tsx": [
+   [
+    "11",
+    "4. Coverage log \u2014 what was actually read"
+   ],
+   [
+    "13",
+    "12. TUI plugin runtime (`plugin/runtime.ts`, 851 lines; `plugin/api.tsx`, 433)"
+   ],
+   [
+    "13",
+    "12. TUI plugin runtime (`plugin/runtime.ts`, 851 lines; `plugin/api.tsx`, 433)"
+   ],
+   [
+    "13",
+    "Contents"
+   ],
+   [
+    "13",
+    "Contents"
+   ],
+   [
+    "13",
+    "Contents"
+   ]
+  ],
+  "cli/cmd/tui/feature-plugins/system/plugins.tsx": [
+   [
+    "11",
+    "4. Coverage log \u2014 what was actually read"
+   ],
+   [
+    "13",
+    "12. TUI plugin runtime (`plugin/runtime.ts`, 851 lines; `plugin/api.tsx`, 433)"
+   ],
+   [
+    "13",
+    "Contents"
+   ]
+  ],
+  "cli/bootstrap.ts": [
+   [
+    "11",
+    "4. Coverage log \u2014 what was actually read"
+   ],
+   [
+    "14",
+    "2. `run` \u2014 the non-interactive path (`cmd/run.ts`)"
+   ]
+  ],
+  "cli/network.ts": [
+   [
+    "11",
+    "4. Coverage log \u2014 what was actually read"
+   ],
+   [
+    "14",
+    "3. `serve` and `web`"
+   ]
+  ],
+  "cli/cmd/cmd.ts": [
+   [
+    "11",
+    "4. Coverage log \u2014 what was actually read"
+   ],
+   [
+    "14",
+    "14. CLI-wide patterns"
+   ],
+   [
+    "14",
+    "Contents"
+   ]
+  ],
+  "cli/cmd/run.ts": [
+   [
+    "11",
+    "4. Coverage log \u2014 what was actually read"
+   ],
+   [
+    "14",
+    "1. Command inventory (verified from the modules)"
+   ],
+   [
+    "14",
+    "2. `run` \u2014 the non-interactive path (`cmd/run.ts`)"
+   ],
+   [
+    "14",
+    "Contents"
+   ]
+  ],
+  "cli/cmd/serve.ts": [
+   [
+    "11",
+    "4. Coverage log \u2014 what was actually read"
+   ],
+   [
+    "14",
+    "1. Command inventory (verified from the modules)"
+   ]
+  ],
+  "cli/cmd/web.ts": [
+   [
+    "11",
+    "4. Coverage log \u2014 what was actually read"
+   ],
+   [
+    "14",
+    "1. Command inventory (verified from the modules)"
+   ]
+  ],
+  "cli/cmd/generate.ts": [
+   [
+    "11",
+    "4. Coverage log \u2014 what was actually read"
+   ],
+   [
+    "14",
+    "1. Command inventory (verified from the modules)"
+   ]
+  ],
+  "cli/cmd/export.ts": [
+   [
+    "11",
+    "4. Coverage log \u2014 what was actually read"
+   ],
+   [
+    "14",
+    "1. Command inventory (verified from the modules)"
+   ]
+  ],
+  "cli/cmd/uninstall.ts": [
+   [
+    "11",
+    "4. Coverage log \u2014 what was actually read"
+   ],
+   [
+    "14",
+    "1. Command inventory (verified from the modules)"
+   ]
+  ],
+  "cli/cmd/stats.ts": [
+   [
+    "11",
+    "4. Coverage log \u2014 what was actually read"
+   ],
+   [
+    "14",
+    "1. Command inventory (verified from the modules)"
+   ]
+  ],
+  "cli/cmd/mcp.ts": [
+   [
+    "11",
+    "4. Coverage log \u2014 what was actually read"
+   ],
+   [
+    "14",
+    "1. Command inventory (verified from the modules)"
+   ]
+  ],
+  "cli/cmd/plug.ts": [
+   [
+    "11",
+    "4. Coverage log \u2014 what was actually read"
+   ],
+   [
+    "14",
+    "1. Command inventory (verified from the modules)"
+   ]
+  ],
+  "cli/cmd/agent.ts": [
+   [
+    "11",
+    "4. Coverage log \u2014 what was actually read"
+   ],
+   [
+    "14",
+    "1. Command inventory (verified from the modules)"
+   ]
+  ],
+  "cli/cmd/providers.ts": [
+   [
+    "11",
+    "4. Coverage log \u2014 what was actually read"
+   ],
+   [
+    "14",
+    "1. Command inventory (verified from the modules)"
+   ]
+  ],
+  "cli/cmd/github.ts": [
+   [
+    "11",
+    "4. Coverage log \u2014 what was actually read"
+   ],
+   [
+    "14",
+    "1. Command inventory (verified from the modules)"
+   ]
+  ],
+  "cli/cmd/session.ts": [
+   [
+    "11",
+    "4. Coverage log \u2014 what was actually read"
+   ],
+   [
+    "11",
+    "4. Coverage log \u2014 what was actually read"
+   ],
+   [
+    "14",
+    "1. Command inventory (verified from the modules)"
+   ],
+   [
+    "18",
+    "6. CLI commands read in this pass"
+   ],
+   [
+    "18",
+    "Contents"
+   ],
+   [
+    "18",
+    "Contents"
+   ]
+  ],
+  "cli/cmd/models.ts": [
+   [
+    "11",
+    "4. Coverage log \u2014 what was actually read"
+   ],
+   [
+    "14",
+    "1. Command inventory (verified from the modules)"
+   ]
+  ],
+  "cli/cmd/import.ts": [
+   [
+    "11",
+    "4. Coverage log \u2014 what was actually read"
+   ],
+   [
+    "14",
+    "1. Command inventory (verified from the modules)"
+   ]
+  ],
+  "cli/cmd/upgrade.ts": [
+   [
+    "11",
+    "4. Coverage log \u2014 what was actually read"
+   ],
+   [
+    "14",
+    "1. Command inventory (verified from the modules)"
+   ]
+  ],
+  "cli/cmd/account.ts": [
+   [
+    "11",
+    "4. Coverage log \u2014 what was actually read"
+   ],
+   [
+    "14",
+    "1. Command inventory (verified from the modules)"
+   ]
+  ],
+  "cli/cmd/db.ts": [
+   [
+    "11",
+    "4. Coverage log \u2014 what was actually read"
+   ],
+   [
+    "14",
+    "1. Command inventory (verified from the modules)"
+   ]
+  ],
+  "cli/cmd/pr.ts": [
+   [
+    "11",
+    "4. Coverage log \u2014 what was actually read"
+   ],
+   [
+    "11",
+    "4. Coverage log \u2014 what was actually read"
+   ],
+   [
+    "14",
+    "1. Command inventory (verified from the modules)"
+   ],
+   [
+    "18",
+    "6. CLI commands read in this pass"
+   ],
+   [
+    "18",
+    "Contents"
+   ],
+   [
+    "18",
+    "Contents"
+   ]
+  ],
+  "cli/cmd/acp.ts": [
+   [
+    "11",
+    "4. Coverage log \u2014 what was actually read"
+   ],
+   [
+    "14",
+    "1. Command inventory (verified from the modules)"
+   ]
+  ],
+  "control-plane/workspace.ts": [
+   [
+    "11",
+    "4. Coverage log \u2014 what was actually read"
+   ],
+   [
+    "15",
+    "12. `Workspace` / control-plane (`src/control-plane/workspace.ts` 134, `sse.ts` 66)"
+   ],
+   [
+    "15",
+    "Contents"
+   ]
+  ],
+  "project/bootstrap.ts": [
+   [
+    "11",
+    "4. Coverage log \u2014 what was actually read"
+   ],
+   [
+    "16",
+    "8. Instance layer (`project/instance.ts`, `bootstrap.ts`)"
+   ],
+   [
+    "16",
+    "Contents"
+   ],
+   [
+    "16",
+    "Contents"
+   ]
+  ],
+  "acp/session.ts": [
+   [
+    "11",
+    "4. Coverage log \u2014 what was actually read"
+   ],
+   [
+    "16",
+    "Contents"
+   ]
+  ],
+  "tool/grep.ts": [
+   [
+    "11",
+    "4. Coverage log \u2014 what was actually read"
+   ],
+   [
+    "16",
+    "10. Tools read in full this pass"
+   ],
+   [
+    "16",
+    "Contents"
+   ],
+   [
+    "16",
+    "Contents"
+   ]
+  ],
+  "tool/skill.ts": [
+   [
+    "11",
+    "4. Coverage log \u2014 what was actually read"
+   ],
+   [
+    "16",
+    "10. Tools read in full this pass"
+   ],
+   [
+    "16",
+    "Contents"
+   ],
+   [
+    "16",
+    "Contents"
+   ]
+  ],
+  "tool/lsp.ts": [
+   [
+    "11",
+    "4. Coverage log \u2014 what was actually read"
+   ],
+   [
+    "16",
+    "10. Tools read in full this pass"
+   ],
+   [
+    "16",
+    "Contents"
+   ],
+   [
+    "16",
+    "Contents"
+   ]
+  ],
+  "control-plane/sse.ts": [
+   [
+    "11",
+    "4. Coverage log \u2014 what was actually read"
+   ],
+   [
+    "15",
+    "12. `Workspace` / control-plane (`src/control-plane/workspace.ts` 134, `sse.ts` 66)"
+   ],
+   [
+    "15",
+    "12. `Workspace` / control-plane (`src/control-plane/workspace.ts` 134, `sse.ts` 66)"
+   ],
+   [
+    "15",
+    "Contents"
+   ],
+   [
+    "16",
+    "10. Tools read in full this pass"
+   ],
+   [
+    "16",
+    "10. Tools read in full this pass"
+   ],
+   [
+    "16",
+    "14. What this pass changed in the earlier conclusions"
+   ],
+   [
+    "16",
+    "Contents"
+   ],
+   [
+    "16",
+    "Contents"
+   ]
+  ],
+  "file/protected.ts": [
+   [
+    "11",
+    "4. Coverage log \u2014 what was actually read"
+   ],
+   [
+    "16",
+    "10. Tools read in full this pass"
+   ],
+   [
+    "16",
+    "Contents"
+   ],
+   [
+    "16",
+    "Contents"
+   ],
+   [
+    "18",
+    "6. CLI commands read in this pass"
+   ]
+  ],
+  "format/formatter.ts": [
+   [
+    "11",
+    "4. Coverage log \u2014 what was actually read"
+   ],
+   [
+    "15",
+    "3. `Format` \u2014 automatic formatting after writes (`src/format/index.ts` 161 + `formatter.ts` 436)"
+   ],
+   [
+    "15",
+    "3. `Format` \u2014 automatic formatting after writes (`src/format/index.ts` 161 + `formatter.ts` 436)"
+   ],
+   [
+    "15",
+    "3. `Format` \u2014 automatic formatting after writes (`src/format/index.ts` 161 + `formatter.ts` 436)"
+   ],
+   [
+    "15",
+    "Contents"
+   ],
+   [
+    "15",
+    "Contents"
+   ],
+   [
+    "18",
+    "Contents"
+   ]
+  ],
+  "project/vcs.ts": [
+   [
+    "11",
+    "4. Coverage log \u2014 what was actually read"
+   ],
+   [
+    "18",
+    "2. `git/index.ts` \u2014 the plumbing everything else assumes"
+   ],
+   [
+    "18",
+    "Contents"
+   ]
+  ],
+  "cli/cmd/tui/ui/dialog.tsx": [
+   [
+    "11",
+    "4. Coverage log \u2014 what was actually read"
+   ],
+   [
+    "13",
+    "10. Chrome: dialogs, toasts, commands"
+   ],
+   [
+    "13",
+    "10. Chrome: dialogs, toasts, commands"
+   ],
+   [
+    "13",
+    "Contents"
+   ]
+  ],
+  "cli/cmd/tui/ui/dialog-select.tsx": [
+   [
+    "11",
+    "4. Coverage log \u2014 what was actually read"
+   ],
+   [
+    "13",
+    "10. Chrome: dialogs, toasts, commands"
+   ],
+   [
+    "13",
+    "10. Chrome: dialogs, toasts, commands"
+   ],
+   [
+    "13",
+    "Contents"
+   ]
+  ],
+  "cli/cmd/tui/ui/dialog-select__dup2.tsx": [
+   [
+    "11",
+    "4. Coverage log \u2014 what was actually read"
+   ],
+   [
+    "13",
+    "10. Chrome: dialogs, toasts, commands"
+   ],
+   [
+    "13",
+    "10. Chrome: dialogs, toasts, commands"
+   ],
+   [
+    "13",
+    "Contents"
+   ]
+  ],
+  "cli/cmd/tui/ui/toast.tsx": [
+   [
+    "11",
+    "4. Coverage log \u2014 what was actually read"
+   ],
+   [
+    "13",
+    "10. Chrome: dialogs, toasts, commands"
+   ],
+   [
+    "13",
+    "10. Chrome: dialogs, toasts, commands"
+   ],
+   [
+    "13",
+    "Contents"
+   ]
+  ],
+  "cli/cmd/tui/component/spinner.tsx": [
+   [
+    "11",
+    "4. Coverage log \u2014 what was actually read"
+   ],
+   [
+    "13",
+    "4. Keybindings (`context/keybind.tsx`, 98 lines)"
+   ]
+  ],
+  "util/keybind.ts": [
+   [
+    "13",
+    "4. Keybindings (`context/keybind.tsx`, 98 lines)"
+   ],
+   [
+    "13",
+    "Contents"
+   ]
+  ],
+  "cli/cmd/tui/routes/session/sidebar.tsx": [
+   [
+    "13",
+    "5. The session route (`routes/session/index.tsx`, 3,020 lines)"
+   ],
+   [
+    "13",
+    "Contents"
+   ],
+   [
+    "13",
+    "Contents"
+   ]
+  ],
+  "cli/cmd/tui/routes/session/subagent-footer.tsx": [
+   [
+    "13",
+    "5. The session route (`routes/session/index.tsx`, 3,020 lines)"
+   ],
+   [
+    "13",
+    "Contents"
+   ]
+  ],
+  "cli/cmd/tui/component/workspace/dialog-session-list.tsx": [
+   [
+    "13",
+    "5. The session route (`routes/session/index.tsx`, 3,020 lines)"
+   ],
+   [
+    "13",
+    "Contents"
+   ]
+  ],
+  "cli/cmd/tui/feature-plugins/home/footer.tsx": [
+   [
+    "13",
+    "5. The session route (`routes/session/index.tsx`, 3,020 lines)"
+   ],
+   [
+    "13",
+    "Contents"
+   ]
+  ],
+  "cli/cmd/tui/routes/home.tsx": [
+   [
+    "13",
+    "5. The session route (`routes/session/index.tsx`, 3,020 lines)"
+   ],
+   [
+    "13",
+    "Contents"
+   ]
+  ],
+  "cli/cmd/tui/routes/session/dialog-message.tsx": [
+   [
+    "13",
+    "5. The session route (`routes/session/index.tsx`, 3,020 lines)"
+   ],
+   [
+    "13",
+    "Contents"
+   ]
+  ],
+  "cli/cmd/tui/ui/spinner.ts": [
+   [
+    "13",
+    "10. Chrome: dialogs, toasts, commands"
+   ],
+   [
+    "13",
+    "10. Chrome: dialogs, toasts, commands"
+   ],
+   [
+    "13",
+    "10. Chrome: dialogs, toasts, commands"
+   ],
+   [
+    "13",
+    "Contents"
+   ],
+   [
+    "14",
+    "14. CLI-wide patterns"
+   ]
+  ],
+  "cli/cmd/tui/component/dialog-mcp.tsx": [
+   [
+    "13",
+    "12. TUI plugin runtime (`plugin/runtime.ts`, 851 lines; `plugin/api.tsx`, 433)"
+   ],
+   [
+    "13",
+    "Contents"
+   ]
+  ],
+  "cli/cmd/tui/component/logo.tsx": [
+   [
+    "13",
+    "12. TUI plugin runtime (`plugin/runtime.ts`, 851 lines; `plugin/api.tsx`, 433)"
+   ],
+   [
+    "13",
+    "Contents"
+   ]
+  ],
+  "cli/cmd/tui/component/startup-loading.tsx": [
+   [
+    "13",
+    "12. TUI plugin runtime (`plugin/runtime.ts`, 851 lines; `plugin/api.tsx`, 433)"
+   ],
+   [
+    "13",
+    "Contents"
+   ]
+  ],
+  "cli/cmd/tui/component/textarea-keybindings.ts": [
+   [
+    "13",
+    "12. TUI plugin runtime (`plugin/runtime.ts`, 851 lines; `plugin/api.tsx`, 433)"
+   ],
+   [
+    "13",
+    "Contents"
+   ]
+  ],
+  "cli/cmd/tui/feature-plugins/home/tips.tsx": [
+   [
+    "13",
+    "12. TUI plugin runtime (`plugin/runtime.ts`, 851 lines; `plugin/api.tsx`, 433)"
+   ],
+   [
+    "13",
+    "Contents"
+   ]
+  ],
+  "cli/cmd/tui/feature-plugins/home/tips-view.tsx": [
+   [
+    "13",
+    "12. TUI plugin runtime (`plugin/runtime.ts`, 851 lines; `plugin/api.tsx`, 433)"
+   ],
+   [
+    "13",
+    "Contents"
+   ]
+  ],
+  "cli/cmd/tui/component/dialog-stash.tsx": [
+   [
+    "13",
+    "12. TUI plugin runtime (`plugin/runtime.ts`, 851 lines; `plugin/api.tsx`, 433)"
+   ],
+   [
+    "13",
+    "Contents"
+   ]
+  ],
+  "cli/cmd/tui/event.ts": [
+   [
+    "13",
+    "12. TUI plugin runtime (`plugin/runtime.ts`, 851 lines; `plugin/api.tsx`, 433)"
+   ],
+   [
+    "13",
+    "12. TUI plugin runtime (`plugin/runtime.ts`, 851 lines; `plugin/api.tsx`, 433)"
+   ],
+   [
+    "13",
+    "Contents"
+   ]
+  ],
+  "cli/cmd/tui/component/dialog-session-list.tsx": [
+   [
+    "13",
+    "12. TUI plugin runtime (`plugin/runtime.ts`, 851 lines; `plugin/api.tsx`, 433)"
+   ],
+   [
+    "13",
+    "Contents"
+   ]
+  ],
+  "cli/cmd/tui/win32.ts": [
+   [
+    "13",
+    "13. Windows (`win32.ts`, 101 lines)"
+   ],
+   [
+    "13",
+    "Contents"
+   ],
+   [
+    "13",
+    "Contents"
+   ]
+  ],
+  "cli/cmd/tui/context/kv.tsx": [
+   [
+    "13",
+    "12. TUI plugin runtime (`plugin/runtime.ts`, 851 lines; `plugin/api.tsx`, 433)"
+   ],
+   [
+    "13",
+    "Contents"
+   ]
+  ],
+  "cli/cmd/tui/context/helper.tsx": [
+   [
+    "13",
+    "4. Keybindings (`context/keybind.tsx`, 98 lines)"
+   ]
+  ],
+  "cli/cmd/tui/context/prompt.tsx": [
+   [
+    "13",
+    "4. Keybindings (`context/keybind.tsx`, 98 lines)"
+   ]
+  ],
+  "cli/cmd/tui/context/plugin-keybinds.ts": [
+   [
+    "13",
+    "4. Keybindings (`context/keybind.tsx`, 98 lines)"
+   ]
+  ],
+  "cli/cmd/tui/component/dialog-command.tsx": [
+   [
+    "13",
+    "10. Chrome: dialogs, toasts, commands"
+   ]
+  ],
+  "cli/cmd/tui/component/dialog-provider.tsx": [
+   [
+    "13",
+    "10. Chrome: dialogs, toasts, commands"
+   ]
+  ],
+  "cli/cmd/tui/component/dialog-provider__dup2.tsx": [
+   [
+    "13",
+    "10. Chrome: dialogs, toasts, commands"
+   ]
+  ],
+  "cli/cmd/tui/component/dialog-model.tsx": [
+   [
+    "13",
+    "10. Chrome: dialogs, toasts, commands"
+   ]
+  ],
+  "cli/cmd/tui/component/dialog-model__dup2.tsx": [
+   [
+    "13",
+    "10. Chrome: dialogs, toasts, commands"
+   ]
+  ],
+  "cli/cmd/tui/component/dialog-model__dup3.tsx": [
+   [
+    "13",
+    "10. Chrome: dialogs, toasts, commands"
+   ]
+  ],
+  "cli/cmd/tui/ui/dialog-export-options.tsx": [
+   [
+    "13",
+    "10. Chrome: dialogs, toasts, commands"
+   ],
+   [
+    "13",
+    "10. Chrome: dialogs, toasts, commands"
+   ]
+  ],
+  "cli/cmd/tui/component/dialog-workspace-list.tsx": [
+   [
+    "13",
+    "10. Chrome: dialogs, toasts, commands"
+   ]
+  ],
+  "cli/cmd/tui/component/dialog-console-org.tsx": [
+   [
+    "13",
+    "10. Chrome: dialogs, toasts, commands"
+   ]
+  ],
+  "cli/cmd/tui/component/dialog-status.tsx": [
+   [
+    "13",
+    "10. Chrome: dialogs, toasts, commands"
+   ]
+  ],
+  "cli/cmd/tui/util/transcript.ts": [
+   [
+    "13",
+    "10. Chrome: dialogs, toasts, commands"
+   ],
+   [
+    "13",
+    "10. Chrome: dialogs, toasts, commands"
+   ]
+  ],
+  "cli/cmd/tui/component/error-component.tsx": [
+   [
+    "13",
+    "10. Chrome: dialogs, toasts, commands"
+   ]
+  ],
+  "cli/cmd/tui/ui/dialog-alert.tsx": [
+   [
+    "13",
+    "10. Chrome: dialogs, toasts, commands"
+   ]
+  ],
+  "cli/cmd/tui/ui/dialog-confirm.tsx": [
+   [
+    "13",
+    "10. Chrome: dialogs, toasts, commands"
+   ]
+  ],
+  "cli/cmd/tui/ui/dialog-prompt.tsx": [
+   [
+    "13",
+    "10. Chrome: dialogs, toasts, commands"
+   ]
+  ],
+  "cli/cmd/tui/ui/dialog-help.tsx": [
+   [
+    "13",
+    "10. Chrome: dialogs, toasts, commands"
+   ]
+  ],
+  "cli/cmd/tui/ui/link.tsx": [
+   [
+    "13",
+    "10. Chrome: dialogs, toasts, commands"
+   ]
+  ],
+  "cli/cmd/tui/feature-plugins/sidebar/context.tsx": [
+   [
+    "13",
+    "10. Chrome: dialogs, toasts, commands"
+   ]
+  ],
+  "cli/cmd/tui/feature-plugins/sidebar/mcp.tsx": [
+   [
+    "13",
+    "10. Chrome: dialogs, toasts, commands"
+   ]
+  ],
+  "cli/cmd/tui/feature-plugins/sidebar/lsp.tsx": [
+   [
+    "13",
+    "10. Chrome: dialogs, toasts, commands"
+   ]
+  ],
+  "cli/cmd/tui/feature-plugins/sidebar/todo.tsx": [
+   [
+    "13",
+    "10. Chrome: dialogs, toasts, commands"
+   ]
+  ],
+  "cli/cmd/tui/feature-plugins/sidebar/files.tsx": [
+   [
+    "13",
+    "10. Chrome: dialogs, toasts, commands"
+   ]
+  ],
+  "cli/cmd/tui/feature-plugins/sidebar/footer.tsx": [
+   [
+    "13",
+    "10. Chrome: dialogs, toasts, commands"
+   ]
+  ],
+  "cli/cmd/tui/context/theme/mercury.json": [
+   [
+    "13",
+    "11. Theme (`context/theme.tsx`, 1,040 lines)"
+   ],
+   [
+    "13",
+    "11. Theme (`context/theme.tsx`, 1,040 lines)"
+   ]
+  ],
+  "cli/cmd/tui/context/theme/orng.json": [
+   [
+    "13",
+    "11. Theme (`context/theme.tsx`, 1,040 lines)"
+   ],
+   [
+    "13",
+    "11. Theme (`context/theme.tsx`, 1,040 lines)"
+   ]
+  ],
+  "cli/cmd/tui/context/theme/aura.json": [
+   [
+    "13",
+    "11. Theme (`context/theme.tsx`, 1,040 lines)"
+   ]
+  ],
+  "cli/cmd/tui/context/theme/ayu.json": [
+   [
+    "13",
+    "11. Theme (`context/theme.tsx`, 1,040 lines)"
+   ]
+  ],
+  "cli/cmd/tui/context/theme/carbonfox.json": [
+   [
+    "13",
+    "11. Theme (`context/theme.tsx`, 1,040 lines)"
+   ]
+  ],
+  "cli/cmd/tui/context/theme/catppuccin-frappe.json": [
+   [
+    "13",
+    "11. Theme (`context/theme.tsx`, 1,040 lines)"
+   ]
+  ],
+  "cli/cmd/tui/context/theme/catppuccin-macchiato.json": [
+   [
+    "13",
+    "11. Theme (`context/theme.tsx`, 1,040 lines)"
+   ]
+  ],
+  "cli/cmd/tui/context/theme/catppuccin.json": [
+   [
+    "13",
+    "11. Theme (`context/theme.tsx`, 1,040 lines)"
+   ]
+  ],
+  "cli/cmd/tui/context/theme/cobalt2.json": [
+   [
+    "13",
+    "11. Theme (`context/theme.tsx`, 1,040 lines)"
+   ]
+  ],
+  "cli/cmd/tui/context/theme/cursor.json": [
+   [
+    "13",
+    "11. Theme (`context/theme.tsx`, 1,040 lines)"
+   ]
+  ],
+  "cli/cmd/tui/context/theme/dracula.json": [
+   [
+    "13",
+    "11. Theme (`context/theme.tsx`, 1,040 lines)"
+   ]
+  ],
+  "cli/cmd/tui/context/theme/everforest.json": [
+   [
+    "13",
+    "11. Theme (`context/theme.tsx`, 1,040 lines)"
+   ]
+  ],
+  "cli/cmd/tui/context/theme/flexoki.json": [
+   [
+    "13",
+    "11. Theme (`context/theme.tsx`, 1,040 lines)"
+   ]
+  ],
+  "cli/cmd/tui/context/theme/github.json": [
+   [
+    "13",
+    "11. Theme (`context/theme.tsx`, 1,040 lines)"
+   ]
+  ],
+  "cli/cmd/tui/context/theme/gruvbox.json": [
+   [
+    "13",
+    "11. Theme (`context/theme.tsx`, 1,040 lines)"
+   ]
+  ],
+  "cli/cmd/tui/context/theme/kanagawa.json": [
+   [
+    "13",
+    "11. Theme (`context/theme.tsx`, 1,040 lines)"
+   ]
+  ],
+  "cli/cmd/tui/context/theme/lucent-orng.json": [
+   [
+    "13",
+    "11. Theme (`context/theme.tsx`, 1,040 lines)"
+   ]
+  ],
+  "cli/cmd/tui/context/theme/material.json": [
+   [
+    "13",
+    "11. Theme (`context/theme.tsx`, 1,040 lines)"
+   ]
+  ],
+  "cli/cmd/tui/context/theme/matrix.json": [
+   [
+    "13",
+    "11. Theme (`context/theme.tsx`, 1,040 lines)"
+   ]
+  ],
+  "cli/cmd/tui/context/theme/monokai.json": [
+   [
+    "13",
+    "11. Theme (`context/theme.tsx`, 1,040 lines)"
+   ]
+  ],
+  "cli/cmd/tui/context/theme/nightowl.json": [
+   [
+    "13",
+    "11. Theme (`context/theme.tsx`, 1,040 lines)"
+   ]
+  ],
+  "cli/cmd/tui/context/theme/nord.json": [
+   [
+    "13",
+    "11. Theme (`context/theme.tsx`, 1,040 lines)"
+   ]
+  ],
+  "cli/cmd/tui/context/theme/one-dark.json": [
+   [
+    "13",
+    "11. Theme (`context/theme.tsx`, 1,040 lines)"
+   ]
+  ],
+  "cli/cmd/tui/context/theme/osaka-jade.json": [
+   [
+    "13",
+    "11. Theme (`context/theme.tsx`, 1,040 lines)"
+   ]
+  ],
+  "cli/cmd/tui/context/theme/palenight.json": [
+   [
+    "13",
+    "11. Theme (`context/theme.tsx`, 1,040 lines)"
+   ]
+  ],
+  "cli/cmd/tui/context/theme/rosepine.json": [
+   [
+    "13",
+    "11. Theme (`context/theme.tsx`, 1,040 lines)"
+   ]
+  ],
+  "cli/cmd/tui/context/theme/solarized.json": [
+   [
+    "13",
+    "11. Theme (`context/theme.tsx`, 1,040 lines)"
+   ]
+  ],
+  "cli/cmd/tui/context/theme/synthwave84.json": [
+   [
+    "13",
+    "11. Theme (`context/theme.tsx`, 1,040 lines)"
+   ]
+  ],
+  "cli/cmd/tui/context/theme/tokyonight.json": [
+   [
+    "13",
+    "11. Theme (`context/theme.tsx`, 1,040 lines)"
+   ]
+  ],
+  "cli/cmd/tui/context/theme/vercel.json": [
+   [
+    "13",
+    "11. Theme (`context/theme.tsx`, 1,040 lines)"
+   ]
+  ],
+  "cli/cmd/tui/context/theme/vesper.json": [
+   [
+    "13",
+    "11. Theme (`context/theme.tsx`, 1,040 lines)"
+   ]
+  ],
+  "cli/cmd/tui/context/theme/zenburn.json": [
+   [
+    "13",
+    "11. Theme (`context/theme.tsx`, 1,040 lines)"
+   ]
+  ],
+  "cli/cmd/tui/component/prompt/history.tsx": [
+   [
+    "13",
+    "12. TUI plugin runtime (`plugin/runtime.ts`, 851 lines; `plugin/api.tsx`, 433)"
+   ]
+  ],
+  "cli/cmd/tui/component/prompt/stash.tsx": [
+   [
+    "13",
+    "12. TUI plugin runtime (`plugin/runtime.ts`, 851 lines; `plugin/api.tsx`, 433)"
+   ]
+  ],
+  "cli/cmd/tui/component/prompt/frecency.tsx": [
+   [
+    "13",
+    "12. TUI plugin runtime (`plugin/runtime.ts`, 851 lines; `plugin/api.tsx`, 433)"
+   ]
+  ],
+  "cli/cmd/tui/context/exit.tsx": [
+   [
+    "13",
+    "12. TUI plugin runtime (`plugin/runtime.ts`, 851 lines; `plugin/api.tsx`, 433)"
+   ]
+  ],
+  "cli/cmd/tui/routes/session/dialog-timeline.tsx": [
+   [
+    "13",
+    "12. TUI plugin runtime (`plugin/runtime.ts`, 851 lines; `plugin/api.tsx`, 433)"
+   ]
+  ],
+  "cli/cmd/tui/util/editor.ts": [
+   [
+    "13",
+    "12. TUI plugin runtime (`plugin/runtime.ts`, 851 lines; `plugin/api.tsx`, 433)"
+   ]
+  ],
+  "cli/cmd/tui/routes/session/dialog-fork-from-timeline.tsx": [
+   [
+    "13",
+    "12. TUI plugin runtime (`plugin/runtime.ts`, 851 lines; `plugin/api.tsx`, 433)"
+   ]
+  ],
+  "cli/cmd/tui/component/dialog-agent.tsx": [
+   [
+    "13",
+    "12. TUI plugin runtime (`plugin/runtime.ts`, 851 lines; `plugin/api.tsx`, 433)"
+   ]
+  ],
+  "cli/cmd/tui/component/dialog-variant.tsx": [
+   [
+    "13",
+    "12. TUI plugin runtime (`plugin/runtime.ts`, 851 lines; `plugin/api.tsx`, 433)"
+   ]
+  ],
+  "cli/cmd/tui/component/dialog-skill.tsx": [
+   [
+    "13",
+    "12. TUI plugin runtime (`plugin/runtime.ts`, 851 lines; `plugin/api.tsx`, 433)"
+   ]
+  ],
+  "cli/cmd/tui/component/dialog-session-rename.tsx": [
+   [
+    "13",
+    "12. TUI plugin runtime (`plugin/runtime.ts`, 851 lines; `plugin/api.tsx`, 433)"
+   ]
+  ],
+  "cli/cmd/tui/component/border.tsx": [
+   [
+    "13",
+    "12. TUI plugin runtime (`plugin/runtime.ts`, 851 lines; `plugin/api.tsx`, 433)"
+   ]
+  ],
+  "cli/cmd/tui/util/scroll.ts": [
+   [
+    "13",
+    "12. TUI plugin runtime (`plugin/runtime.ts`, 851 lines; `plugin/api.tsx`, 433)"
+   ]
+  ],
+  "cli/cmd/tui/util/selection.ts": [
+   [
+    "13",
+    "12. TUI plugin runtime (`plugin/runtime.ts`, 851 lines; `plugin/api.tsx`, 433)"
+   ]
+  ],
+  "cli/cmd/tui/util/model.ts": [
+   [
+    "13",
+    "12. TUI plugin runtime (`plugin/runtime.ts`, 851 lines; `plugin/api.tsx`, 433)"
+   ]
+  ],
+  "cli/cmd/tui/util/provider-origin.ts": [
+   [
+    "13",
+    "12. TUI plugin runtime (`plugin/runtime.ts`, 851 lines; `plugin/api.tsx`, 433)"
+   ]
+  ],
+  "cli/cmd/tui/component/prompt/part.ts": [
+   [
+    "13",
+    "12. TUI plugin runtime (`plugin/runtime.ts`, 851 lines; `plugin/api.tsx`, 433)"
+   ]
+  ],
+  "cli/cmd/tui/plugin/internal.ts": [
+   [
+    "13",
+    "12. TUI plugin runtime (`plugin/runtime.ts`, 851 lines; `plugin/api.tsx`, 433)"
+   ]
+  ],
+  "cli/cmd/tui/context/tui-config.tsx": [
+   [
+    "13",
+    "12. TUI plugin runtime (`plugin/runtime.ts`, 851 lines; `plugin/api.tsx`, 433)"
+   ]
+  ],
+  "cli/cmd/tui/util/signal.ts": [
+   [
+    "13",
+    "12. TUI plugin runtime (`plugin/runtime.ts`, 851 lines; `plugin/api.tsx`, 433)"
+   ]
+  ],
+  "cli/cmd/debug/index__dup2.ts": [
+   [
+    "13",
+    "12. TUI plugin runtime (`plugin/runtime.ts`, 851 lines; `plugin/api.tsx`, 433)"
+   ]
+  ],
+  "cli/cmd/tui/component/dialog-theme-list.tsx": [
+   [
+    "13",
+    "12. TUI plugin runtime (`plugin/runtime.ts`, 851 lines; `plugin/api.tsx`, 433)"
+   ]
+  ],
+  "cli/cmd/tui/component/todo-item.tsx": [
+   [
+    "13",
+    "12. TUI plugin runtime (`plugin/runtime.ts`, 851 lines; `plugin/api.tsx`, 433)"
+   ]
+  ],
+  "cli/cmd/tui/component/plugin-route-missing.tsx": [
+   [
+    "13",
+    "12. TUI plugin runtime (`plugin/runtime.ts`, 851 lines; `plugin/api.tsx`, 433)"
+   ]
+  ],
+  "cli/cmd/tui/plugin/slots.tsx": [
+   [
+    "13",
+    "12. TUI plugin runtime (`plugin/runtime.ts`, 851 lines; `plugin/api.tsx`, 433)"
+   ]
+  ],
+  "cli/cmd/run__dup2.ts": [
+   [
+    "14",
+    "1. Command inventory (verified from the modules)"
+   ],
+   [
+    "14",
+    "2. `run` \u2014 the non-interactive path (`cmd/run.ts`)"
+   ],
+   [
+    "14",
+    "Contents"
+   ]
+  ],
+  "cli/cmd/run__dup3.ts": [
+   [
+    "14",
+    "1. Command inventory (verified from the modules)"
+   ],
+   [
+    "14",
+    "2. `run` \u2014 the non-interactive path (`cmd/run.ts`)"
+   ],
+   [
+    "14",
+    "Contents"
+   ]
+  ],
+  "cli/cmd/run__dup4.ts": [
+   [
+    "14",
+    "1. Command inventory (verified from the modules)"
+   ],
+   [
+    "14",
+    "2. `run` \u2014 the non-interactive path (`cmd/run.ts`)"
+   ],
+   [
+    "14",
+    "Contents"
+   ]
+  ],
+  "cli/cmd/run__dup5.ts": [
+   [
+    "14",
+    "1. Command inventory (verified from the modules)"
+   ],
+   [
+    "14",
+    "2. `run` \u2014 the non-interactive path (`cmd/run.ts`)"
+   ],
+   [
+    "14",
+    "Contents"
+   ]
+  ],
+  "cli/cmd/serve__dup2.ts": [
+   [
+    "14",
+    "1. Command inventory (verified from the modules)"
+   ]
+  ],
+  "cli/cmd/github__dup2.ts": [
+   [
+    "14",
+    "1. Command inventory (verified from the modules)"
+   ]
+  ],
+  "cli/cmd/account__dup2.ts": [
+   [
+    "14",
+    "1. Command inventory (verified from the modules)"
+   ]
+  ],
+  "cli/cmd/db__dup2.ts": [
+   [
+    "14",
+    "1. Command inventory (verified from the modules)"
+   ]
+  ],
+  "cli/cmd/acp__dup2.ts": [
+   [
+    "14",
+    "1. Command inventory (verified from the modules)"
+   ]
+  ],
+  "cli/cmd/tui/attach.ts": [
+   [
+    "14",
+    "2. `run` \u2014 the non-interactive path (`cmd/run.ts`)"
+   ]
+  ],
+  "cli/cmd/debug/file.ts": [
+   [
+    "14",
+    "13. `db` and `debug`"
+   ]
+  ],
+  "cli/cmd/debug/ripgrep.ts": [
+   [
+    "14",
+    "13. `db` and `debug`"
+   ]
+  ],
+  "cli/cmd/debug/lsp.ts": [
+   [
+    "14",
+    "13. `db` and `debug`"
+   ]
+  ],
+  "cli/cmd/debug/snapshot.ts": [
+   [
+    "14",
+    "13. `db` and `debug`"
+   ]
+  ],
+  "cli/cmd/debug/skill.ts": [
+   [
+    "14",
+    "13. `db` and `debug`"
+   ]
+  ],
+  "cli/cmd/debug/config.ts": [
+   [
+    "14",
+    "13. `db` and `debug`"
+   ]
+  ],
+  "cli/cmd/debug/scrap.ts": [
+   [
+    "14",
+    "13. `db` and `debug`"
+   ]
+  ],
+  "cli/cmd/debug/index.ts": [
+   [
+    "14",
+    "13. `db` and `debug`"
+   ]
+  ],
+  "cli/cmd/debug/agent.ts": [
+   [
+    "14",
+    "13. `db` and `debug`"
+   ]
+  ],
+  "cli/ui.ts": [
+   [
+    "14",
+    "14. CLI-wide patterns"
+   ]
+  ],
+  "cli/ui__dup2.ts": [
+   [
+    "14",
+    "14. CLI-wide patterns"
+   ]
+  ],
+  "control-plane/adaptors/worktree.ts": [
+   [
+    "15",
+    "8. `Account` \u2014 device-flow auth for the hosted console (`src/account/index.ts`, 273 lines)"
+   ],
+   [
+    "15",
+    "Contents"
+   ]
+  ],
+  "control-plane/adaptors/index.ts": [
+   [
+    "15",
+    "8. `Account` \u2014 device-flow auth for the hosted console (`src/account/index.ts`, 273 lines)"
+   ],
+   [
+    "15",
+    "Contents"
+   ]
+  ],
+  "account/schema.ts": [
+   [
+    "15",
+    "8. `Account` \u2014 device-flow auth for the hosted console (`src/account/index.ts`, 273 lines)"
+   ],
+   [
+    "15",
+    "Contents"
+   ]
+  ],
+  "account/repo.ts": [
+   [
+    "15",
+    "8. `Account` \u2014 device-flow auth for the hosted console (`src/account/index.ts`, 273 lines)"
+   ],
+   [
+    "15",
+    "Contents"
+   ]
+  ],
+  "control-plane/types.ts": [
+   [
+    "15",
+    "8. `Account` \u2014 device-flow auth for the hosted console (`src/account/index.ts`, 273 lines)"
+   ]
+  ],
+  "control-plane/schema.ts": [
+   [
+    "15",
+    "8. `Account` \u2014 device-flow auth for the hosted console (`src/account/index.ts`, 273 lines)"
+   ]
+  ],
+  "control-plane/workspace.sql.ts": [
+   [
+    "15",
+    "8. `Account` \u2014 device-flow auth for the hosted console (`src/account/index.ts`, 273 lines)"
+   ]
+  ],
+  "share/share.sql.ts": [
+   [
+    "15",
+    "8. `Account` \u2014 device-flow auth for the hosted console (`src/account/index.ts`, 273 lines)"
+   ],
+   [
+    "15",
+    "8. `Account` \u2014 device-flow auth for the hosted console (`src/account/index.ts`, 273 lines)"
+   ]
+  ],
+  "lsp/launch.ts": [
+   [
+    "15",
+    "8. `Account` \u2014 device-flow auth for the hosted console (`src/account/index.ts`, 273 lines)"
+   ]
+  ],
+  "account/account.sql.ts": [
+   [
+    "15",
+    "8. `Account` \u2014 device-flow auth for the hosted console (`src/account/index.ts`, 273 lines)"
+   ]
+  ],
+  "config/tui__dup2.ts": [
+   [
+    "16",
+    "9. Config (formerly [undetermined] \u2014 now [verified])"
+   ],
+   [
+    "16",
+    "Contents"
+   ]
+  ],
+  "config/tui-migrate__dup2.ts": [
+   [
+    "16",
+    "9. Config (formerly [undetermined] \u2014 now [verified])"
+   ],
+   [
+    "16",
+    "Contents"
+   ]
+  ],
+  "config/markdown.ts": [
+   [
+    "16",
+    "9. Config (formerly [undetermined] \u2014 now [verified])"
+   ],
+   [
+    "16",
+    "Contents"
+   ]
+  ],
+  "cli/effect/prompt.ts": [
+   [
+    "16",
+    "1. `resolvePart` \u2014 how a user's attachment becomes conversation (`prompt.ts` 816\u20131063)"
+   ]
+  ],
+  "npm/index.ts": [
+   [
+    "16",
+    "9. Config (formerly [undetermined] \u2014 now [verified])"
+   ]
+  ],
+  "config/paths.ts": [
+   [
+    "18",
+    "Contents"
+   ]
+  ],
+  "config/tui.ts": [
+   [
+    "18",
+    "1. `config/config.ts` \u2014 the loader, in code order"
+   ]
+  ],
+  "config/tui-migrate.ts": [
+   [
+    "18",
+    "1. `config/config.ts` \u2014 the loader, in code order"
+   ]
+  ]
+ }
+}
